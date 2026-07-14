@@ -2,7 +2,7 @@
   "version": "3.0.0",
   "updated": "2026-07-14",
   "stats": {
-    "total": 468
+    "total": 528
   },
   "plugins": {
     "akismet": {
@@ -13226,6 +13226,1599 @@
         "yith-wcqv-color-quick-view",
         "yith-wcqv-closed-button",
         "yith_wcqv_update_free_2_0",
+        "yit_font_awesome_list",
+        "yit_plugin_fw_panel_wc_default_options_set",
+        "yit_recently_activated",
+        "yith_system_info"
+      ],
+      "transients": [
+        "yith-plugin-fw-system-status-tls-version",
+        "yith-plugin-fw-system-status-output-ip"
+      ],
+      "cron": []
+    },
+    "404-to-homepage": {
+      "name": "404 To Homepage",
+      "slug": "404-to-homepage",
+      "tables": [],
+      "options": [],
+      "transients": [],
+      "cron": []
+    },
+    "advanced-cf7-db": {
+      "name": "Advanced Cf7 Db",
+      "slug": "advanced-cf7-db",
+      "tables": [
+        "cf7_vdata_entry",
+        "cf7_vdata"
+      ],
+      "options": [
+        "vsz_cf7_settings_field_",
+        "vsz_cf7_settings_show_record_",
+        "vsz_cf7_db_version",
+        "vsz_cf7_capability",
+        "fs_debug_mode",
+        "uninstall_plugins",
+        "fs_storage_logger",
+        "active_plugins",
+        "fs_active_plugins",
+        "required",
+        "show_opt_in_notice",
+        "notice_shown_at"
+      ],
+      "transients": [
+        "fs_snooze_period",
+        "fs_{$this->_module_type}_{$this->_slug}_activated",
+        "fs_{$this->get_id()}_data_debug_mode",
+        "_fs_api_connection_retry_counter"
+      ],
+      "cron": []
+    },
+    "advanced-excerpt": {
+      "name": "Advanced Excerpt",
+      "slug": "advanced-excerpt",
+      "tables": [],
+      "options": [
+        "advanced_excerpt"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "advanced-woo-search": {
+      "name": "Advanced Woo Search",
+      "slug": "advanced-woo-search",
+      "tables": [
+        "aws_index",
+        "aws_cache"
+      ],
+      "options": [
+        "aws_hide_welcome_notice",
+        "aws_settings",
+        "aws_hide_int_notices",
+        "aws_activation_time",
+        "aws_search_query_args",
+        "aws_reindex_version",
+        "aws_cron_job",
+        "aws_index_table_version",
+        "aws_plugin_ver"
+      ],
+      "transients": [
+        "aws_index_processed",
+        "b2bking_not_manual_visibility_array",
+        "b2bking_user_"
+      ],
+      "cron": []
+    },
+    "ajax-search-lite": {
+      "name": "Ajax Search Lite",
+      "slug": "ajax-search-lite",
+      "tables": [
+        "icl_translations"
+      ],
+      "options": [
+        "asl_version",
+        "asl_options"
+      ],
+      "transients": [],
+      "cron": [
+        "asp/cache/retention",
+        "asp/statistics/retention"
+      ]
+    },
+    "anywhere-elementor": {
+      "name": "Anywhere Elementor",
+      "slug": "anywhere-elementor",
+      "tables": [],
+      "options": [],
+      "transients": [],
+      "cron": []
+    },
+    "async-javascript": {
+      "name": "Async Javascript",
+      "slug": "async-javascript",
+      "tables": [],
+      "options": [
+        "aj_gtmetrix_username",
+        "aj_gtmetrix_api_key",
+        "aj_gtmetrix_server",
+        "aj_gtmetrix_results",
+        "aj_enabled",
+        "aj_method",
+        "aj_jquery",
+        "aj_async",
+        "aj_defer",
+        "aj_exclusions",
+        "aj_plugin_exclusions",
+        "aj_theme_exclusions",
+        "aj_autoptimize_enabled",
+        "aj_autoptimize_method",
+        "aj_enabled_logged",
+        "aj_enabled_shop",
+        "aj_version"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "auto-terms-of-service-and-privacy-policy": {
+      "name": "Auto Terms Of Service And Privacy Policy",
+      "slug": "auto-terms-of-service-and-privacy-policy",
+      "tables": [],
+      "options": [],
+      "transients": [],
+      "cron": []
+    },
+    "automatic-translator-addon-for-loco-translate": {
+      "name": "Automatic Translator Addon For Loco Translate",
+      "slug": "automatic-translator-addon-for-loco-translate",
+      "tables": [],
+      "options": [
+        "connectors_ai_openai_api_key",
+        "wp_ai_client_provider_credentials",
+        "atlt_openai_models",
+        "atlt_selected_openai_model",
+        "atlt_feedback_opt_in",
+        "cpt_dashboard_data",
+        "cpt_review_notice_dismissed",
+        "cpfm_opt_in_choice_{$category}",
+        "atlt_dashboard_provider_toggles",
+        "atlt-already-rated",
+        "connectors_ai_",
+        "atlt_ai_credentials_migrated_to_wp70",
+        "atlt_do_activation_redirect",
+        "atlt-version",
+        "atlt-installDate",
+        "atlt-type",
+        "atlt-install-date",
+        "atlt_initial_save_version"
+      ],
+      "transients": [
+        "loco_current_translation"
+      ],
+      "cron": [
+        "atlt_extra_data_update"
+      ]
+    },
+    "brizy": {
+      "name": "Brizy",
+      "slug": "brizy",
+      "tables": [],
+      "options": [
+        "brizy-regenerate-permalinks",
+        "brizy_prefix",
+        "show_on_front",
+        "page_on_front"
+      ],
+      "transients": [
+        "brizy_cloud_editor_versions",
+        "brizy-notice-rating",
+        "editor_tpl_rule_errors_{$post_id}",
+        "brizy_admin_notice"
+      ],
+      "cron": []
+    },
+    "buttonizer-multifunctional-button": {
+      "name": "Buttonizer Multifunctional Button",
+      "slug": "buttonizer-multifunctional-button",
+      "tables": [],
+      "options": [
+        "buttonizer_buttons",
+        "buttonizer_buttons_published",
+        "buttonizer_rules",
+        "buttonizer_rules_published",
+        "buttonizer_schedules",
+        "buttonizer_schedules_published",
+        "buttonizer_has_changes",
+        "buttonizer_buttons_backup_30",
+        "buttonizer_buttons_published_backup_30",
+        "buttonizer_has_changes_backup_30",
+        "buttonizer_rules_backup_30",
+        "buttonizer_rules_published_backup_30",
+        "buttonizer_schedules_backup_30",
+        "buttonizer_schedules_published_backup_30",
+        "buttonizer_settings_backup_30",
+        "buttonizer_settings",
+        "buttonizer_legacy_notice_dismissed",
+        "buttonizer_buttons_backup",
+        "buttonizer_opening_settings_backup",
+        "buttonizer_page_categories_backup",
+        "buttonizer_general_settings_backup",
+        "buttonizer_opening_settings",
+        "buttonizer_page_categories",
+        "buttonizer_general_settings",
+        "buttonizer_buttons_backup_20",
+        "buttonizer_buttons_published_20",
+        "buttonizer_has_changes_20",
+        "buttonizer_rules_20",
+        "buttonizer_rules_published_20",
+        "buttonizer_schedules_20",
+        "buttonizer_schedules_published_20",
+        "buttonizer_settings_20",
+        "buttonizer_rules_backup_6",
+        "buttonizer_rules_published_backup_6",
+        "buttonizer_site_connection",
+        "buttonizer_account",
+        "fs_debug_mode",
+        "uninstall_plugins",
+        "fs_storage_logger",
+        "active_plugins",
+        "fs_active_plugins",
+        "required",
+        "show_opt_in_notice",
+        "notice_shown_at"
+      ],
+      "transients": [
+        "fs_snooze_period",
+        "fs_{$this->_module_type}_{$this->_slug}_activated",
+        "fs_{$this->get_id()}_data_debug_mode",
+        "_fs_api_connection_retry_counter"
+      ],
+      "cron": []
+    },
+    "easy-accordion-free": {
+      "name": "Easy Accordion Free",
+      "slug": "easy-accordion-free",
+      "tables": [],
+      "options": [
+        "ea_free_blocks_promo_modal_choice",
+        "shapedplugin_offer_banner_dismissed_",
+        "sp_eafree_review_notice_dismiss",
+        "ea_free_blocks_promo_notice_dismissed",
+        "sp_eab_custom_colors_options",
+        "sp_eab_post_transients",
+        "easy_accordion_premade_wishlist",
+        "sp_eab_dynamic_css_",
+        "sp_eab_dynamic_fonts_",
+        "sp_eap_flush_rewrite_rules",
+        "easy_accordion_free_version",
+        "easy_accordion_free_db_version",
+        "easy_accordion_free_first_version",
+        "easy_accordion_free_activation_date"
+      ],
+      "transients": [
+        "spea_plugins_data",
+        "sp_ea_changelogs"
+      ],
+      "cron": [
+        "easy_accordion_weekly_scheduled_events"
+      ]
+    },
+    "emailkit": {
+      "name": "Emailkit",
+      "slug": "emailkit",
+      "tables": [],
+      "options": [
+        "emailkit_installed",
+        "emailkit_version"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "featured-image-from-url": {
+      "name": "Featured Image From Url",
+      "slug": "featured-image-from-url",
+      "tables": [
+        "posts",
+        "options",
+        "postmeta",
+        "terms",
+        "termmeta",
+        "term_taxonomy",
+        "term_relationships",
+        "fifu_meta_in",
+        "fifu_meta_out",
+        "fifu_invalid_media_su"
+      ],
+      "options": [
+        "fifu_proxy_auth",
+        "fifu_cloud_upload_auto_code",
+        "fifu_cloud_delete_auto_code",
+        "fifu_fake_stop",
+        "fifu_data_clean",
+        "fifu_run_delete_all",
+        "fifu_defined_size_{$key}",
+        "fifu_debug",
+        "fifu_skip",
+        "fifu_html_cpt",
+        "fifu_ovw_first",
+        "fifu_get_first",
+        "fifu_pcontent_add",
+        "fifu_pcontent_remove",
+        "fifu_pcontent_types",
+        "fifu_hide",
+        "fifu_hide_type",
+        "fifu_hide_format",
+        "fifu_enable_default_url",
+        "fifu_default_attach_id",
+        "fifu_default_url",
+        "fifu_default_cpt",
+        "fifu_fake",
+        "fifu_cdn_content",
+        "fifu_photon",
+        "fifu_square_desktop",
+        "fifu_square_mobile",
+        "fifu_defined_size_",
+        "fifu_wc_lbox",
+        "fifu_wc_zoom",
+        "fifu_first_activation",
+        "fifu_stats_date",
+        "fifu_input_cloud_upload_auto",
+        "fifu_input_cloud_delete_auto",
+        "fifu_input_cloud_hotlink",
+        "fifu_reset",
+        "fifu_input_skip",
+        "fifu_input_html_cpt",
+        "fifu_input_square_mobile",
+        "fifu_input_square_desktop",
+        "fifu_input_debug",
+        "fifu_input_photon",
+        "fifu_input_cdn_content",
+        "fifu_input_reset",
+        "fifu_input_fake",
+        "fifu_input_default_url",
+        "fifu_input_default_cpt",
+        "fifu_input_pcontent_types",
+        "fifu_input_hide_format",
+        "fifu_input_hide_type",
+        "fifu_input_enable_default_url",
+        "fifu_input_wc_lbox",
+        "fifu_input_wc_zoom",
+        "fifu_input_hide",
+        "fifu_input_pcontent_add",
+        "fifu_input_pcontent_remove",
+        "fifu_input_get_first",
+        "fifu_input_ovw_first",
+        "fifu_input_run_delete_all",
+        "fifu_input_data_clean",
+        "fifu_run_delete_all_time",
+        "fifu_installed_time",
+        "fifu_review_snooze_until",
+        "fifu_review_done",
+        "fifu_su_email",
+        "fifu_su_privkey",
+        "fifu_author"
+      ],
+      "transients": [
+        "fifu_metadata_counter",
+        "fifu_stats_cdn_count",
+        "fifu_language_$locale",
+        "fifu_api_metain_auth_token",
+        "fifu_api_metaout_auth_token",
+        "fifu_redirect_to_settings"
+      ],
+      "cron": [
+        "fifu_create_cloud_upload_auto_event",
+        "fifu_create_cloud_delete_auto_event"
+      ]
+    },
+    "feeds-for-tiktok": {
+      "name": "Feeds For Tiktok",
+      "slug": "feeds-for-tiktok",
+      "tables": [],
+      "options": [
+        "sbtt_statuses",
+        "sbtt_resize_images_data",
+        "sbtt_global_settings",
+        "sbtt_rating_notice",
+        "sbtt_review_consent",
+        "sbtt_one_click_upgrade",
+        "sbtt_islicence_upgraded",
+        "sbtt_upgraded_info",
+        "sbtt_db_version",
+        "sbtt_usage_tracking_config"
+      ],
+      "transients": [
+        "tiktok_feed_rating_notice_waiting",
+        "sbtt_new_source_data_",
+        "sbtt_heic_capability"
+      ],
+      "cron": [
+        "sbtt_usage_tracking_cron"
+      ]
+    },
+    "formlayer": {
+      "name": "Formlayer",
+      "slug": "formlayer",
+      "tables": [],
+      "options": [
+        "formlayer_id_counter",
+        "formlayer_settings",
+        "formlayer_version"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "greenshift-animation-and-page-builder-blocks": {
+      "name": "Greenshift Animation And Page Builder Blocks",
+      "slug": "greenshift-animation-and-page-builder-blocks",
+      "tables": [
+        "posts"
+      ],
+      "options": [
+        "gspb_global_settings",
+        "greenshift_global_classes",
+        "gspb_block_js",
+        "gspb_stylebook_id",
+        "gspb_css_save",
+        "greenshift_theme_options"
+      ],
+      "transients": [
+        "gspb-dynamic-icons-render",
+        "gspb_countdown_sale",
+        "gspb_countdown_sale_hours"
+      ],
+      "cron": [
+        "greenshift_check_cron_hook"
+      ]
+    },
+    "gutenkit-blocks-addon": {
+      "name": "Gutenkit Blocks Addon",
+      "slug": "gutenkit-blocks-addon",
+      "tables": [],
+      "options": [
+        "gutenkit_version",
+        "gutenkit_installed_time",
+        "gutenkit_do_activation_redirect",
+        "gutenkit_blocks_list",
+        "gutenkit_favorite_templates",
+        "gutenkit_modules_list",
+        "gutenkit_settings_list",
+        "enable_smooth_scroll",
+        "smooth_scroll_duration",
+        "smooth_scroll_lerp",
+        "smooth_scroll_prevent_type",
+        "smooth_scroll_exclude",
+        "smooth_scroll_include",
+        "gutenkitBreakpoints"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "hcaptcha-for-forms-and-more": {
+      "name": "Hcaptcha For Forms And More",
+      "slug": "hcaptcha-for-forms-and-more",
+      "tables": [
+        "mailpoet_settings"
+      ],
+      "options": [
+        "jetpack_active_modules",
+        "permalink_structure",
+        "hcaptcha_settings",
+        "force",
+        "honeypot",
+        "set_min_submit_time",
+        "antispam",
+        "license"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "hotjar": {
+      "name": "Hotjar",
+      "slug": "hotjar",
+      "tables": [],
+      "options": [
+        "hotjar_version",
+        "hotjar_site_id"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "ht-mega-for-elementor": {
+      "name": "Ht Mega For Elementor",
+      "slug": "ht-mega-for-elementor",
+      "tables": [
+        "sbi_sources"
+      ],
+      "options": [
+        "htmega_diagnostic_data_agreed",
+        "htmega_diagnostic_data_notice",
+        "htmega_api_last_req",
+        "htmega_newsletter_subscribed",
+        "htmega_force_global_assets",
+        "htmega_query_cache_enabled",
+        "htmega_upgrade_notice_dismissed",
+        "htmega_general_tabs",
+        "htmega_megamenu_module_settings",
+        "htmegamenu_setting_tabs",
+        "htmega_themebuilder_module_settings",
+        "htmegabuilder_templatebuilder_tabs",
+        "htmega_onboarding_completed",
+        "htmega_element_tabs",
+        "htmega_advance_element_tabs",
+        "ht_menu_options_",
+        "htmega_cache_dir_migrated",
+        "htmega_elementor_regenerate_file",
+        "htmega_css_cache_bust",
+        "htmega_elementor_addons_activation_time",
+        "htmega_elementor_addons_version",
+        "htmega_version",
+        "htmega_do_activation_redirect",
+        "htmega_migration_errors",
+        "htmega_elementor_addons_previous_version",
+        "htmega_migrated_",
+        "htmega_migrated_310_assets",
+        "htmega_migrated_310",
+        "htmega_backup_",
+        "htmega_migration_log",
+        "sbi_statuses"
+      ],
+      "transients": [
+        "htmega_user_refresh_",
+        "htmega_api_failure_count",
+        "htmega_api_backoff",
+        "htmega_severdown_request_pending",
+        "weather-unit",
+        "gio-location"
+      ],
+      "cron": [
+        "htmega_cleanup_backups"
+      ]
+    },
+    "hummingbird-performance": {
+      "name": "Hummingbird Performance",
+      "slug": "hummingbird-performance",
+      "tables": [
+        "postmeta"
+      ],
+      "options": [
+        "wphb_run_onboarding",
+        "wphb_hide_ao_menu_status_animation",
+        "wphb-minification-show-config_modal",
+        "wphb-minification-show-advanced_modal",
+        "wphb-notice-cache-global-cleared-show",
+        "wphb-hide-tutorials",
+        "wphb-notice-cache-cleaned-show",
+        "wphb-notice-free-rated-later_date",
+        "wphb_show_connected_modal",
+        "wphb_version",
+        "wphb_do_minification_upgrade",
+        "wphb-notice-legacy-critical-css-show",
+        "wphb_critical_css_log",
+        "wphb_compression_type",
+        "wphb_process_queue",
+        "wphb-minification-errors"
+      ],
+      "transients": [
+        "profile",
+        "wphb-separate-comments",
+        "wphb_infinite_loop_warning",
+        "wphb-doing-report",
+        "wphb-minify-server-errors"
+      ],
+      "cron": [
+        "wphb_clear_logs",
+        "wphb_get_delay_js_exclusion",
+        "wphb_minify_clear_files"
+      ]
+    },
+    "import-users-from-csv-with-meta": {
+      "name": "Import Users From Csv With Meta",
+      "slug": "import-users-from-csv-with-meta",
+      "tables": [
+        "capabilities",
+        "user_level",
+        "actionscheduler_actions",
+        "actionscheduler_logs"
+      ],
+      "options": [
+        "acui_columns_extended",
+        "acui_show_profile_fields",
+        "acui_columns",
+        "acui_cron_activated",
+        "acui_cron_send_mail",
+        "acui_cron_send_mail_updated",
+        "acui_cron_delete_users",
+        "acui_cron_delete_users_assign_posts",
+        "acui_move_file_cron",
+        "acui_cron_path_to_move_auto_rename",
+        "acui_cron_allow_multiple_accounts",
+        "acui_cron_user_id",
+        "acui_cron_path_to_file",
+        "acui_cron_path_to_move",
+        "acui_cron_period",
+        "acui_cron_role",
+        "acui_cron_update_roles_existing_users",
+        "acui_cron_change_role_not_present",
+        "acui_cron_change_role_not_present_role",
+        "acui_cron_log",
+        "acui_cron_execution_log",
+        "acui_last_cron_import_log",
+        "acui_mail_body",
+        "acui_mail_subject",
+        "acui_automatic_wordpress_email",
+        "acui_automatic_created_edited_wordpress_email",
+        "acui_mail_template_id",
+        "acui_mail_attachment_id",
+        "acui_mail_disable_wp_editor",
+        "acui_enable_email_templates",
+        "acui_last_import_log",
+        "acui_frontend_send_mail",
+        "acui_frontend_send_mail_updated",
+        "acui_frontend_mail_admin",
+        "acui_frontend_force_user_reset_password",
+        "acui_frontend_send_mail_admin_address_list",
+        "acui_frontend_delete_users",
+        "acui_frontend_delete_users_assign_posts",
+        "acui_frontend_change_role_not_present",
+        "acui_frontend_change_role_not_present_role",
+        "acui_frontend_activate_users_wp_members",
+        "acui_frontend_role",
+        "acui_frontend_update_existing_users",
+        "acui_frontend_update_roles_existing_users"
+      ],
+      "transients": [
+        "acui_export_total_rows",
+        "acui_export_bad_character_formulas_values_cleaned",
+        "acui_export_user_meta_keys",
+        "acui_notices",
+        "acui_import_total_rows",
+        "acui_import_log_accumulate",
+        "acui_last_import_results",
+        "action_scheduler_last_pastdue_actions_check",
+        "action_scheduler_admin_notice",
+        "as_comment_count"
+      ],
+      "cron": []
+    },
+    "interactive-3d-flipbook-powered-physics-engine": {
+      "name": "Interactive 3d Flipbook Powered Physics Engine",
+      "slug": "interactive-3d-flipbook-powered-physics-engine",
+      "tables": [
+        "posts",
+        "fb3d_pages"
+      ],
+      "options": [],
+      "transients": [],
+      "cron": []
+    },
+    "jupiterx-core": {
+      "name": "Jupiterx Core",
+      "slug": "jupiterx-core",
+      "tables": [
+        "default_password_nag",
+        "layerslider"
+      ],
+      "options": [
+        "auto_updater",
+        "first_installation_after_250",
+        "elementor_cpt_support",
+        "elementor_maintenance_mode_mode",
+        "elementor_maintenance_mode_exclude_mode",
+        "elementor_maintenance_mode_exclude_roles",
+        "elementor_maintenance_mode_template_id",
+        "enable_widgets_reminder",
+        "elements",
+        "widget_",
+        "sidebars_widgets",
+        "jupiterx_image_sizes_deleted",
+        "svg_support",
+        "elementor_unfiltered_files_upload",
+        "page_on_front",
+        "show_on_front",
+        "woocommerce_shop_page_id",
+        "woocommerce_cart_page_id",
+        "woocommerce_checkout_page_id",
+        "woocommerce_myaccount_page_id",
+        "jet_woo_builder",
+        "jet_engine_modules",
+        "jet-abaf",
+        "jet_menu_options",
+        "jet-smart-filters-settings",
+        "jet_popup_conditions",
+        "jet-blog-settings",
+        "custom_sidebars",
+        "elementor_active_kit",
+        "template_installed",
+        "template_installed_id",
+        "jupiterx_selected_google_fonts",
+        "jupiterx_disable_theme_default_settings",
+        "disable_theme_default_settings",
+        "jupiterx-posts-with-conditions",
+        "wp-smush-settings",
+        "elementor_experiment-e_dom_optimization",
+        "elementor_",
+        "jupiterx_dashboard_welcome_box",
+        "jupiterx_theme_update_modal",
+        "jupiterx_setup_wizard_skipped",
+        "jupiterx_setup_wizard_done",
+        "woocommerce_{$page}_page_id",
+        "kirki_downloaded_font_files",
+        "jx_my_account_custom_tab",
+        "elementor_onboarded",
+        "elementor_tracker_notice",
+        "charts_module_default_enabled",
+        "loop_grid_default_enabled",
+        "loop_carousel_default_enabled",
+        "loop_filter_default_enabled",
+        "jupiterx_enable_global_colors",
+        "jupiterx",
+        "elementor_experiment-container_grid",
+        "elementor_experiment-editor_v2",
+        "jupiterx_setup_wizard_hide",
+        "has_page_title_bar"
+      ],
+      "transients": [
+        "jupiterx_modify_auto_update",
+        "jupiterx_cp_settings_products",
+        "jupiterx_setup_wizard_template",
+        "kirki_remote_url_contents",
+        "raven_preset_",
+        "jupiterx_popups_list",
+        "jupiterx_templates_filters"
+      ],
+      "cron": [
+        "jupiterx_license_checks"
+      ]
+    },
+    "kk-star-ratings": {
+      "name": "Kk Star Ratings",
+      "slug": "kk-star-ratings",
+      "tables": [],
+      "options": [
+        "fs_debug_mode",
+        "uninstall_plugins",
+        "fs_storage_logger",
+        "active_plugins",
+        "fs_active_plugins",
+        "required",
+        "show_opt_in_notice",
+        "notice_shown_at"
+      ],
+      "transients": [
+        "fs_snooze_period",
+        "fs_{$this->_module_type}_{$this->_slug}_activated",
+        "fs_{$this->get_id()}_data_debug_mode",
+        "_fs_api_connection_retry_counter",
+        "yolo-plugin-info-"
+      ],
+      "cron": []
+    },
+    "learnpress": {
+      "name": "Learnpress",
+      "slug": "learnpress",
+      "tables": [
+        "learnpress_quiz_questions",
+        "learnpress_user_items",
+        "capabilities"
+      ],
+      "options": [
+        "learn_press_payment_order",
+        "learn_press_setup_wizard_completed",
+        "learn_press_paypal",
+        "learn_press_",
+        "learn_press_permalink_structure",
+        "learn_press_course_base_type",
+        "learn_press_course_base",
+        "learn_press_use_verbose_page_rules",
+        "hide_instructor_access_admin_screen",
+        "course_builder_logo_id",
+        "permalink_structure",
+        "users_can_register",
+        "learn_press_check_tables",
+        "thim_cache_tb_created",
+        "tb_learnpress_courses",
+        "table_learnpress_files_created",
+        "{$prefix}{$name}",
+        "learn_press_update_logs",
+        "learn_press_ad_shuffle_themes",
+        "lp-customer-message",
+        "agree_terms",
+        "lp_admin_notices_dismiss",
+        "learnpress_version",
+        "learn_press_layout_single_course"
+      ],
+      "transients": [
+        "lp_plugins_wp",
+        "lp_plugins_tp",
+        "lp_related_themes"
+      ],
+      "cron": []
+    },
+    "loftloader": {
+      "name": "Loftloader",
+      "slug": "loftloader",
+      "tables": [
+        "postmeta"
+      ],
+      "options": [
+        "loftloader_main_switch",
+        "loftloader_show_range",
+        "loftloader_bg_color",
+        "loftloader_bg_opacity",
+        "loftloader_bg_animation",
+        "loftloader_loader_type",
+        "loftloader_loader_color",
+        "loftloader_custom_img",
+        "loftloader_img_width",
+        "loftloader_lite_version"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "maxbuttons": {
+      "name": "Maxbuttons",
+      "slug": "maxbuttons",
+      "tables": [
+        "maxbuttons_buttons",
+        "maxbuttonsv3",
+        "maxbuttons_collections",
+        "maxbuttons_collections_trans"
+      ],
+      "options": [
+        "maxbuttons_pro_license_expires",
+        "maxbuttons_pro_license_activated",
+        "MBFREE_CREATED",
+        "MBFREE_HOMEURL",
+        "maxbuttons_user_level",
+        "maxbuttons_noshowtinymce",
+        "maxbuttons_minify",
+        "maxbuttons_hidedescription",
+        "maxbuttons_forcefa",
+        "maxbuttons_borderbox",
+        "maxbuttons_protocol",
+        "maxbuttons_autoresponsive",
+        "maxbuttons_autor_font",
+        "maxbuttons_autor_width",
+        "maxbuttons_pro_license_key"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "mobile-menu": {
+      "name": "Mobile Menu",
+      "slug": "mobile-menu",
+      "tables": [],
+      "options": [
+        "fs_debug_mode",
+        "uninstall_plugins",
+        "fs_storage_logger",
+        "active_plugins",
+        "fs_active_plugins",
+        "required",
+        "show_opt_in_notice",
+        "notice_shown_at",
+        "mobmenu_options",
+        "mobmenu_latest_update_version"
+      ],
+      "transients": [
+        "fs_snooze_period",
+        "fs_{$this->_module_type}_{$this->_slug}_activated",
+        "fs_{$this->get_id()}_data_debug_mode",
+        "_fs_api_connection_retry_counter"
+      ],
+      "cron": []
+    },
+    "nav-menu-roles": {
+      "name": "Nav Menu Roles",
+      "slug": "nav-menu-roles",
+      "tables": [],
+      "options": [
+        "nav_menu_roles_db_version"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "ninja-tables": {
+      "name": "Ninja Tables",
+      "slug": "ninja-tables",
+      "tables": [
+        "supsystic_tbl_tables"
+      ],
+      "options": [
+        "ninja_tables_installed_at"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "official-statcounter-plugin-for-wordpress": {
+      "name": "Official Statcounter Plugin For Wordpress",
+      "slug": "official-statcounter-plugin-for-wordpress",
+      "tables": [],
+      "options": [
+        "sc_invisible"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "onesignal-free-web-push-notifications": {
+      "name": "Onesignal Free Web Push Notifications",
+      "slug": "onesignal-free-web-push-notifications",
+      "tables": [],
+      "options": [
+        "onesignal_plugin_migrated",
+        "OneSignalWPSetting",
+        "onesignal.last_send_time",
+        "TimeLastUpdated"
+      ],
+      "transients": [
+        "onesignal_transient_error",
+        "onesignal_transient_success"
+      ],
+      "cron": []
+    },
+    "real-time-find-and-replace": {
+      "name": "Real Time Find And Replace",
+      "slug": "real-time-find-and-replace",
+      "tables": [],
+      "options": [
+        "far_plugin_settings"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "reddit-for-woocommerce": {
+      "name": "Reddit For Woocommerce",
+      "slug": "reddit-for-woocommerce",
+      "tables": [],
+      "options": [],
+      "transients": [],
+      "cron": []
+    },
+    "remove-footer-credit": {
+      "name": "Remove Footer Credit",
+      "slug": "remove-footer-credit",
+      "tables": [],
+      "options": [
+        "jabrfc_text"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "responsive-menu": {
+      "name": "Responsive Menu",
+      "slug": "responsive-menu",
+      "tables": [
+        "posts",
+        "responsive_menu"
+      ],
+      "options": [
+        "rm_review_message_trigger",
+        "rmp_global_setting_options",
+        "rmp_migrate10112",
+        "rmp_migrate10111",
+        "rmp_dynamic_file_version"
+      ],
+      "transients": [
+        "og-admin-notice-activation-pro",
+        "rmp_theme_api_response"
+      ],
+      "cron": []
+    },
+    "siteground-migrator": {
+      "name": "Siteground Migrator",
+      "slug": "siteground-migrator",
+      "tables": [],
+      "options": [
+        "siteground_migrator_temp_directory",
+        "siteground_migrator_encryption_key",
+        "siteground_migrator_is_siteground_env",
+        "siteground_migrator_transfer_id",
+        "siteground_migrator_transfer_psk",
+        "wp_background_process_pid",
+        "siteground_migrator_send_email_notification",
+        "siteground_migrator_email_recipient",
+        "siteground_migrator_transfer_token",
+        "siteground_migrator_current_step",
+        "siteground_migrator_transfer_status",
+        "siteground_migrator_progress"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "smtp-mailer": {
+      "name": "Smtp Mailer",
+      "slug": "smtp-mailer",
+      "tables": [],
+      "options": [
+        "smtp_mailer_options"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "speculation-rules": {
+      "name": "Speculation Rules",
+      "slug": "speculation-rules",
+      "tables": [],
+      "options": [
+        "plsr_speculation_rules"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "stream": {
+      "name": "Stream",
+      "slug": "stream",
+      "tables": [],
+      "options": [
+        "wp_stream_plugins_to_delete"
+      ],
+      "transients": [
+        "settings_errors"
+      ],
+      "cron": []
+    },
+    "themegrill-demo-importer": {
+      "name": "Themegrill Demo Importer",
+      "slug": "themegrill-demo-importer",
+      "tables": [],
+      "options": [
+        "tdi_allow_contribution",
+        "themegrill_demo_importer_demo_config",
+        "themegrill_demo_importer_posts_total",
+        "themegrill_demo_importer_pending_posts",
+        "themegrill_demo_importer_mapping",
+        "themegrill_demo_importer_pending_attachments",
+        "themegrill_demo_importer_featured_images",
+        "show_on_front",
+        "page_on_front",
+        "page_for_posts",
+        "themegrill_demo_importer_media_total",
+        "themegrill_demo_importer_imported_posts",
+        "themegrill_demo_importer_url_remap",
+        "themegrill_starter_template_theme_mods",
+        "widget_",
+        "sidebars_widgets",
+        "themegrill_demo_importer_posts_with_evf",
+        "themegrill_demo_importer_imported_terms",
+        "elementor_active_kit",
+        "widget_block",
+        "elementor_load_fa4_shim",
+        "woocommerce_",
+        "siteorigin_panels_settings",
+        "masteriyo_active_addons",
+        "themegrill_demo_importer_activated_id",
+        "themegrill_demo_importer_logger_flag"
+      ],
+      "transients": [
+        "themegrill_demo_importer_demos"
+      ],
+      "cron": [
+        "tdi_weekly_contribution"
+      ]
+    },
+    "timeline-widget-addon-for-elementor": {
+      "name": "Timeline Widget Addon For Elementor",
+      "slug": "timeline-widget-addon-for-elementor",
+      "tables": [],
+      "options": [
+        "cpfm_opt_in_choice_{$category}",
+        "twae-alreadyRated",
+        "twae_marketing_dismissed",
+        "twae_tec_notice_dismissed",
+        "twae_initial_save_version",
+        "twae-install-date",
+        "twae-free-v",
+        "twae-type",
+        "twae-installDate",
+        "twae-migration-status"
+      ],
+      "transients": [],
+      "cron": [
+        "twae_extra_data_update"
+      ]
+    },
+    "title-remover": {
+      "name": "Title Remover",
+      "slug": "title-remover",
+      "tables": [],
+      "options": [],
+      "transients": [],
+      "cron": []
+    },
+    "webappick-product-feed-for-woocommerce": {
+      "name": "Webappick Product Feed For Woocommerce",
+      "slug": "webappick-product-feed-for-woocommerce",
+      "tables": [
+        "trp_dictionary_",
+        "icl_translations"
+      ],
+      "options": [
+        "wpf_message",
+        "wpfp_option",
+        "litespeed.conf.cdn-exc",
+        "WpFastestCacheExclude",
+        "ossdl_off_exclude",
+        "breeze_cdn_integration",
+        "wpo_cache_config",
+        "cache_enabler",
+        "swift_performance_options",
+        "sbp_options",
+        "comet_cache_options",
+        "hyper-cache",
+        "woo_feed_onboarding_pending",
+        "wf_schedule",
+        "woo_feed_free_version",
+        "woo-feed-free-activation-time",
+        "woo_feed_notices",
+        "woo_feed_output_type_options",
+        "woo_feed_custom_template_1",
+        "wf_check_duplicate",
+        "wpfw_vAttributes",
+        "woo_feed_review_notice_next_show_time",
+        "woo_feed_review_notice",
+        "wf_config",
+        "wf_feed_",
+        "woo_feed_settings",
+        "woo_feed_hide_promotion",
+        "{$prefix}_{$id}",
+        "{$this->prefix}_{$this->id}"
+      ],
+      "transients": [
+        "webappick_feed_help_docs",
+        "woo_feed_installing",
+        "woo_feed_redirect_to_onboarding",
+        "__woo_feed_cache_",
+        "ctx_feed_structure_transient",
+        "wf-plugin-info-"
+      ],
+      "cron": [
+        "woo_feed_update",
+        "woo_feed_cleanup_logs",
+        "woo_feed_update_single_feed"
+      ]
+    },
+    "woo-smart-compare": {
+      "name": "Woo Smart Compare",
+      "slug": "woo-smart-compare",
+      "tables": [],
+      "options": [
+        "wpc_logs",
+        "woosc_settings",
+        "woosc_localization",
+        "woosc_hash_",
+        "woosc_list_"
+      ],
+      "transients": [
+        "wpclever_plugins"
+      ],
+      "cron": []
+    },
+    "woocommerce-direct-checkout": {
+      "name": "Woocommerce Direct Checkout",
+      "slug": "woocommerce-direct-checkout",
+      "tables": [],
+      "options": [
+        "available_modules",
+        "active_modules",
+        "qlwcdc_add_to_cart",
+        "qlwcdc_add_to_cart_redirect_page",
+        "qlwcdc_add_product_cart",
+        "qlwcdc_add_product_cart_redirect_page",
+        "qlwcdc_add_product_cart_redirect_url",
+        "qlwcdc_add_archive_cart",
+        "qlwcdc_add_archive_cart_redirect_page",
+        "qlwcdc_add_archive_cart_redirect_url",
+        "qlwcdc_add_to_cart_redirect_url",
+        "qlwcdc_add_product_text",
+        "qlwcdc_add_product_text_content",
+        "qlwcdc_add_archive_text",
+        "qlwcdc_add_archive_text_content",
+        "qlwcdc_add_archive_text_in",
+        "qlwcdc_wcd_imported2",
+        "active_plugins"
+      ],
+      "transients": [
+        "jetpack_is_single_user",
+        "quadlayers_news_feed"
+      ],
+      "cron": []
+    },
+    "woocommerce-extra-checkout-fields-for-brazil": {
+      "name": "Woocommerce Extra Checkout Fields For Brazil",
+      "slug": "woocommerce-extra-checkout-fields-for-brazil",
+      "tables": [],
+      "options": [
+        "wcbcf_settings",
+        "wcbcf_version"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "woocommerce-germanized": {
+      "name": "Woocommerce Germanized",
+      "slug": "woocommerce-germanized",
+      "tables": [
+        "wc_admin_notes",
+        "wc_admin_note_actions",
+        "woocommerce_stc_shipments",
+        "woocommerce_stc_shipment_items",
+        "woocommerce_stc_shipping_providermeta",
+        "woocommerce_stc_shipping_provider",
+        "woocommerce_tax_rates"
+      ],
+      "options": [
+        "oss_use_oss_procedure",
+        "oss_enable_auto_observation",
+        "woocommerce_gzd_shiptastic_ignore_migration_errors",
+        "woocommerce_shiptastic_shipper_address_country",
+        "woocommerce_gzd_extended_debug_mode",
+        "woocommerce_gzd_disable_food_options",
+        "woocommerce_gzd_hide_tax_rate_shop",
+        "wp_page_for_privacy_policy",
+        "woocommerce_data_security_page_id",
+        "WPLANG",
+        "woocommerce_gzd_disable_notices",
+        "woocommerce_calc_taxes",
+        "woocommerce_prices_include_tax",
+        "woocommerce_tax_display_shop",
+        "woocommerce_tax_display_cart",
+        "woocommerce_price_display_suffix",
+        "woocommerce_gzd_tax_mode_additional_costs",
+        "woocommerce_gzd_email_order_confirmation_text",
+        "woocommerce_shiptastic_packaging_reports",
+        "woocommerce_gzd_shiptastic_migration_has_errors",
+        "woocommerce_gzd_shiptastic_migration_errors",
+        "woocommerce_gzd_is_shiptastic_standalone_update",
+        "woocommerce_gzd_is_shiptastic_dhl_standalone_update",
+        "woocommerce_gzd_activation_date",
+        "woocommerce_gzd_version",
+        "woocommerce_gzd_db_version",
+        "woocommerce_gzd_updated_default_settings",
+        "woocommerce_gzd_legal_checkboxes_settings",
+        "woocommerce_gzd_has_encryption_error",
+        "woocommerce_gzd_trusted_shops_review_reminder_days",
+        "woocommerce_tax_based_on",
+        "woocommerce_gzd_display_shipping_costs_hidden_types",
+        "woocommerce_gzd_trusted_shops_integration_mode",
+        "woocommerce_gzd_trusted_shops_product_sticker_code",
+        "woocommerce_gzd_trusted_shops_product_widget_code",
+        "woocommerce_gzd_checkout_legal_parcel_delivery_checkbox_methods",
+        "woocommerce_direct-debit_settings",
+        "woocommerce_gzd_hide_tour_",
+        "woocommerce_gzd_trusted_shops_trustbadge_enable",
+        "woocommerce_gzd_trusted_shops_trustbadge_variant",
+        "woocommerce_gzd_trusted_shops_reviews_enable",
+        "woocommerce_gzd_display_product_detail_delivery_time_info",
+        "woocommerce_gzd_display_product_detail_shipping_costs_info",
+        "woocommerce_gzd_display_product_detail_price_unit",
+        "woocommerce_gzd_display_listings_shipping_costs_info",
+        "woocommerce_gzd_display_listings_delivery_time_info",
+        "woocommerce_gzd_display_listings_price_unit",
+        "woocommerce_gzd_checkout_phone_non_required",
+        "woocommerce_gzd_display_single_product_legal",
+        "woocommerce_gzd_display_single_product_unit_price",
+        "woocommerce_gzd_display_single_product_delivery_time",
+        "woocommerce_gzd_display_single_product_units",
+        "woocommerce_gzd_display_product_loop_unit_price",
+        "woocommerce_gzd_display_product_loop_tax",
+        "woocommerce_gzd_display_product_loop_shipping_costs",
+        "woocommerce_gzd_display_product_loop_delivery_time",
+        "woocommerce_gzd_display_product_loop_units",
+        "woocommerce_gzd_dhl_parcel_pickup_packstation_enable",
+        "woocommerce_gzd_dhl_parcel_pickup_parcelshop_enable",
+        "woocommerce_gzd_dhl_parcel_pickup_postoffice_enable",
+        "woocommerce_gzd_dhl_parcel_pickup_shipping_methods_excluded",
+        "woocommerce_gzd_dhl_parcel_pickup_map_enable",
+        "woocommerce_gzd_trusted_shops_review_reminder_status",
+        "woocommerce_gzd_display_product_detail_tax_info",
+        "woocommerce_gzd_is_oss_standalone_update",
+        "woocommerce_gzd_is_ts_standalone_update",
+        "label",
+        "woocommerce_gzd_has_legacy_cod_fee",
+        "woocommerce_gzd_checkout_cod_gateway_fee",
+        "woocommerce_gzd_checkout_cod_gateway_forwarding_fee",
+        "woocommerce_gzd_shipping_tax",
+        "woocommerce_checkout_phone_field",
+        "woocommerce_gzd_checkout_validate_street_number",
+        "locations",
+        "woocommerce_gzd_display_mini_cart_deposit_filter",
+        "woocommerce_gzd_enable_virtual_vat",
+        "admin_desc",
+        "eu_owb_woocommerce_mandatory_fields",
+        "eu_owb_woocommerce_version",
+        "eu_owb_woocommerce_db_version",
+        "woocommerce_eu_tax_helper_last_rate_changeset",
+        "woocommerce_shiptastic_upload_dir_suffix"
+      ],
+      "transients": [
+        "woocommerce_gzd_hook_priorities",
+        "_wc_gzd_setup_wizard_redirect",
+        "_wc_gzd_activation_redirect"
+      ],
+      "cron": [
+        "woocommerce_gzd_customer_cleanup"
+      ]
+    },
+    "woocommerce-shipping": {
+      "name": "Woocommerce Shipping",
+      "slug": "woocommerce-shipping",
+      "tables": [],
+      "options": [
+        "store_guid",
+        "error_notice",
+        "debug_logging_enabled",
+        "debug_display_enabled",
+        "wcshipping_$name",
+        "payment_methods",
+        "add_payment_method_url",
+        "services",
+        "services_last_update",
+        "services_last_result_code",
+        "last_heartbeat",
+        "account_settings",
+        "paper_size",
+        "tax_identifiers",
+        "origin_address",
+        "predefined_packages",
+        "tos_accepted",
+        "wcshipping_version",
+        "wcst_plugin_deactivated_message_shown",
+        "wcshipping_previous_woocommerce_version",
+        "wcshipping_installation_completed_shown",
+        "wcshipping_migration_completed_shown",
+        "wcshipping_migration_state",
+        "wcst_data_migration_processes_to_run",
+        "wcst_data_migration_required",
+        "origin_addresses",
+        "main_origin_store_address_drift",
+        "packages",
+        "should_display_nux_after_jp_cxn_banner"
+      ],
+      "transients": [
+        "connect_server_is_alive_transient",
+        "wcshipping_av_",
+        "wcc_notice_dismissed_"
+      ],
+      "cron": [
+        "wcshipping_fetch_service_schemas"
+      ]
+    },
+    "woocommerce-square": {
+      "name": "Woocommerce Square",
+      "slug": "woocommerce-square",
+      "tables": [],
+      "options": [
+        "wc_square_connected_page_visited",
+        "woocommerce_square_refresh_sync_cycle",
+        "wc_square_is_active",
+        "wc_square_milestone_messages",
+        "wc_square_milestone_version",
+        "apple_pay_domain_registered",
+        "apple_pay_domain_registration_attempted",
+        "wc_square_auth_key_updated",
+        "wc_square_refresh_failed",
+        "wc_square_updated_to_2_0_0",
+        "wc_square_settings",
+        "woocommerce_square_credit_card_settings",
+        "woocommerce_square_3_7_1_gift_cards_force_disable_notice",
+        "wc_square_updated_to_4_7_0",
+        "wc_square_show_wizard_on_activation",
+        "wc_square_access_tokens",
+        "woocommerce_wc_square_sync_completed_settings",
+        "wc_square_payment_token_migration_complete",
+        "wc_square_refresh_tokens",
+        "wc_square_last_order_polling_time"
+      ],
+      "transients": [
+        "wc_square_options_data",
+        "wc_square_access_token_email_sent",
+        "wc_square_failed_sync_email_sent",
+        "{$this->identifier}_process_lock",
+        "wc_square_check_apple_pay_domain_registration"
+      ],
+      "cron": []
+    },
+    "wp-carousel-free": {
+      "name": "Wp Carousel Free",
+      "slug": "wp-carousel-free",
+      "tables": [
+        "sitemeta",
+        "options"
+      ],
+      "options": [
+        "sp_wp_carousel_free_review_notice_dismiss",
+        "shapedplugin_offer_banner_dismissed_",
+        "wp_carousel_free_version",
+        "wp_carousel_free_db_version",
+        "sp_wpcp_settings"
+      ],
+      "transients": [
+        "spwpcp_plugins"
+      ],
+      "cron": []
+    },
+    "wp-health": {
+      "name": "Wp Health",
+      "slug": "wp-health",
+      "tables": [
+        "name",
+        "umbrella_redirects",
+        "umbrella_activity_log_buffer",
+        "actionscheduler_actions",
+        "actionscheduler_logs"
+      ],
+      "options": [
+        "wp_umbrella_disallow_one_click_access",
+        "wp_health_allow_tracking",
+        "wp_umbrella_backup_version",
+        "wphealth_version",
+        "wp_umbrella_activity_log_enabled",
+        "wp_health_version_god_handler",
+        "active_plugins",
+        "wp_umbrella_transient_update_{$type}"
+      ],
+      "transients": [
+        "action_scheduler_last_pastdue_actions_check",
+        "action_scheduler_admin_notice",
+        "as_comment_count"
+      ],
+      "cron": []
+    },
+    "wp-maximum-upload-file-size": {
+      "name": "Wp Maximum Upload File Size",
+      "slug": "wp-maximum-upload-file-size",
+      "tables": [],
+      "options": [
+        "wmufs_settings",
+        "wmufs_notice_disable_time"
+      ],
+      "transients": [
+        "wmufs_settings_updated",
+        "wf-plugin-info-",
+        "codepopular_promo_data",
+        "codepopular_blog_posts"
+      ],
+      "cron": []
+    },
+    "wp-show-posts": {
+      "name": "Wp Show Posts",
+      "slug": "wp-show-posts",
+      "tables": [],
+      "options": [],
+      "transients": [],
+      "cron": []
+    },
+    "wp-slimstat": {
+      "name": "Wp Slimstat",
+      "slug": "wp-slimstat",
+      "tables": [],
+      "options": [
+        "slimstat_tracker_error",
+        "slimstat_geoip_error",
+        "slimstat_options",
+        "slimstat_permalink_structure_updated",
+        "slimstat_goals_funnels_since",
+        "slimstat_country_dt_indexed",
+        "slimstat_dt_screen_indexed",
+        "slimstat_dt_browser_indexed",
+        "slimstat_dt_platform_indexed",
+        "slimstat_dt_visit_indexed",
+        "slimstat_goals_cache_ver",
+        "slimstat_goals",
+        "slimstat_funnels",
+        "slimstat_filters",
+        "slimstat_last_geoip_dl",
+        "slimstat_migration_status",
+        "slimstat_daily_salt",
+        "slimstat_daily_salt_date",
+        "wp_slimstat_notifications",
+        "slimstat_tracker_error_detail",
+        "slimstat_tracker_warning"
+      ],
+      "transients": [
+        "slimstat_",
+        "wp_slimstat_addon_list",
+        "slimstat_your_content",
+        "slimstat_resource_titles",
+        "slimstat_notification_fetch_lock",
+        "slimstat_migration_5460_ip_notice",
+        "slimstat_matomo_searchengine",
+        "wp-slimstat-download-link-"
+      ],
+      "cron": [
+        "wp_slimstat_purge",
+        "wp_slimstat_generate_daily_salt",
+        "wp_slimstat_update_geoip_database"
+      ]
+    },
+    "wp-ultimate-review": {
+      "name": "Wp Ultimate Review",
+      "slug": "wp-ultimate-review",
+      "tables": [],
+      "options": [
+        "WUR_REVIEW_VERSION"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "wpdatatables": {
+      "name": "Wpdatatables",
+      "slug": "wpdatatables",
+      "tables": [
+        "wpdatatables",
+        "wpdatatables_columns",
+        "wpdatatables_rows",
+        "wpdatatables_cache",
+        "wpdatacharts",
+        "wpdatatables_templates"
+      ],
+      "options": [
+        "wdtUseSeparateCon",
+        "wdtMySqlHost",
+        "wdtMySqlDB",
+        "wdtMySqlUser",
+        "wdtMySqlPwd",
+        "wdtMySqlPort",
+        "wdtRenderCharts",
+        "wdtRenderFilter",
+        "wdtTopOffset",
+        "wdtLeftOffset",
+        "wdtBaseSkin",
+        "wdtTimeFormat",
+        "wdtInterfaceLanguage",
+        "wdtTablesPerPage",
+        "wdtNumberFormat",
+        "wdtDecimalPlaces",
+        "wdtCSVDelimiter",
+        "wdtSortingOrderBrowseTables",
+        "wdtDateFormat",
+        "wdtAutoUpdateOption",
+        "wdtAutoUpdateHash",
+        "wdtParseShortcodes",
+        "wdtNumbersAlign",
+        "wdtBorderRemoval",
+        "wdtBorderRemovalHeader",
+        "wdtFontColorSettings",
+        "wdtCustomJs",
+        "wdtCustomCss",
+        "wdtMinifiedJs",
+        "wdtTabletWidth",
+        "wdtMobileWidth",
+        "wdtPurchaseCode",
+        "wdtGettingStartedPageStatus",
+        "wdtIncludeBootstrap",
+        "wdtIncludeBootstrapBackEnd",
+        "wdtPreventDeletingTables",
+        "wdtSiteLink",
+        "wdtInstallDate",
+        "wdtRatingDiv",
+        "wdtShowForminatorNotice",
+        "wdtShowPromoDiscountNotice",
+        "wdtShowBundlesNotice",
+        "wdtSimpleTableAlert",
+        "wdtTempFutureDate",
+        "wdtGoogleStableVersion",
+        "wdtActivationSimpleTableTemplates",
+        "wdtShowIvyFormsBanner",
+        "wdtmcp_table_css",
+        "wdtmcp_css_uses_global",
+        "wdtVersion"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "yith-woocommerce-ajax-navigation": {
+      "name": "Yith Woocommerce Ajax Navigation",
+      "slug": "yith-woocommerce-ajax-navigation",
+      "tables": [],
+      "options": [
+        "yith_wcan_db_version",
+        "yith_wcan_default_preset_created",
+        "yith_wcan_upgrade_note_status",
+        "yith_wcan_version",
+        "yith_wcan_lazy_load_filters",
+        "yith_wcan_paginate_terms",
+        "yith_woocommerce_variations_filtering",
         "yit_font_awesome_list",
         "yit_plugin_fw_panel_wc_default_options_set",
         "yit_recently_activated",
