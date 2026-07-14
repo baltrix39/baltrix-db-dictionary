@@ -459,6 +459,8 @@
         "wc_shipment_tracking",
         "wc_shipment_tracking_items",
         "wc_product_attributes_lookup",
+        "wc_product_attribute_taxonomies",
+        "woocommerce_attribute_taxonomies",
         "wc_product_download_directories",
         "wc_downloadable_product_permissions",
         "wc_rate_limits",
