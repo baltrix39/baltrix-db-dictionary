@@ -1,9 +1,6 @@
 {
-  "version": "4.0.0",
+  "version": "2.7.0",
   "updated": "2026-07-14",
-  "stats": {
-    "total": 1160
-  },
   "plugins": {
     "akismet": {
       "name": "Akismet Spam Protection",
@@ -25202,6 +25199,163 @@
       "cron": [],
       "table_prefixes": [
         "scraper_"
+      ]
+    },
+    "affiliate-wp": {
+      "name": "affiliate-wp",
+      "slug": "affiliate-wp",
+      "tables": [
+        "affiliate_wp_affiliates",
+        "affiliate_wp_campaigns",
+        "affiliate_wp_connections",
+        "affiliate_wp_coupons",
+        "affiliate_wp_creatives",
+        "affiliate_wp_custom_links",
+        "affiliate_wp_customermeta",
+        "affiliate_wp_customers",
+        "affiliate_wp_groups",
+        "affiliate_wp_payout_batches",
+        "affiliate_wp_payouts",
+        "affiliate_wp_referrals",
+        "affiliate_wp_sales",
+        "affiliate_wp_visits",
+        "affiliate_wp_affiliatemeta",
+        "statement",
+        "actionscheduler_actions",
+        "actionscheduler_logs",
+        "affiliate_wp_store_credit_transactions",
+        "affiliate_wp_rest_consumers"
+      ],
+      "options": [
+        "affiliate_wp_"
+      ],
+      "transients": [
+        "affiliate_wp_"
+      ],
+      "cron": [],
+      "table_prefixes": [
+        "affiliate_wp_"
+      ]
+    },
+    "ai-engine-pro": {
+      "name": "ai-engine-pro",
+      "slug": "ai-engine-pro",
+      "tables": [
+        "mwai_chats",
+        "mwai_tasks",
+        "mwai_tasklogs",
+        "mwai_logs",
+        "mwai_mcp_oauth_clients",
+        "mwai_mcp_oauth_tokens",
+        "mwai_vectors",
+        "mwai_logmeta",
+        "mwai_files",
+        "mwai_filemeta"
+      ],
+      "options": [
+        "ai_engine_pro_"
+      ],
+      "transients": [
+        "ai_engine_pro_"
+      ],
+      "cron": [],
+      "table_prefixes": [
+        "ai_engine_pro_"
+      ]
+    },
+    "cf7-mailchimp-addon": {
+      "name": "CF7-mailchimp-addon",
+      "slug": "cf7-mailchimp-addon",
+      "tables": [
+        "cmp_form_data",
+        "cmp_template_data",
+        "cf7mailchimp_submits"
+      ],
+      "options": [
+        "cf7_mailchimp_addon_"
+      ],
+      "transients": [
+        "cf7_mailchimp_addon_"
+      ],
+      "cron": [],
+      "table_prefixes": [
+        "cf7_mailchimp_addon_"
+      ]
+    },
+    "mc4wp-premium-4-11-7": {
+      "name": "mc4wp-premium-4.11.7",
+      "slug": "mc4wp-premium-4-11-7",
+      "tables": [
+        "mc4wp_log"
+      ],
+      "options": [
+        "mc4wp_premium_4_11_7_"
+      ],
+      "transients": [
+        "mc4wp_premium_4_11_7_"
+      ],
+      "cron": [],
+      "table_prefixes": [
+        "mc4wp_premium_4_11_7_"
+      ]
+    },
+    "siteseo-pro": {
+      "name": "siteseo-pro",
+      "slug": "siteseo-pro",
+      "tables": [
+        "siteseo_redirect_logs"
+      ],
+      "options": [
+        "siteseo_pro_"
+      ],
+      "transients": [
+        "siteseo_pro_"
+      ],
+      "cron": [],
+      "table_prefixes": [
+        "siteseo_pro_"
+      ]
+    },
+    "tutor-pro": {
+      "name": "tutor-pro",
+      "slug": "tutor-pro",
+      "tables": [
+        "bp_groups_groupmeta",
+        "tutor_quiz_questions",
+        "tutor_cb_content_usage",
+        "tutor_quiz_question_answers",
+        "tutor_subscription_plans",
+        "tutor_subscriptions",
+        "tutor_subscriptionmeta",
+        "tutor_notifications",
+        "tutor_notification_preferences"
+      ],
+      "options": [
+        "tutor_pro_"
+      ],
+      "transients": [
+        "tutor_pro_"
+      ],
+      "cron": [],
+      "table_prefixes": [
+        "tutor_pro_"
+      ]
+    },
+    "wpc-back-in-stock-notifications-premium": {
+      "name": "wpc-back-in-stock-notifications-premium",
+      "slug": "wpc-back-in-stock-notifications-premium",
+      "tables": [
+        "wpc_bs_subscribers"
+      ],
+      "options": [
+        "wpc_back_in_stock_notifications_premium_"
+      ],
+      "transients": [
+        "wpc_back_in_stock_notifications_premium_"
+      ],
+      "cron": [],
+      "table_prefixes": [
+        "wpc_back_in_stock_notifications_premium_"
       ]
     }
   }
