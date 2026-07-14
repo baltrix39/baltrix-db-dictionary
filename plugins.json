@@ -441,7 +441,11 @@
         "wc_tax_rate_classes",
         "wc_category_lookup",
         "wc_customer_lookup",
-        "wc_download_log"
+        "wc_download_log",
+        "actionscheduler_actions",
+        "actionscheduler_claims",
+        "actionscheduler_groups",
+        "actionscheduler_logs"
       ],
       "options": [
         "woocommerce_",
