@@ -2,7 +2,7 @@
   "version": "3.0.0",
   "updated": "2026-07-14",
   "stats": {
-    "total": 528
+    "total": 587
   },
   "plugins": {
     "akismet": {
@@ -14819,6 +14819,1278 @@
         "yith_wcan_lazy_load_filters",
         "yith_wcan_paginate_terms",
         "yith_woocommerce_variations_filtering",
+        "yit_font_awesome_list",
+        "yit_plugin_fw_panel_wc_default_options_set",
+        "yit_recently_activated",
+        "yith_system_info"
+      ],
+      "transients": [
+        "yith-plugin-fw-system-status-tls-version",
+        "yith-plugin-fw-system-status-output-ip"
+      ],
+      "cron": []
+    },
+    "a2-optimized-wp": {
+      "name": "A2 Optimized Wp",
+      "slug": "a2-optimized-wp",
+      "tables": [
+        "options"
+      ],
+      "options": [
+        "a2_cache_enabled",
+        "a2opt-pagespeed",
+        "a2_sitedata_allow",
+        "a2opt-benchmarks-hosting",
+        "a2opt-benchmarks-frontend",
+        "a2opt-cache",
+        "a2_optimized_objectcache_type",
+        "a2_optimized_memcached_server",
+        "a2_optimized_redis_server",
+        "litespeed.conf.object-kind",
+        "litespeed.conf.object-host",
+        "litespeed.conf.object-port",
+        "a2_optimized_memcached_invalid",
+        "a2_db_optimizations",
+        "litespeed.conf.crawler-sitemap",
+        "a2_litespeed_lock",
+        "a2_object_cache_enabled",
+        "litespeed.conf.object",
+        "a2_optimized_wpconfig_cleanup",
+        "a2_wc_cart_fragments",
+        "woocommerce_cart_redirect_after_add",
+        "a2_block_xmlrpc",
+        "a2_updated_regenerate-salts",
+        "a2_optimized_lockdown",
+        "a2_optimized_nomods",
+        "a2_optimized_deny_direct",
+        "a2_last_benchmark_ver",
+        "a2_sitedata_lastsent",
+        "a2_opt_auth_token"
+      ],
+      "transients": [],
+      "cron": [
+        "a2_execute_db_optimizations",
+        "a2_sync_xmlsitemap_location",
+        "a2_execute_wpconfig_cleanup",
+        "a2_sitedata_report"
+      ]
+    },
+    "add-from-server": {
+      "name": "Add From Server",
+      "slug": "add-from-server",
+      "tables": [],
+      "options": [],
+      "transients": [],
+      "cron": []
+    },
+    "advanced-popups": {
+      "name": "Advanced Popups",
+      "slug": "advanced-popups",
+      "tables": [],
+      "options": [],
+      "transients": [],
+      "cron": []
+    },
+    "all-in-one-favicon": {
+      "name": "All In One Favicon",
+      "slug": "all-in-one-favicon",
+      "tables": [],
+      "options": [],
+      "transients": [],
+      "cron": []
+    },
+    "better-font-awesome": {
+      "name": "Better Font Awesome",
+      "slug": "better-font-awesome",
+      "tables": [],
+      "options": [],
+      "transients": [],
+      "cron": []
+    },
+    "bookly-responsive-appointment-booking-tool": {
+      "name": "Bookly Responsive Appointment Booking Tool",
+      "slug": "bookly-responsive-appointment-booking-tool",
+      "tables": [
+        "capabilities",
+        "bookly_log",
+        "bookly_",
+        "bookly_appointments",
+        "icl_strings",
+        "icl_string_translations",
+        "icl_string_positions"
+      ],
+      "options": [
+        "bookly_cloud_token",
+        "bookly_cloud_auto_recharge_gateway",
+        "bookly_dashboard_based_on_appointment",
+        "bookly_gen_show_powered_by",
+        "bookly_gen_collect_stats",
+        "bookly_show_wpml_resave_required_notice",
+        "bookly_app_custom_styles",
+        "bookly_cal_last_seen_appointment",
+        "bookly_sms_administrator_phone",
+        "bookly_logs_expire",
+        "bookly_import_rollback_data",
+        "bookly_email_send_as",
+        "bookly_email_reply_to_customers",
+        "bookly_email_sender",
+        "bookly_email_sender_name",
+        "bookly_ntf_processing_interval",
+        "bookly_cal_show_only_business_days",
+        "bookly_cal_show_only_business_hours",
+        "bookly_cal_show_only_staff_with_appointments",
+        "bookly_cal_one_participant",
+        "bookly_cal_many_participants",
+        "bookly_cal_month_view_style",
+        "bookly_cal_coloring_mode",
+        "bookly_cal_show_new_appointments_badge",
+        "bookly_cal_scrollable_calendar",
+        "bookly_legacy_calendar",
+        "bookly_pmt_order",
+        "bookly_pmt_currency",
+        "bookly_pmt_price_format",
+        "bookly_pmt_local",
+        "bookly_cloud_stripe_enabled",
+        "bookly_cloud_stripe_timeout",
+        "bookly_cloud_stripe_increase",
+        "bookly_cloud_stripe_addition",
+        "bookly_cloud_stripe_custom_metadata",
+        "bookly_cloud_stripe_metadata",
+        "bookly_gen_time_slot_length",
+        "bookly_gen_delete_data_on_uninstall",
+        "bookly_gen_service_duration_as_slot_length",
+        "bookly_gen_allow_staff_edit_profile",
+        "bookly_gen_link_assets_method",
+        "bookly_gen_max_days_for_booking",
+        "bookly_gen_use_client_time_zone",
+        "bookly_gen_prevent_caching",
+        "bookly_gen_badge_consider_news",
+        "bookly_email_gateway",
+        "bookly_smtp_host",
+        "bookly_smtp_port",
+        "bookly_smtp_user",
+        "bookly_smtp_password",
+        "bookly_smtp_secure",
+        "bookly_url_approve_page_url",
+        "bookly_url_approve_denied_page_url",
+        "bookly_url_cancel_page_url",
+        "bookly_url_cancel_denied_page_url",
+        "bookly_url_reject_denied_page_url",
+        "bookly_url_reject_page_url",
+        "bookly_cst_allow_duplicates",
+        "bookly_cst_default_country_code",
+        "bookly_cst_phone_default_country",
+        "bookly_cst_remember_in_cookie",
+        "bookly_cst_show_update_details_dialog",
+        "bookly_cst_verify_customer_details",
+        "bookly_cst_required_details",
+        "bookly_l10n_ics_customer_template",
+        "bookly_ics_staff_template",
+        "bookly_appointment_default_status",
+        "bookly_successful_payment_appointment_status",
+        "bookly_appointment_end_date_method",
+        "bookly_co_address",
+        "bookly_co_logo_attachment_id",
+        "bookly_co_name",
+        "bookly_co_phone",
+        "bookly_co_website",
+        "bookly_co_industry",
+        "bookly_co_size",
+        "bookly_co_email",
+        "bookly_setup_step",
+        "bookly_cloud_account_products",
+        "bookly_cloud_auto_recharge_end_at_ts",
+        "bookly_cloud_renew_auto_recharge_notice_hide_until",
+        "bookly_cloud_auto_recharge_end_at",
+        "bookly_cloud_cron_api_key",
+        "bookly_cloud_products",
+        "bookly_cloud_promotions",
+        "bookly_advertisement",
+        "bookly_sms_undelivered_count",
+        "bookly_cloud_zapier_api_key",
+        "bookly_admin_preferred_language",
+        "external_updates-",
+        "bookly_сa_count",
+        "bookly_bc_clmn_min_width",
+        "bookly_bundle_business_purchase_code",
+        "bookly_temporary_logs_mobile_staff_cabinet",
+        "bookly_advanced_time_slot_length_minutes",
+        "bookly_advanced_slot_date_format",
+        "bookly_app_datepicker_inverted",
+        "bookly_app_show_add_to_calendar",
+        "bookly_app_show_slots",
+        "bookly_gen_session_type",
+        "bookly_app_show_category_info",
+        "bookly_cloud_badge_consider_sms",
+        "bookly_app_show_terms",
+        "bookly_app_show_download_ics",
+        "bookly_app_show_single_slot",
+        "bookly_app_show_staff_info",
+        "bookly_appointment_status_pending_color",
+        "bookly_appointment_status_approved_color",
+        "bookly_appointment_status_cancelled_color",
+        "bookly_appointment_status_rejected_color",
+        "bookly_appointment_status_mixed_color",
+        "bookly_app_show_service_info",
+        "bookly_app_show_start_over",
+        "bookly_gen_prevent_session_locking",
+        "bookly_logs_enabled",
+        "bookly_sms_promotions",
+        "bookly_app_prevent_caching",
+        "bookly_app_show_powered_by",
+        "bookly_app_align_buttons_left",
+        "bookly_app_show_email_confirm",
+        "bookly_cst_address_show_fields",
+        "bookly_pr_data",
+        "bookly_cst_required_birthday",
+        "bookly_updated_from_legacy_version"
+      ],
+      "transients": [],
+      "cron": [
+        "bookly_daily_routine",
+        "bookly_hourly_routine"
+      ]
+    },
+    "change-wp-admin-login": {
+      "name": "Change Wp Admin Login",
+      "slug": "change-wp-admin-login",
+      "tables": [
+        "aio_login_",
+        "aio_login_login_attempts",
+        "aio_login_login_lockouts",
+        "aio_login_enumeration_logs"
+      ],
+      "options": [
+        "aio_login_limit_attempts_enable",
+        "aio_login_pro__two_factor_auth_enable",
+        "aio_login_block_ip_address_enable",
+        "aio_login_user_enumeration_enable",
+        "aio_login_user_enumeration_oembed",
+        "aio_login_user_enumeration_sitemaps",
+        "aio_login_user_enumeration_comments",
+        "aio_login_user_enumeration_rest_api",
+        "aio_login_user_enumeration_login_registration",
+        "aio_login_user_enumeration_log",
+        "aio_login_user_enumeration_duration",
+        "rwl_page_input",
+        "rwl_redirect_field",
+        "aio_login__cwpal_enable",
+        "rwl_page",
+        "aio_login__version",
+        "aio_login_change_login_url_enable",
+        "aio_login__update",
+        "aio_login_configured_providers_list",
+        "fs_debug_mode",
+        "uninstall_plugins",
+        "fs_storage_logger",
+        "active_plugins",
+        "fs_active_plugins",
+        "required",
+        "show_opt_in_notice",
+        "notice_shown_at",
+        "aio_login_google_recaptcha_enable",
+        "aio_login_google_recaptcha_version",
+        "aio_login_google_recaptcha_v2_site_key",
+        "aio_login_google_recaptcha_v2_secret_key",
+        "aio_login_google_recaptcha_v2_theme",
+        "aio_login_google_recaptcha_v3_site_key",
+        "aio_login_google_recaptcha_v3_secret_key",
+        "aio_login_google_recaptcha_v3_threshold",
+        "aio_login_hcaptcha_enable",
+        "aio_login_turnstile_enable",
+        "aio_login_limit_attempts_maximum_attempts",
+        "aio_login_limit_attempts_timeout",
+        "aio_login_limit_attempts_lockout_message",
+        "aio_login_pro_login_redirection_fallback_type",
+        "aio_login_pro_login_redirection_enabled",
+        "aio_login_pro_login_redirection_fallback_enabled",
+        "aio_login_pro_login_redirection_fallback_custom_url",
+        "aio_login_pro_login_redirection_rules",
+        "aio_login_custom-css",
+        "aio_login_background_color",
+        "aio_login_background_image",
+        "aio_login_logo",
+        "aio_login_logo_url",
+        "aio_login_logo_width",
+        "aio_login_logo_height",
+        "aio_login_margin_bottom",
+        "aio_login__customization_templates",
+        "aio_login_el_text_font_family",
+        "aio_login_elements_settings",
+        "aio_login_magic_link_enable",
+        "aio_login_magic_link_validity_value",
+        "aio_login_magic_link_validity_unit",
+        "aio_login_magic_link_max_requests",
+        "aio_login_magic_link_skip_2fa",
+        "aio_login_woocommerce_magic_link_enabled",
+        "aio_login_otp_email_enable",
+        "aio_login_otp_email_block_duration",
+        "aio_login_otp_email_skip_2fa",
+        "aio_login_otp_sms_enable",
+        "aio_login_otp_sms_block_duration",
+        "aio_login_otp_sms_skip_2fa",
+        "aio_login_otp_email_length",
+        "aio_login_otp_email_expiration",
+        "aio_login_otp_email_resend_timer",
+        "aio_login_otp_email_max_retries",
+        "aio_login_otp_sms_length",
+        "aio_login_otp_sms_expiration",
+        "aio_login_otp_sms_resend_timer",
+        "aio_login_otp_sms_max_retries",
+        "aio_login_otp_twilio_account_sid",
+        "aio_login_otp_twilio_sender_number",
+        "aio_login_otp_sms_default_country_iso",
+        "aio_login_otp_sms_default_country",
+        "aio_login_otp_twilio_auth_token",
+        "aio_login_otp_sms_allowed_countries"
+      ],
+      "transients": [
+        "aio_login__user_attempts_",
+        "fs_snooze_period",
+        "fs_{$this->_module_type}_{$this->_slug}_activated",
+        "fs_{$this->get_id()}_data_debug_mode",
+        "_fs_api_connection_retry_counter",
+        "aio_login_phone_saved_"
+      ],
+      "cron": []
+    },
+    "column-shortcodes": {
+      "name": "Column Shortcodes",
+      "slug": "column-shortcodes",
+      "tables": [],
+      "options": [],
+      "transients": [
+        "cpsh_plugin_admin_columns_info",
+        "cpsh_plugin_timeout"
+      ],
+      "cron": []
+    },
+    "conditional-menus": {
+      "name": "Conditional Menus",
+      "slug": "conditional-menus",
+      "tables": [],
+      "options": [
+        "themify_conditional_menus_activation_redirect"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "contact-form-entries": {
+      "name": "Contact Form Entries",
+      "slug": "contact-form-entries",
+      "tables": [
+        "frm_item_metas",
+        "frm_forms",
+        "frm_fields"
+      ],
+      "options": [
+        "vx_crm_forms_ids",
+        "vxcf_all_forms",
+        "vxcf_all_fields",
+        "crm_perks_upload_folder",
+        "recently_activated",
+        "print_note_",
+        "vxcf_form_dissmiss_notice"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "custom-typekit-fonts": {
+      "name": "Custom Typekit Fonts",
+      "slug": "custom-typekit-fonts",
+      "tables": [],
+      "options": [
+        "custom-typekit-fonts",
+        "allowed_astra_notices"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "default-featured-image": {
+      "name": "Default Featured Image",
+      "slug": "default-featured-image",
+      "tables": [],
+      "options": [],
+      "transients": [],
+      "cron": []
+    },
+    "disable-emojis": {
+      "name": "Disable Emojis",
+      "slug": "disable-emojis",
+      "tables": [],
+      "options": [],
+      "transients": [],
+      "cron": []
+    },
+    "disable-xml-rpc-pingback": {
+      "name": "Disable Xml Rpc Pingback",
+      "slug": "disable-xml-rpc-pingback",
+      "tables": [],
+      "options": [],
+      "transients": [],
+      "cron": []
+    },
+    "dominant-color-images": {
+      "name": "Dominant Color Images",
+      "slug": "dominant-color-images",
+      "tables": [],
+      "options": [],
+      "transients": [],
+      "cron": []
+    },
+    "dynamicconditions": {
+      "name": "Dynamicconditions",
+      "slug": "dynamicconditions",
+      "tables": [],
+      "options": [],
+      "transients": [],
+      "cron": []
+    },
+    "easy-theme-and-plugin-upgrades": {
+      "name": "Easy Theme And Plugin Upgrades",
+      "slug": "easy-theme-and-plugin-upgrades",
+      "tables": [],
+      "options": [],
+      "transients": [],
+      "cron": []
+    },
+    "enhanced-media-library": {
+      "name": "Enhanced Media Library",
+      "slug": "enhanced-media-library",
+      "tables": [],
+      "options": [
+        "wpuxss_eml_lib_options",
+        "wpuxss_eml_taxonomies",
+        "wpuxss_eml_tax_options",
+        "wpuxss_eml_mimes",
+        "wpuxss_eml_backup",
+        "wpuxss_eml_version"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "events-manager": {
+      "name": "Events Manager",
+      "slug": "events-manager",
+      "tables": [
+        "dbem_events",
+        "em_events",
+        "em_app_devices",
+        "em_event_recurrences",
+        "em_timeranges",
+        "em_event_timeslots",
+        "em_meta",
+        "em_locations",
+        "em_bookings",
+        "em_bookings_meta",
+        "em_tickets",
+        "em_tickets_bookings",
+        "em_tickets_bookings_meta"
+      ],
+      "options": [
+        "dbem_data",
+        "dbem_dismiss_events_page",
+        "dbem_flush_needed",
+        "dbem_repeating_enabled",
+        "dbem_recurrence_enabled",
+        "dbem_emfc_full_calendar_event_format",
+        "dbem_emfc_qtips_format",
+        "dbem_admin_notices",
+        "em_archetypes_selected",
+        "em_archetype_default",
+        "em_event_archetypes_options",
+        "dbem_cp_{$base}_slug",
+        "dbem_cp_{$base}_label",
+        "dbem_cp_{$base}_label_single",
+        "dbem_cp_{$base}_menu_icon",
+        "em_event_archetypes",
+        "pixelite_oauth_rules_signature",
+        "em_ms_global_install",
+        "dbem_hello_to_user",
+        "dbem_version",
+        "dbem_time_24h",
+        "dbem_credits",
+        "dbem_cp_events_template_page",
+        "dbem_cp_locations_template_page",
+        "dbem_events_default_orderby",
+        "dbem_locations_default_orderby",
+        "dbem_categories_default_orderby",
+        "dbem_cp_events_slug",
+        "dbem_taxonomy_tag_slug",
+        "dbem_cp_locations_slug",
+        "dbem_taxonomy_category_slug",
+        "dbem_event_reapproved_email_subject",
+        "dbem_event_reapproved_email_body",
+        "dbem_cp_events_template",
+        "dbem_cp_locations_template",
+        "dbem_events_archive_scope",
+        "em_last_modified",
+        "dbem_category_event_single_format",
+        "dbem_category_no_event_message",
+        "dbem_location_event_single_format",
+        "dbem_location_no_event_message",
+        "dbem_tag_event_single_format",
+        "dbem_tag_no_event_message",
+        "dbem_dates_separator",
+        "dbem_times_separator",
+        "dbem_legacy_bookings_tax_auto_add",
+        "dbem_legacy_bookings_tax",
+        "dbem_rss_limit",
+        "dbem_css_editors",
+        "dbem_css_rsvp",
+        "dbem_css_evlist",
+        "dbem_css_loclist",
+        "dbem_css_rsvpadmin",
+        "dbem_css_catlist",
+        "dbem_css_taglist",
+        "dbem_css_search",
+        "dbem_search_form_hide_advanced",
+        "dbem_events_page_search_form",
+        "dbem_search_form_dates_separator",
+        "dbem_locations_page_search_form",
+        "dbem_search_form_geo_units",
+        "dbem_search_form_submit",
+        "dbem_search_form_submit_ml",
+        "dbem_cp_events_excerpt_formats",
+        "dbem_cp_locations_excerpt_formats",
+        "dbem_bookings_contact_email_cancelled_subject",
+        "dbem_bookings_contact_email_cancelled_body",
+        "dbem_bookings_contact_email_pending_subject",
+        "dbem_bookings_contact_email_pending_body",
+        "dbem_bookings_contact_email_confirmed_subject",
+        "dbem_bookings_contact_email_confirmed_body",
+        "dbem_ical_description_format",
+        "dbem_ical_location_format",
+        "dbem_tags_default_archive_orderby",
+        "dbem_categories_default_archive_orderby",
+        "dbem_events_default_archive_orderby",
+        "dbem_smtp_encryption",
+        "dbem_location_types",
+        "dbem_datepicker_format",
+        "dbem_search_form_tags",
+        "dbem_conditional_recursions",
+        "dbem_advanced_formatting",
+        "dbem_css_theme_font_weight",
+        "dbem_css_theme_font_family",
+        "dbem_css_theme_font_size",
+        "dbem_css_theme_line_height",
+        "dbem_dates_range_double_inputs",
+        "em_pro_version",
+        "dbem_search_form_views",
+        "dbem_event_list_groupby",
+        "dbem_search_form_view",
+        "dbem_bookings_submit_button_paid",
+        "dbem_editor",
+        "dbem_events_page",
+        "dbem_locations_page",
+        "dbem_categories_page",
+        "dbem_tags_page",
+        "dbem_my_bookings_page",
+        "em_check_stable_version",
+        "em_check_dev_version",
+        "dbem_debug",
+        "dbem_v6_undo"
+      ],
+      "transients": [
+        "em_oauth_return_",
+        "em_wd_token_"
+      ],
+      "cron": [
+        "em_uploads_api_cleanup"
+      ]
+    },
+    "iframe": {
+      "name": "Iframe",
+      "slug": "iframe",
+      "tables": [],
+      "options": [
+        "iframe_plugin_options"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "imagemagick-engine": {
+      "name": "Imagemagick Engine",
+      "slug": "imagemagick-engine",
+      "tables": [],
+      "options": [
+        "ime_options"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "jwt-authentication-for-wp-rest-api": {
+      "name": "Jwt Authentication For Wp Rest Api",
+      "slug": "jwt-authentication-for-wp-rest-api",
+      "tables": [],
+      "options": [
+        "jwt_auth_options",
+        "jwt_auth_dismissed_notices",
+        "jwt_auth_install_date",
+        "jwt_auth_tokens_created"
+      ],
+      "transients": [],
+      "cron": [
+        "jwt_auth_share_data"
+      ]
+    },
+    "koko-analytics": {
+      "name": "Koko Analytics",
+      "slug": "koko-analytics",
+      "tables": [
+        "burst_statistics",
+        "independent_analytics_",
+        "statify",
+        "statistics_"
+      ],
+      "options": [
+        "koko_analytics_settings",
+        "koko_analytics_last_aggregation_at",
+        "koko_analytics_migrations",
+        "koko_analytics_use_custom_endpoint",
+        "koko_analytics_jetpack_import_params",
+        "koko_analytics_realtime_pageview_count"
+      ],
+      "transients": [
+        "koko_analytics_remote_posts"
+      ],
+      "cron": [
+        "koko_analytics_aggregate_stats",
+        "koko_analytics_prune_data",
+        "koko_analytics_rotate_fingerprint_seed",
+        "koko_analytics_test_custom_endpoint"
+      ]
+    },
+    "mailchimp": {
+      "name": "Mailchimp",
+      "slug": "mailchimp",
+      "tables": [
+        "mailchimp_sf_form_analytics"
+      ],
+      "options": [
+        "mailchimp_sf_lists",
+        "mailchimp_sf_user_sync_start_cta_shown",
+        "mailchimp_sf_waiting_for_login",
+        "mailchimp_sf_access_token",
+        "mc_datacenter",
+        "mc_user",
+        "mailchimp_sf_analytics_db_version",
+        "mailchimp_sf_last_sync_time",
+        "mailchimp_sf_user_sync_running",
+        "mailchimp_sf_auth_error",
+        "mc_merge_field_migrate",
+        "mc_header_content",
+        "mc_submit_text",
+        "mc_custom_style",
+        "mc_double_optin",
+        "mc_use_unsub_link",
+        "mc_form_border_width",
+        "mc_form_border_color",
+        "mc_form_background",
+        "mc_form_text_color",
+        "mc_nuke_all_styles",
+        "mc_update_existing",
+        "mc_subheader_content",
+        "mailchimp_sf_merge_fields_",
+        "mailchimp_sf_interest_groups_",
+        "mc_list_id",
+        "mc_list_name",
+        "mc_email_type_option",
+        "mc_merge_vars",
+        "mc_interest_groups",
+        "mc_api_key",
+        "mc_version"
+      ],
+      "transients": [
+        "mailchimp_sf_cancel_user_sync_process"
+      ],
+      "cron": []
+    },
+    "manage": {
+      "name": "Manage",
+      "slug": "manage",
+      "tables": [],
+      "options": [],
+      "transients": [],
+      "cron": []
+    },
+    "master-slider": {
+      "name": "Master Slider",
+      "slug": "master-slider",
+      "tables": [
+        "masterslider_",
+        "masterslider_sliders",
+        "masterslider_options"
+      ],
+      "options": [
+        "masterslider_lite_plugin_version",
+        "preset_style",
+        "preset_effect",
+        "notice-installtion-time",
+        "notice-",
+        "custom_inline_style",
+        "masterslider_custom_css_ver",
+        "masterslider_db_version",
+        "master-slider_ab_pro_feature_panel_content_type",
+        "master-slider_ab_pro_feature_setting_content_type",
+        "masterslider_capabilities_added"
+      ],
+      "transients": [
+        "msp_rate_notice_missed",
+        "msp_get_remote_sample_sliders",
+        "master_slider_output_"
+      ],
+      "cron": []
+    },
+    "media-library-assistant": {
+      "name": "Media Library Assistant",
+      "slug": "media-library-assistant",
+      "tables": [
+        "mediatagger",
+        "icl_translations"
+      ],
+      "options": [
+        "enable_custom_field_mapping",
+        "enable_custom_field_update",
+        "enable_iptc_exif_mapping",
+        "enable_iptc_exif_update",
+        "add_mlafeeds",
+        "smc_automatic_options",
+        " . $key . ",
+        "custom_field_mapping",
+        "iptc_exif_mapping",
+        "style_templates",
+        "markup_templates"
+      ],
+      "transients": [
+        "mla-upload-bulk-edit-example-batch"
+      ],
+      "cron": []
+    },
+    "navz-photo-gallery": {
+      "name": "Navz Photo Gallery",
+      "slug": "navz-photo-gallery",
+      "tables": [],
+      "options": [
+        "apgf_donation"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "ocean-social-sharing": {
+      "name": "Ocean Social Sharing",
+      "slug": "ocean-social-sharing",
+      "tables": [],
+      "options": [],
+      "transients": [],
+      "cron": []
+    },
+    "optimization-detective": {
+      "name": "Optimization Detective",
+      "slug": "optimization-detective",
+      "tables": [],
+      "options": [
+        "od_rest_api_unavailable"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "popup-builder-block": {
+      "name": "Popup Builder Block",
+      "slug": "popup-builder-block",
+      "tables": [
+        "pbb_logs",
+        "pbb_log_browsers",
+        "pbb_log_countries",
+        "pbb_log_referrers",
+        "pbb_subscribers",
+        "pbb_browsers",
+        "pbb_countries",
+        "pbb_referrers",
+        "pbb_ab_test_variants",
+        "pbb_ab_tests"
+      ],
+      "options": [
+        "popupkit_installed_time",
+        "pbb-settings-tabs",
+        "popupkit_templates_updated"
+      ],
+      "transients": [],
+      "cron": [
+        "pbb_analytics_expiry_clean"
+      ]
+    },
+    "qi-blocks": {
+      "name": "Qi Blocks",
+      "slug": "qi-blocks",
+      "tables": [],
+      "options": [
+        "qi_blocks_setup_wizard",
+        "qi_blocks_global_settings_typography",
+        "qi_blocks_global_settings_typography_styles",
+        "qi_blocks_global_settings_typography_apply_to",
+        "qi_blocks_global_styles",
+        "qi_blocks_cropped_images",
+        "qi_blocks_custom_templates_flag"
+      ],
+      "transients": [
+        "qi_blocks_set_redirect",
+        "qi_blocks_check_theme_gutenberg_style"
+      ],
+      "cron": []
+    },
+    "rvg-optimize-database": {
+      "name": "Rvg Optimize Database",
+      "slug": "rvg-optimize-database",
+      "tables": [],
+      "options": [
+        "odb_rvg_options",
+        "odb_rvg_excluded_tabs"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "scheduled-post-trigger": {
+      "name": "Scheduled Post Trigger",
+      "slug": "scheduled-post-trigger",
+      "tables": [],
+      "options": [],
+      "transients": [],
+      "cron": []
+    },
+    "simple-image-sizes": {
+      "name": "Simple Image Sizes",
+      "slug": "simple-image-sizes",
+      "tables": [],
+      "options": [
+        "custom_image_sizes",
+        "sis_mediapapa_notice_cycle"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "simple-sitemap": {
+      "name": "Simple Sitemap",
+      "slug": "simple-sitemap",
+      "tables": [],
+      "options": [
+        "simple_sitemap_options"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "site-reviews": {
+      "name": "Site Reviews",
+      "slug": "site-reviews",
+      "tables": [
+        "glsr_assigned_posts",
+        "glsr_assigned_terms",
+        "glsr_assigned_users",
+        "glsr_ratings",
+        "actionscheduler_actions",
+        "actionscheduler_logs"
+      ],
+      "options": [
+        "sidebars_widgets"
+      ],
+      "transients": [
+        "action_scheduler_admin_notice",
+        "action_scheduler_last_pastdue_actions_check",
+        "as_is_ensure_recurring_actions_scheduled",
+        "as_comment_count"
+      ],
+      "cron": []
+    },
+    "slim-seo": {
+      "name": "Slim Seo",
+      "slug": "slim-seo",
+      "tables": [
+        "slim_seo_404"
+      ],
+      "options": [
+        "slim_seo",
+        "slim_seo_db_version"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "snapchat-for-woocommerce": {
+      "name": "Snapchat For Woocommerce",
+      "slug": "snapchat-for-woocommerce",
+      "tables": [],
+      "options": [],
+      "transients": [],
+      "cron": []
+    },
+    "to-top": {
+      "name": "To Top",
+      "slug": "to-top",
+      "tables": [],
+      "options": [
+        "to_top_options",
+        "ctp_options"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "ultimate-addons-for-contact-form-7": {
+      "name": "Ultimate Addons For Contact Form 7",
+      "slug": "ultimate-addons-for-contact-form-7",
+      "tables": [
+        "uacf7_form",
+        "uacf7dp_data",
+        "uacf7dp_data_entry",
+        "leaguemanager_person_status"
+      ],
+      "options": [
+        "uacf7_settings",
+        "update_form_generator_ai",
+        "uacf7dp_database_free_status",
+        "tf_promo_widget_exists",
+        "uacf7_dashboard_widget_dismissed",
+        "tf_dismiss_admin_notice",
+        "uacf7_dismiss_post_notice",
+        "uacf7_promo__schudle_start_from",
+        "uacf7_promo__schudle_option",
+        "tf_promo_notice_exists",
+        "uacf7_setup_wizard",
+        "uacf7_installation_date",
+        "uacf7_review_notice_status",
+        "uacf7_review_announcement_status",
+        "uacf7_settings_migration_status",
+        "uacf7_booking_pro_notice_dismissed",
+        "uacf7_booking_pro_notice_next_show_at",
+        "uacf7_booking_pro_notice_interval_days",
+        "uacf7_booking_pro_notice_next_show_at_days",
+        "uacf7_migration_done",
+        "uacf7_redirection_migration_done",
+        "uacf7_plugin_last_updated",
+        "uacf7_version"
+      ],
+      "transients": [
+        "uacf7_pdf_url_"
+      ],
+      "cron": [
+        "uacf7_promo__schudle"
+      ]
+    },
+    "web-stories": {
+      "name": "Web Stories",
+      "slug": "web-stories",
+      "tables": [],
+      "options": [],
+      "transients": [],
+      "cron": []
+    },
+    "woo-advanced-shipment-tracking": {
+      "name": "Woo Advanced Shipment Tracking",
+      "slug": "woo-advanced-shipment-tracking",
+      "tables": [
+        "woo_shippment_provider"
+      ],
+      "options": [
+        "customizer_partial_shipped_order_settings_enabled",
+        "woocommerce_customer_partial_shipped_order_settings",
+        "woocommerce_customer_updated_tracking_order_settings",
+        "wc_ast_unclude_tracking_info",
+        "wc_ast_show_orders_actions",
+        "wc_advanced_shipment_tracking",
+        "tracking_info_settings",
+        "ast_option_migrated"
+      ],
+      "transients": [
+        "_ast_activation_redirect"
+      ],
+      "cron": [
+        "zorem_usage_data_"
+      ]
+    },
+    "wordfence-login-security": {
+      "name": "Wordfence Login Security",
+      "slug": "wordfence-login-security",
+      "tables": [],
+      "options": [
+        "rewrite_rules"
+      ],
+      "transients": [
+        "wflsbucket:"
+      ],
+      "cron": [
+        "wordfence_ls_role_sync_cron",
+        "wordfence_ls_ntp_cron"
+      ]
+    },
+    "wp-accessibility": {
+      "name": "Wp Accessibility",
+      "slug": "wp-accessibility",
+      "tables": [],
+      "options": [
+        "wpa_search_alt",
+        "wpa_diagnostics",
+        "wpa_disable_fullscreen",
+        "wpa_enable_visibility",
+        "wpa_disable_file_embed",
+        "wpa_allow_h1",
+        "wpa_track_stats",
+        "wpa_disable_logout",
+        "wpa_target",
+        "wpa_search",
+        "wpa_tabindex",
+        "wpa_viewport",
+        "wpa_labels",
+        "wpa_lang_attributes",
+        "wpa_remove_titles",
+        "wpa_underline",
+        "wpa_videos",
+        "wpa_more",
+        "wpa_focus",
+        "wpa_focus_color",
+        "wpa_continue",
+        "asl_enable",
+        "asl_content",
+        "asl_navigation",
+        "asl_sitemap",
+        "asl_extra_target",
+        "asl_extra_text",
+        "asl_visible",
+        "asl_default_styles",
+        "asl_styles",
+        "wpa_show_alt",
+        "wpa_longdesc",
+        "wpa_longdesc_featured",
+        "wpa_post_types",
+        "wpa_toolbar",
+        "wpa_toolbar_size",
+        "wpa_alternate_fontsize",
+        "wpa_widget_toolbar",
+        "wpa_toolbar_gs",
+        "wpa_toolbar_fs",
+        "wpa_toolbar_ct",
+        "wpa_toolbar_default",
+        "wpa_toolbar_right",
+        "wpa_toolbar_mobile",
+        "asl_styles_focus",
+        "asl_styles_passive",
+        "wpa_installed"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "wp-add-custom-css": {
+      "name": "Wp Add Custom Css",
+      "slug": "wp-add-custom-css",
+      "tables": [],
+      "options": [
+        "wpacc_settings"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "wp-cloudflare-page-cache": {
+      "name": "Wp Cloudflare Page Cache",
+      "slug": "wp-cloudflare-page-cache",
+      "tables": [
+        "spc_assets_rules"
+      ],
+      "options": [
+        "swcfpc_previous_version",
+        "swcfpc_version",
+        "cf_will_run_free_to_pro_migrations",
+        "swcfpc_config",
+        "swcfpc_fc_ttl_registry"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "wp-db-backup": {
+      "name": "Wp Db Backup",
+      "slug": "wp-db-backup",
+      "tables": [],
+      "options": [
+        "wp_db_backup_excs",
+        "wpdb_backup_recip",
+        "wp_cron_backup_schedule",
+        "wp_cron_backup_tables",
+        "wp_cron_backup_recipient"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "wp-dbmanager": {
+      "name": "Wp Dbmanager",
+      "slug": "wp-dbmanager",
+      "tables": [],
+      "options": [
+        "dbmanager_options"
+      ],
+      "transients": [],
+      "cron": [
+        "dbmanager_cron_backup",
+        "dbmanager_cron_optimize",
+        "dbmanager_cron_repair"
+      ]
+    },
+    "wp-duplicate-page": {
+      "name": "Wp Duplicate Page",
+      "slug": "wp-duplicate-page",
+      "tables": [],
+      "options": [
+        "njt_duplicate_reviewed",
+        "njt_duplicate_roles",
+        "njt_duplicate_post_types",
+        "njt_duplicate_text_link",
+        "njt_duplicate_in_editor",
+        "{$this->plugin_prefix}_plugins_page_notification",
+        "{$this->plugin_prefix}_sidebar_popup_media_page",
+        "{$this->plugin_prefix}_sidebar_post_page",
+        "{$this->plugin_prefix}_sidebar_product_page",
+        "{$this->plugin_prefix}_sidebar_popup_{$type}_page",
+        "{$this->plugin_prefix}_sidebar_{$type}_page",
+        "yaymail_wc_settings_banner_notification",
+        "yaymail_wc_settings_email_column_hidden"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "wp-fail2ban": {
+      "name": "Wp Fail2ban",
+      "slug": "wp-fail2ban",
+      "tables": [],
+      "options": [],
+      "transients": [],
+      "cron": []
+    },
+    "wp-google-map-plugin": {
+      "name": "Wp Google Map Plugin",
+      "slug": "wp-google-map-plugin",
+      "tables": [
+        "group_map",
+        "map_locations",
+        "create_map",
+        "map_routes"
+      ],
+      "options": [
+        "fc_",
+        "weplugins_notification",
+        "wpgmp_integrations_data",
+        "wpgmp_settings",
+        "wpgmp_current_csv",
+        "wpgmp_location_extrafields"
+      ],
+      "transients": [],
+      "cron": [
+        "wpmapspro_check_notification"
+      ]
+    },
+    "wp-piwik": {
+      "name": "Wp Piwik",
+      "slug": "wp-piwik",
+      "tables": [],
+      "options": [
+        "wp-piwik_global-",
+        "wp-piwik-"
+      ],
+      "transients": [
+        "wp-piwik_c_"
+      ],
+      "cron": []
+    },
+    "wp-retina-2x": {
+      "name": "Wp Retina 2x",
+      "slug": "wp-retina-2x",
+      "tables": [
+        "icl_translations"
+      ],
+      "options": [
+        "ai_history",
+        "elementor_css_print_method",
+        "et_pb_static_css_file",
+        "et_pb_css_in_footer",
+        "meowapps_hide_meowapps",
+        "litespeed.conf.cache-rest",
+        "meowapps_news"
+      ],
+      "transients": [
+        "wr2x_issues",
+        "wr2x_ignores",
+        "wr2x_optimize_issues"
+      ],
+      "cron": []
+    },
+    "wp-smtp": {
+      "name": "Wp Smtp",
+      "slug": "wp-smtp",
+      "tables": [
+        "wpsmtp_logs"
+      ],
+      "options": [
+        "solid_mail_migration_error"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "wp-ulike": {
+      "name": "Wp Ulike",
+      "slug": "wp-ulike",
+      "tables": [
+        "ulike",
+        "ulike_comments",
+        "ulike_activities",
+        "ulike_forums",
+        "ulike_meta",
+        "bp_activity"
+      ],
+      "options": [
+        "wp_ulike_use_inline_custom_css",
+        "wp_ulike_first_activated_at",
+        "wp_ulike_dbVersion",
+        "wp_ulike_settings",
+        "wp_ulike_customize"
+      ],
+      "transients": [
+        "wp-ulike-notice-",
+        "wp_ulike_global_avg_likes"
+      ],
+      "cron": []
+    },
+    "wp-yandex-metrika": {
+      "name": "Wp Yandex Metrika",
+      "slug": "wp-yandex-metrika",
+      "tables": [],
+      "options": [
+        "yam_messages"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "wpdiscuz": {
+      "name": "Wpdiscuz",
+      "slug": "wpdiscuz",
+      "tables": [],
+      "options": [
+        "anr_admin_options",
+        "ic-wordpress-settings",
+        "comment_order",
+        "comments_per_page",
+        "wpdiscuz_form_content_type_rel",
+        "wpdiscuz_form_post_rel",
+        "wpdiscuz-addon-note-dismissed",
+        "wpdiscuz-tip-note-dismissed",
+        "wpd_admin_notices",
+        "wpd_checked_data",
+        "fastvelocity_min_ignore"
+      ],
+      "transients": [
+        "wpdiscuz_addons_check"
+      ],
+      "cron": []
+    },
+    "yith-woocommerce-catalog-mode": {
+      "name": "Yith Woocommerce Catalog Mode",
+      "slug": "yith-woocommerce-catalog-mode",
+      "tables": [],
+      "options": [
+        "ywctm-plugin-welcome-modal",
         "yit_font_awesome_list",
         "yit_plugin_fw_panel_wc_default_options_set",
         "yit_recently_activated",
