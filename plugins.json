@@ -461,6 +461,8 @@
         "wc_product_attributes_lookup",
         "wc_product_attribute_taxonomies",
         "woocommerce_attribute_taxonomies",
+        "woocommerce_order_itemmeta",
+        "woocommerce_order_items",
         "wc_product_download_directories",
         "wc_downloadable_product_permissions",
         "wc_rate_limits",
@@ -3767,7 +3769,6 @@
       "slug": "translatepress-multilingual",
       "tables": [
         "trp_dictionary_",
-        "woocommerce_order_itemmeta",
         "trp_"
       ],
       "options": [
@@ -4864,8 +4865,6 @@
       "name": "Jetpack Boost",
       "slug": "jetpack-boost",
       "tables": [
-        "wc_product_meta_lookup",
-        "woocommerce_order_items"
       ],
       "options": [
         "jetpack_boost_version",
@@ -6667,11 +6666,9 @@
       "tables": [
         "language_pairs",
         "icl_translations",
-        "woocommerce_order_itemmeta",
         "icl_currencies",
         "icl_languages_currencies",
-        "icl_strings",
-        "woocommerce_attribute_taxonomies"
+        "icl_strings"
       ],
       "options": [
         "icl_admin_messages",
@@ -7552,8 +7549,6 @@
       "name": "Jetpack Protect",
       "slug": "jetpack-protect",
       "tables": [
-        "wc_product_meta_lookup",
-        "woocommerce_order_items"
       ],
       "options": [
         "jetpack_$name",
@@ -9506,18 +9501,8 @@
       "name": "Woo Razorpay",
       "slug": "woo-razorpay",
       "tables": [
-        "cartflows_ca_cart_abandonment",
-        "ac_guest_abandoned_cart_history_lite",
-        "usermeta",
-        "ac_abandoned_cart_history_lite",
-        "wc_orders",
         "rzp_webhook_requests",
-        "cartbounty",
-        "wati_abandonment",
-        "wc_orders_meta",
-        "wc_order_operational_data",
-        "woocommerce_order_items",
-        "wcfm_marketplace_orders"
+        "rzp_"
       ],
       "options": [
         "rzp_hpos",
