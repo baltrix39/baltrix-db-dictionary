@@ -18,10 +18,6 @@
         "wc_category_lookup",
         "wc_customer_lookup",
         "wc_download_log",
-        "actionscheduler_actions",
-        "actionscheduler_claims",
-        "actionscheduler_groups",
-        "actionscheduler_logs",
         "woocommerce_attribute_taxonomies"
       ],
       "options": [
@@ -68,9 +64,7 @@
         "hostinger_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "hostinger_"
-      ]
+      "table_prefixes": []
     },
     "image-optimization": {
       "name": "Image Optimization &#8211; Compress Images and Convert to WebP or AVIF",
@@ -83,9 +77,7 @@
         "image_optimization_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "image_optimization_"
-      ]
+      "table_prefixes": []
     },
     "breeze": {
       "name": "Breeze",
@@ -347,7 +339,6 @@
       "name": "Wp Health",
       "slug": "wp-health",
       "tables": [
-        "name",
         "umbrella_redirects",
         "umbrella_activity_log_buffer"
       ],
@@ -358,7 +349,6 @@
         "wphealth_version",
         "wp_umbrella_activity_log_enabled",
         "wp_health_version_god_handler",
-        "active_plugins",
         "wp_umbrella_transient_update_{$type}"
       ],
       "transients": [
@@ -377,9 +367,7 @@
         "glsr_assigned_users",
         "glsr_ratings"
       ],
-      "options": [
-        "sidebars_widgets"
-      ],
+      "options": [],
       "transients": [
         "action_scheduler_admin_notice",
         "action_scheduler_last_pastdue_actions_check",
@@ -840,7 +828,6 @@
         "ampforwp_rewrite_flush_option",
         "ampforwp_theme_notice",
         "AMPforwp_db_version",
-        "active_plugins",
         "redux_builder_amp",
         "ampforwp_feedback_remove_notice",
         "ampforwp_tpd_remove_notice",
@@ -1020,7 +1007,6 @@
         "is_menu_search",
         "is_analytics",
         "is_index",
-        "active_plugins",
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
@@ -1178,7 +1164,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -1270,9 +1255,7 @@
       "cron": [
         "wpdbcleaner_cleanup"
       ],
-      "table_prefixes": [
-        "wpdbcleaner_"
-      ]
+      "table_prefixes": []
     },
     "advanced-database-cleaner-premium": {
       "name": "Advanced Database Cleaner Premium",
@@ -1287,9 +1270,7 @@
         "advanced_database_cleaner_premium_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "advanced_database_cleaner_premium_"
-      ]
+      "table_prefixes": []
     },
     "advanced-dynamic-pricing-for-woocommerce": {
       "name": "Advanced Dynamic Pricing For Woocommerce",
@@ -1357,7 +1338,6 @@
       "options": [
         "elementor_active_kit",
         "widget_",
-        "sidebars_widgets",
         "rewrite_rules",
         "advanced_import_settings_options",
         "advanced_import_reset_notice"
@@ -1474,9 +1454,7 @@
         "affiliatewp_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "affiliatewp_"
-      ]
+      "table_prefixes": []
     },
     "age-gate": {
       "name": "Age Gate",
@@ -1623,9 +1601,7 @@
         "ajax_search_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "ajax_search_"
-      ]
+      "table_prefixes": []
     },
     "ajax-search-lite": {
       "name": "Ajax Search Lite",
@@ -1746,8 +1722,7 @@
         "aioseo_cleanup_orphaned_meta"
       ],
       "table_prefixes": [
-        "aioseo_",
-        "aiosp_"
+        "aioseo_"
       ]
     },
     "all-in-one-seo-pack-pro": {
@@ -1791,7 +1766,6 @@
         "aioseo_pro_cleanup"
       ],
       "table_prefixes": [
-        "aioseo_pro_",
         "aioseo_"
       ]
     },
@@ -1882,9 +1856,7 @@
         "ameliabooking_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "ameliabooking_"
-      ]
+      "table_prefixes": []
     },
     "analytics": {
       "name": "WP Statistics",
@@ -1903,9 +1875,7 @@
       "cron": [
         "wp_statistics_cron"
       ],
-      "table_prefixes": [
-        "wp_statistics_"
-      ]
+      "table_prefixes": []
     },
     "analytify": {
       "name": "Analytify",
@@ -1942,7 +1912,6 @@
         "analytify_pro_cleanup"
       ],
       "table_prefixes": [
-        "analytify_pro_",
         "analytify_"
       ]
     },
@@ -2098,7 +2067,6 @@
       ],
       "cron": [],
       "table_prefixes": [
-        "arforms_",
         "arf_"
       ]
     },
@@ -2146,9 +2114,7 @@
         "asenha_email_delivery_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "asenha_email_delivery_"
-      ]
+      "table_prefixes": []
     },
     "asesor-cookies-para-la-ley-en-espana": {
       "name": "Asesor Cookies Para La Ley En Espana",
@@ -2187,7 +2153,6 @@
       "transients": [],
       "cron": [],
       "table_prefixes": [
-        "asgarosforum_pro_",
         "asgarosforum_"
       ]
     },
@@ -2230,9 +2195,7 @@
         "astra_sites_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "astra_sites_"
-      ]
+      "table_prefixes": []
     },
     "astra-widgets": {
       "name": "Astra Widgets",
@@ -2278,13 +2241,9 @@
       "options": [
         "atss_db_version",
         "widget_",
-        "sidebars_widgets",
         "atts_current_starter",
         "widget_athemes_social_widget",
         "widget_nav_menu",
-        "show_on_front",
-        "page_on_front",
-        "page_for_posts",
         "botiga-modules",
         "botiga_wishlist_page_id",
         "woocommerce_shop_page_id",
@@ -2296,7 +2255,6 @@
         "elementor_active_kit",
         "woocommerce_queue_flush_rewrite_rules",
         "theme_mods_{$theme_slug}",
-        "blogname",
         "botiga-shop-filters-presets",
         "botiga-shop-filters-presets-settings",
         "botiga_template_builder_data",
@@ -2344,9 +2302,7 @@
         "auto_image_attributes_from_filename_with_bulk_updater_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "auto_image_attributes_from_filename_with_bulk_updater_"
-      ]
+      "table_prefixes": []
     },
     "auto-image-attributes-pro": {
       "name": "Auto Image Attributes Pro",
@@ -2361,9 +2317,7 @@
         "auto_image_attributes_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "auto_image_attributes_"
-      ]
+      "table_prefixes": []
     },
     "auto-post-thumbnail": {
       "name": "Auto Post Thumbnail",
@@ -2506,9 +2460,7 @@
         "automatic_automatic_content_links_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "automatic_automatic_content_links_"
-      ]
+      "table_prefixes": []
     },
     "automatic-translator-addon-for-loco-translate": {
       "name": "Automatic Translator Addon For Loco Translate",
@@ -2571,9 +2523,7 @@
       "cron": [
         "autoptimize_sweep"
       ],
-      "table_prefixes": [
-        "autoptimize_"
-      ]
+      "table_prefixes": []
     },
     "auxin-elements": {
       "name": "Auxin Elements",
@@ -2602,12 +2552,8 @@
         "auxin_demo_media_args",
         "auxin_demo_media_requests",
         "auxin_imported_depicter_documents",
-        "active_plugins",
         "auxin_{$this->post_type}_capabilities_added",
         "rp4wp_do_install",
-        "show_on_front",
-        "page_on_front",
-        "sidebars_widgets",
         "elementor_disable_color_schemes",
         "elementor_disable_typography_schemes",
         "elementor_page_title_selector",
@@ -2642,7 +2588,6 @@
       "slug": "auxin-portfolio",
       "tables": [],
       "options": [
-        "active_plugins",
         "elementor_cpt_support"
       ],
       "transients": [
@@ -2680,9 +2625,7 @@
         "awesome_support_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "awesome_support_"
-      ]
+      "table_prefixes": []
     },
     "ays-popup-box": {
       "name": "Ays Popup Box",
@@ -2718,9 +2661,7 @@
         "babe_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "babe_"
-      ]
+      "table_prefixes": []
     },
     "back-in-stock-notifier-for-woocommerce": {
       "name": "Back In Stock Notifier For Woocommerce",
@@ -2796,14 +2737,11 @@
         "sfsi_plugin_do_activation_redirect",
         "irrp_activation_redirect",
         "bmi_hotfixes",
-        "active_plugins",
         "bmi_pro_backupbliss_key",
         "bmip_dropbox_correct_offset",
         "bmip_dropbox_required_space",
         "bmip_gd_required_space",
         "bmip_",
-        "template",
-        "stylesheet",
         "z__bmi_xhria",
         "rewrite_rules",
         "bmi_backup_check",
@@ -2851,7 +2789,6 @@
       ],
       "table_prefixes": [
         "pb_backupbuddy_",
-        "backupbuddy_",
         "pb_"
       ]
     },
@@ -2871,8 +2808,6 @@
         "backupbuddy_pro_backup"
       ],
       "table_prefixes": [
-        "pb_backupbuddy_pro_",
-        "backupbuddy_pro_",
         "pb_"
       ]
     },
@@ -2924,7 +2859,6 @@
         "hmbkp_enable_support",
         "hmbkp_wp_cron_test_failed",
         "hmbkp_notices",
-        "active_plugins",
         "hmbkp_schedule_",
         "hmbkp_path",
         "hmbkp_plugin_version"
@@ -2976,9 +2910,7 @@
         "wp_clean_sweep_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "wp_clean_sweep_"
-      ]
+      "table_prefixes": []
     },
     "basic-user-avatars": {
       "name": "Basic User Avatars",
@@ -3031,7 +2963,6 @@
       ],
       "cron": [],
       "table_prefixes": [
-        "bbp_pro_",
         "bbp_"
       ]
     },
@@ -3177,8 +3108,7 @@
       "options": [
         "bsr_page_size",
         "bsr_data",
-        "bsr_update_site_url",
-        "siteurl"
+        "bsr_update_site_url"
       ],
       "transients": [
         "bsr_results"
@@ -3227,7 +3157,6 @@
         "itsec_pro_daily"
       ],
       "table_prefixes": [
-        "itsec_pro_",
         "itsec_"
       ]
     },
@@ -3244,7 +3173,6 @@
         "betterdocs_helpscout_total_pages",
         "betterdocs_helpscout_migrated_article_ids",
         "betterdocs_helpscout_current_page",
-        "page_on_front",
         "betterdocs_faq_order",
         "betterdocs_version",
         "betterdocs_db_version",
@@ -3283,9 +3211,7 @@
         "betterdocs_pro_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "betterdocs_pro_"
-      ]
+      "table_prefixes": []
     },
     "bing-webmaster-tools": {
       "name": "Bing Webmaster Tools",
@@ -3363,7 +3289,6 @@
         "blocksy_companion_activation_redirect",
         "blocksy_ext_demos_current_demo",
         "blocksy_ext_demos_currently_installing_demo",
-        "sidebars_widgets",
         "blocksy_active_extensions_old",
         "blocksy_ext_mailchimp_credentials",
         "blocksy_ext_product_reviews_settings",
@@ -3388,7 +3313,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -3533,11 +3457,8 @@
       "slug": "boldgrid-backup",
       "tables": [],
       "options": [
-        "home",
         "boldgrid_backup_latest_backup",
         "boldgrid_settings",
-        "siteurl",
-        "upload_url_path",
         "boldgrid_backup_settings"
       ],
       "transients": [
@@ -3570,8 +3491,6 @@
       "options": [
         "booking_form_style",
         "wpbc_bfb_legacy_import_done_for_pro",
-        "show_on_front",
-        "page_on_front",
         "booking_feedback_04",
         "booking_feedback_04_rating"
       ],
@@ -3898,9 +3817,7 @@
       "tables": [],
       "options": [
         "brizy-regenerate-permalinks",
-        "brizy_prefix",
-        "show_on_front",
-        "page_on_front"
+        "brizy_prefix"
       ],
       "transients": [
         "brizy_cloud_editor_versions",
@@ -3993,7 +3910,6 @@
       ],
       "cron": [],
       "table_prefixes": [
-        "bp_docs_",
         "bp_"
       ]
     },
@@ -4016,7 +3932,6 @@
         "bp_pro_daily"
       ],
       "table_prefixes": [
-        "bp_pro_",
         "bp_"
       ]
     },
@@ -4142,7 +4057,6 @@
         "burst_pro_cleanup"
       ],
       "table_prefixes": [
-        "burst_pro_",
         "burst_"
       ]
     },
@@ -4304,7 +4218,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -4393,7 +4306,6 @@
       "cron": [],
       "table_prefixes": [
         "caldera_forms_",
-        "cf_",
         "caldera_"
       ]
     },
@@ -4529,9 +4441,7 @@
       "name": "Cf7 Conditional Fields",
       "slug": "cf7-conditional-fields",
       "tables": [],
-      "options": [
-        "active_plugins"
-      ],
+      "options": [],
       "transients": [],
       "cron": []
     },
@@ -4543,7 +4453,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -4600,9 +4509,7 @@
       "name": "Change Admin Email Setting Without Outbound Email",
       "slug": "change-admin-email-setting-without-outbound-email",
       "tables": [],
-      "options": [
-        "admin_email"
-      ],
+      "options": [],
       "transients": [],
       "cron": []
     },
@@ -4650,7 +4557,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -4747,7 +4653,6 @@
         "charitable_activated",
         "charitable_version_upgraded_from",
         "wpcharitable_activated_datetime",
-        "active_plugins",
         "charitable_version_warning",
         "charitable_form_error_meta_",
         "charitable_builder_onboarding",
@@ -4936,9 +4841,7 @@
         "chaty_pro_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "chaty_pro_"
-      ]
+      "table_prefixes": []
     },
     "check-email": {
       "name": "Check Email",
@@ -5062,8 +4965,7 @@
         "apbct_sfw_update"
       ],
       "table_prefixes": [
-        "cleantalk_",
-        "apbct_"
+        "cleantalk_"
       ]
     },
     "clear-cache-for-widgets": {
@@ -5128,15 +5030,11 @@
       "tables": [],
       "options": [
         "theme_activation_mode",
-        "show_on_front",
-        "page_on_front",
         "accron_media_id",
-        "widget_text",
         "widget_categories",
         "widget_search",
         "widget_recent_entries",
         "widget_archive",
-        "sidebars_widgets",
         "avril_media_id",
         "widget_archives",
         "conceptly_media_id",
@@ -5212,7 +5110,6 @@
       "slug": "cloudflare-flexible-ssl",
       "tables": [],
       "options": [
-        "active_plugins",
         "active_sitewide_plugins"
       ],
       "transients": [],
@@ -5444,10 +5341,7 @@
         "coblocks_custom_colors_controls_enabled",
         "coblocks_color_panel_controls_enabled",
         "coblocks_gradient_presets_enabled",
-        "coblocks_animation_controls_enabled",
-        "show_on_front",
-        "page_on_front",
-        "page_for_posts"
+        "coblocks_animation_controls_enabled"
       ],
       "transients": [
         "coblocks_template_parts_query"
@@ -5467,9 +5361,7 @@
         "code_profiler_pro_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "code_profiler_pro_"
-      ]
+      "table_prefixes": []
     },
     "code-snippets": {
       "name": "Code Snippets",
@@ -5482,9 +5374,7 @@
       ],
       "transients": [],
       "cron": [],
-      "table_prefixes": [
-        "snippets_"
-      ]
+      "table_prefixes": []
     },
     "codepress-admin-columns": {
       "name": "Codepress Admin Columns",
@@ -5508,18 +5398,13 @@
         "colibri_contact_form_sections_spacing_add_fix",
         "colibri_page_builder_regenerate",
         "colibri_page_builder_demo_sites",
-        "page_on_front",
-        "page_for_posts",
         "colibriwp_predesign_front_page_index",
-        "active_plugins",
         "colibri_page_builder_pro_activation_time",
         "colibri_instance_data",
         "colibriwp_builder_license_key",
         "cp_initialize_notifications",
         "widget_",
-        "sidebars_widgets",
         "colibri_manual_create_pages",
-        "show_on_front",
         "colibriwp_fix_wp58_sidebar",
         "widget_block"
       ],
@@ -5598,9 +5483,6 @@
         "seedprod_free_templates_subscribed",
         "seedprod_login_page_slug",
         "seedprod_theme_enabled",
-        "show_on_front",
-        "page_on_front",
-        "page_for_posts",
         "seedprod_theme_id",
         "seedprod_onetime_flush_rewrite",
         "seedprod_csp4_imported",
@@ -5907,9 +5789,7 @@
         "connections_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "connections_"
-      ]
+      "table_prefixes": []
     },
     "contact-form-7": {
       "name": "Contact Form 7",
@@ -5930,7 +5810,6 @@
         "flamingo_cleanup_inbound_messages"
       ],
       "table_prefixes": [
-        "contact_form_",
         "flamingo_"
       ]
     },
@@ -5964,7 +5843,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -6139,7 +6017,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -6241,7 +6118,6 @@
         "cp_pro_cleanup"
       ],
       "table_prefixes": [
-        "cp_pro_",
         "cp_"
       ]
     },
@@ -6542,10 +6418,7 @@
       "cron": [
         "counterize_cleanup"
       ],
-      "table_prefixes": [
-        "counterize_",
-        "cou_"
-      ]
+      "table_prefixes": []
     },
     "country-phone-field-contact-form-7": {
       "name": "Country Phone Field Contact Form 7",
@@ -6720,9 +6593,7 @@
         "custom_fields_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "custom_fields_"
-      ]
+      "table_prefixes": []
     },
     "custom-fonts": {
       "name": "Custom Fonts",
@@ -6779,7 +6650,6 @@
       ],
       "cron": [],
       "table_prefixes": [
-        "cpt_ui_",
         "cptui_"
       ]
     },
@@ -6789,8 +6659,7 @@
       "tables": [],
       "options": [
         "cs_modifiable",
-        "cs_sidebars",
-        "sidebars_widgets"
+        "cs_sidebars"
       ],
       "transients": [],
       "cron": []
@@ -6986,11 +6855,7 @@
         "wpdatatables_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "wpdatatables_",
-        "wdt_",
-        "wpd_"
-      ]
+      "table_prefixes": []
     },
     "data-tables-pro": {
       "name": "Data Tables Pro",
@@ -7005,10 +6870,7 @@
         "wpdatatables_pro_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "wpdatatables_pro_",
-        "wpd_"
-      ]
+      "table_prefixes": []
     },
     "database-for-wpforms": {
       "name": "Database For Wpforms",
@@ -7044,9 +6906,7 @@
         "ddw_pwa_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "ddw_pwa_"
-      ]
+      "table_prefixes": []
     },
     "debloat": {
       "name": "Debloat",
@@ -7069,9 +6929,7 @@
         "default_featured_image_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "default_featured_image_"
-      ]
+      "table_prefixes": []
     },
     "defender-security": {
       "name": "Defender Security",
@@ -7147,9 +7005,7 @@
         "disable_admin_notices_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "disable_admin_notices_"
-      ]
+      "table_prefixes": []
     },
     "disable-auto-update-email-notifications": {
       "name": "Disable Auto Update Email Notifications",
@@ -7191,9 +7047,7 @@
         "disable_dashboard_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "disable_dashboard_"
-      ]
+      "table_prefixes": []
     },
     "disable-emails": {
       "name": "Disable Emails",
@@ -7371,9 +7225,7 @@
         "divi_form_builder_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "divi_form_builder_"
-      ]
+      "table_prefixes": []
     },
     "dokan-lite": {
       "name": "Dokan Lite",
@@ -7455,9 +7307,7 @@
         "dominant_color_images_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "dominant_color_images_"
-      ]
+      "table_prefixes": []
     },
     "download-manager": {
       "name": "Download Manager",
@@ -7548,7 +7398,6 @@
         "dpwap_dismiss_offer_notice",
         "dpwap_popup_status",
         "dpwap_downloads_url",
-        "active_plugins",
         "dpwap_plugins",
         "dpwap_pro_last_activation_time",
         "dpwap_pro_last_deactivation_time",
@@ -7686,7 +7535,6 @@
         "duplicator_pro_scan"
       ],
       "table_prefixes": [
-        "duplicator_pro_",
         "duplicator_"
       ]
     },
@@ -7760,9 +7608,7 @@
         "easy_code_manager_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "easy_code_manager_"
-      ]
+      "table_prefixes": []
     },
     "easy-facebook-likebox": {
       "name": "Easy Facebook Likebox",
@@ -7867,9 +7713,7 @@
         "easy_table_of_contents_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "easy_table_of_contents_"
-      ]
+      "table_prefixes": []
     },
     "easy-theme-and-plugin-upgrades": {
       "name": "Easy Theme And Plugin Upgrades",
@@ -7913,7 +7757,6 @@
       ],
       "cron": [],
       "table_prefixes": [
-        "ewpsmtp_",
         "wp_"
       ]
     },
@@ -7931,7 +7774,6 @@
       ],
       "cron": [],
       "table_prefixes": [
-        "ewpsmtp_pro_",
         "wp_"
       ]
     },
@@ -7993,9 +7835,7 @@
       "cron": [
         "elementor_tracker_send_event"
       ],
-      "table_prefixes": [
-        "elementor_"
-      ]
+      "table_prefixes": []
     },
     "elementor-beta": {
       "name": "Elementor Beta",
@@ -8059,9 +7899,7 @@
         "elementskit_lite_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "elementskit_lite_"
-      ]
+      "table_prefixes": []
     },
     "email-address-encoder": {
       "name": "Email Address Encoder",
@@ -8165,9 +8003,7 @@
         "embed_optimizer_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "embed_optimizer_"
-      ]
+      "table_prefixes": []
     },
     "embedpress": {
       "name": "Embedpress",
@@ -8246,9 +8082,7 @@
     "enable-media-replace": {
       "name": "Enable Media Replace",
       "slug": "enable-media-replace",
-      "tables": [
-        "yoast_indexable"
-      ],
+      "tables": [],
       "options": [
         "enable_media_replace"
       ],
@@ -8268,9 +8102,7 @@
       ],
       "transients": [],
       "cron": [],
-      "table_prefixes": [
-        "mel_"
-      ]
+      "table_prefixes": []
     },
     "enhanced-text-widget": {
       "name": "Enhanced Text Widget",
@@ -8359,9 +8191,7 @@
         "essential_addons_elementor_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "essential_addons_elementor_"
-      ]
+      "table_prefixes": []
     },
     "essential-addons-for-elementor-lite": {
       "name": "Essential Addons For Elementor Lite",
@@ -8705,9 +8535,7 @@
         "ewww_image_optimiser_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "ewww_image_optimiser_"
-      ]
+      "table_prefixes": []
     },
     "ewww-image-optimizer": {
       "name": "EWWW Image Optimizer",
@@ -8725,7 +8553,6 @@
         "ewww_image_optimizer_queue"
       ],
       "table_prefixes": [
-        "ewww_",
         "ewwwio_"
       ]
     },
@@ -8745,7 +8572,6 @@
         "ewww_pro_optimize"
       ],
       "table_prefixes": [
-        "ewww_pro_",
         "ewwwio_"
       ]
     },
@@ -8765,7 +8591,6 @@
         "exactmetrics_pro_cleanup"
       ],
       "table_prefixes": [
-        "exactmetrics_pro_",
         "exactmetrics_"
       ]
     },
@@ -8820,9 +8645,7 @@
         "export_import_images_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "export_import_images_"
-      ]
+      "table_prefixes": []
     },
     "export-media-library": {
       "name": "Export Media Library",
@@ -8853,9 +8676,7 @@
         "external_importer_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "external_importer_"
-      ]
+      "table_prefixes": []
     },
     "facebook-conversion-pixel": {
       "name": "Facebook Conversion Pixel",
@@ -8907,10 +8728,6 @@
         "woocommerce_cart_page_id",
         "woocommerce_checkout_page_id",
         "woocommerce_myaccount_page_id",
-        "page_on_front",
-        "show_on_front",
-        "page_for_posts",
-        "sidebars_widgets",
         "widget_"
       ],
       "transients": [
@@ -9251,8 +9068,6 @@
       ],
       "cron": [],
       "table_prefixes": [
-        "filebird_",
-        "nt_filebird_",
         "nt_"
       ]
     },
@@ -9270,7 +9085,6 @@
       ],
       "cron": [],
       "table_prefixes": [
-        "filebird_pro_",
         "nt_"
       ]
     },
@@ -9418,9 +9232,7 @@
       ],
       "transients": [],
       "cron": [],
-      "table_prefixes": [
-        "flavor_advanced_forms_"
-      ]
+      "table_prefixes": []
     },
     "flavor-affiliate-tracking": {
       "name": "Flavor Affiliate Tracking",
@@ -9435,9 +9247,7 @@
       "cron": [
         "flavor_at_report"
       ],
-      "table_prefixes": [
-        "flavor_affiliate_tracking_"
-      ]
+      "table_prefixes": []
     },
     "flavor-audit-log-pro": {
       "name": "Flavor Audit Log Pro",
@@ -9469,9 +9279,7 @@
       "cron": [
         "flavor_bis_check"
       ],
-      "table_prefixes": [
-        "flavor_back_stock_"
-      ]
+      "table_prefixes": []
     },
     "flavor-backup-manager": {
       "name": "Flavor Backup Manager",
@@ -9486,9 +9294,7 @@
       "cron": [
         "flavor_bm_backup"
       ],
-      "table_prefixes": [
-        "flavor_backup_manager_"
-      ]
+      "table_prefixes": []
     },
     "flavor-backup-scheduler": {
       "name": "Flavor Backup Scheduler",
@@ -9503,9 +9309,7 @@
       "cron": [
         "flavor_bs_backup"
       ],
-      "table_prefixes": [
-        "flavor_backup_scheduler_"
-      ]
+      "table_prefixes": []
     },
     "flavor-bbpress": {
       "name": "Flavor bbPress",
@@ -9603,9 +9407,7 @@
       "cron": [
         "flavor_ca_check"
       ],
-      "table_prefixes": [
-        "flavor_cart_abandon_"
-      ]
+      "table_prefixes": []
     },
     "flavor-certificate-builder": {
       "name": "Flavor Certificate Builder",
@@ -9618,9 +9420,7 @@
       ],
       "transients": [],
       "cron": [],
-      "table_prefixes": [
-        "flavor_certificate_builder_"
-      ]
+      "table_prefixes": []
     },
     "flavor-click-analytics": {
       "name": "Flavor Click Analytics",
@@ -9635,9 +9435,7 @@
       "cron": [
         "flavor_ca_cleanup"
       ],
-      "table_prefixes": [
-        "flavor_click_analytics_"
-      ]
+      "table_prefixes": []
     },
     "flavor-contact-forms": {
       "name": "Flavor Contact Forms",
@@ -9650,9 +9448,7 @@
       ],
       "transients": [],
       "cron": [],
-      "table_prefixes": [
-        "flavor_contact_forms_"
-      ]
+      "table_prefixes": []
     },
     "flavor-content-planner": {
       "name": "Flavor Content Planner",
@@ -9682,9 +9478,7 @@
       "cron": [
         "flavor_cic_check"
       ],
-      "table_prefixes": [
-        "flavor_core_integrity_"
-      ]
+      "table_prefixes": []
     },
     "flavor-core-integrity-pro": {
       "name": "Flavor Core Integrity Pro",
@@ -9716,9 +9510,7 @@
       "cron": [
         "flavor_ce_expiry"
       ],
-      "table_prefixes": [
-        "flavor_course_enrollment_"
-      ]
+      "table_prefixes": []
     },
     "flavor-course-manager": {
       "name": "Flavor Course Manager",
@@ -9731,9 +9523,7 @@
       ],
       "transients": [],
       "cron": [],
-      "table_prefixes": [
-        "flavor_course_manager_"
-      ]
+      "table_prefixes": []
     },
     "flavor-course-progress": {
       "name": "Flavor Course Progress",
@@ -9746,9 +9536,7 @@
       ],
       "transients": [],
       "cron": [],
-      "table_prefixes": [
-        "flavor_course_progress_"
-      ]
+      "table_prefixes": []
     },
     "flavor-course-reviews": {
       "name": "Flavor Course Reviews",
@@ -9761,9 +9549,7 @@
       ],
       "transients": [],
       "cron": [],
-      "table_prefixes": [
-        "flavor_course_reviews_"
-      ]
+      "table_prefixes": []
     },
     "flavor-database-backup": {
       "name": "Flavor Database Backup",
@@ -9793,9 +9579,7 @@
       ],
       "transients": [],
       "cron": [],
-      "table_prefixes": [
-        "flavor_discussion_board_"
-      ]
+      "table_prefixes": []
     },
     "flavor-donation-forms": {
       "name": "Flavor Donation Forms",
@@ -9808,9 +9592,7 @@
       ],
       "transients": [],
       "cron": [],
-      "table_prefixes": [
-        "flavor_donation_forms_"
-      ]
+      "table_prefixes": []
     },
     "flavor-editorial-calendar-pro": {
       "name": "Flavor Editorial Calendar Pro",
@@ -9840,9 +9622,7 @@
       "cron": [
         "flavor_ea_run"
       ],
-      "table_prefixes": [
-        "flavor_email_automation_"
-      ]
+      "table_prefixes": []
     },
     "flavor-email-bounce": {
       "name": "Flavor Email Bounce Handler",
@@ -9857,9 +9637,7 @@
       "cron": [
         "flavor_eb_process"
       ],
-      "table_prefixes": [
-        "flavor_email_bounce_"
-      ]
+      "table_prefixes": []
     },
     "flavor-email-campaigns": {
       "name": "Flavor Email Campaigns",
@@ -9874,9 +9652,7 @@
       "cron": [
         "flavor_ec_send"
       ],
-      "table_prefixes": [
-        "flavor_email_campaigns_"
-      ]
+      "table_prefixes": []
     },
     "flavor-email-logger": {
       "name": "Flavor Email Logger",
@@ -9891,9 +9667,7 @@
       "cron": [
         "flavor_el_cleanup"
       ],
-      "table_prefixes": [
-        "flavor_email_logger_"
-      ]
+      "table_prefixes": []
     },
     "flavor-email-queue": {
       "name": "Flavor Email Queue",
@@ -9908,9 +9682,7 @@
       "cron": [
         "flavor_eq_process"
       ],
-      "table_prefixes": [
-        "flavor_email_queue_"
-      ]
+      "table_prefixes": []
     },
     "flavor-faq-plugin": {
       "name": "Flavor FAQ Plugin",
@@ -9938,9 +9710,7 @@
       ],
       "transients": [],
       "cron": [],
-      "table_prefixes": [
-        "flavor_feedback_forms_"
-      ]
+      "table_prefixes": []
     },
     "flavor-file-change-detection": {
       "name": "Flavor File Change Detection",
@@ -9955,9 +9725,7 @@
       "cron": [
         "flavor_fcd_check"
       ],
-      "table_prefixes": [
-        "flavor_file_change_detection_"
-      ]
+      "table_prefixes": []
     },
     "flavor-file-integrity-pro": {
       "name": "Flavor File Integrity Pro",
@@ -9989,9 +9757,7 @@
         "flavor_fb_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "flavor_form_builder_"
-      ]
+      "table_prefixes": []
     },
     "flavor-form-manager": {
       "name": "Flavor Form Manager",
@@ -10006,9 +9772,7 @@
       "cron": [
         "flavor_fm_cleanup"
       ],
-      "table_prefixes": [
-        "flavor_form_manager_"
-      ]
+      "table_prefixes": []
     },
     "flavor-forum": {
       "name": "Flavor Forum",
@@ -10037,9 +9801,7 @@
       ],
       "transients": [],
       "cron": [],
-      "table_prefixes": [
-        "flavor_funnel_"
-      ]
+      "table_prefixes": []
     },
     "flavor-ip-blocker-pro": {
       "name": "Flavor IP Blocker Pro",
@@ -10067,9 +9829,7 @@
       ],
       "transients": [],
       "cron": [],
-      "table_prefixes": [
-        "flavor_learning_path_"
-      ]
+      "table_prefixes": []
     },
     "flavor-live-classes": {
       "name": "Flavor Live Classes",
@@ -10084,9 +9844,7 @@
       "cron": [
         "flavor_lc_reminder"
       ],
-      "table_prefixes": [
-        "flavor_live_classes_"
-      ]
+      "table_prefixes": []
     },
     "flavor-login-attempts-pro": {
       "name": "Flavor Login Attempts Pro",
@@ -10118,9 +9876,7 @@
       "cron": [
         "flavor_ll_cleanup"
       ],
-      "table_prefixes": [
-        "flavor_login_lockdown_"
-      ]
+      "table_prefixes": []
     },
     "flavor-login-logger": {
       "name": "Flavor Login Logger",
@@ -10135,9 +9891,7 @@
       "cron": [
         "flavor_login_cleanup"
       ],
-      "table_prefixes": [
-        "flavor_login_logger_"
-      ]
+      "table_prefixes": []
     },
     "flavor-membership-invoices": {
       "name": "Flavor Membership Invoices",
@@ -10150,9 +9904,7 @@
       ],
       "transients": [],
       "cron": [],
-      "table_prefixes": [
-        "flavor_membership_inv_"
-      ]
+      "table_prefixes": []
     },
     "flavor-membership-levels": {
       "name": "Flavor Membership Levels",
@@ -10165,9 +9917,7 @@
       ],
       "transients": [],
       "cron": [],
-      "table_prefixes": [
-        "flavor_membership_levels_"
-      ]
+      "table_prefixes": []
     },
     "flavor-pageviews-counter": {
       "name": "Flavor Pageviews Counter",
@@ -10182,9 +9932,7 @@
       "cron": [
         "flavor_pv_cleanup"
       ],
-      "table_prefixes": [
-        "flavor_pageviews_"
-      ]
+      "table_prefixes": []
     },
     "flavor-peepso": {
       "name": "Flavor PeepSo",
@@ -10216,9 +9964,7 @@
         "flavor_popup_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "flavor_popup_builder_"
-      ]
+      "table_prefixes": []
     },
     "flavor-price-drop-alerts": {
       "name": "Flavor Price Drop Alerts",
@@ -10233,9 +9979,7 @@
       "cron": [
         "flavor_pd_check"
       ],
-      "table_prefixes": [
-        "flavor_price_drop_"
-      ]
+      "table_prefixes": []
     },
     "flavor-product-experiments": {
       "name": "Flavor Product Experiments",
@@ -10281,9 +10025,7 @@
       ],
       "transients": [],
       "cron": [],
-      "table_prefixes": [
-        "flavor_quiz_builder_"
-      ]
+      "table_prefixes": []
     },
     "flavor-quiz-system": {
       "name": "Flavor Quiz System",
@@ -10297,9 +10039,7 @@
       ],
       "transients": [],
       "cron": [],
-      "table_prefixes": [
-        "flavor_quiz_system_"
-      ]
+      "table_prefixes": []
     },
     "flavor-redirect-manager": {
       "name": "Flavor Redirect Manager",
@@ -10312,9 +10052,7 @@
       ],
       "transients": [],
       "cron": [],
-      "table_prefixes": [
-        "flavor_redirect_manager_"
-      ]
+      "table_prefixes": []
     },
     "flavor-redirection-manager": {
       "name": "Flavor Redirection Manager",
@@ -10344,9 +10082,7 @@
       "cron": [
         "flavor_sa_run"
       ],
-      "table_prefixes": [
-        "flavor_security_audit_"
-      ]
+      "table_prefixes": []
     },
     "flavor-security-audit-pro": {
       "name": "Flavor Security Audit Pro",
@@ -10378,9 +10114,7 @@
       "cron": [
         "flavor_secmon_check"
       ],
-      "table_prefixes": [
-        "flavor_security_monitor_"
-      ]
+      "table_prefixes": []
     },
     "flavor-security-monitor-pro": {
       "name": "Flavor Security Monitor Pro",
@@ -10412,9 +10146,7 @@
       "cron": [
         "flavor_smtp_cleanup"
       ],
-      "table_prefixes": [
-        "flavor_smtp_email_log_"
-      ]
+      "table_prefixes": []
     },
     "flavor-support-tickets": {
       "name": "Flavor Support Ticket System",
@@ -10427,9 +10159,7 @@
       ],
       "transients": [],
       "cron": [],
-      "table_prefixes": [
-        "flavor_support_tickets_"
-      ]
+      "table_prefixes": []
     },
     "flavor-survey-builder": {
       "name": "Flavor Survey Builder",
@@ -10442,9 +10172,7 @@
       ],
       "transients": [],
       "cron": [],
-      "table_prefixes": [
-        "flavor_survey_builder_"
-      ]
+      "table_prefixes": []
     },
     "flavor-survey-forms": {
       "name": "Flavor Survey Forms",
@@ -10457,9 +10185,7 @@
       ],
       "transients": [],
       "cron": [],
-      "table_prefixes": [
-        "flavor_survey_forms_"
-      ]
+      "table_prefixes": []
     },
     "flavor-url-monitor": {
       "name": "Flavor URL Monitor",
@@ -10474,9 +10200,7 @@
       "cron": [
         "flavor_um_check"
       ],
-      "table_prefixes": [
-        "flavor_url_monitor_"
-      ]
+      "table_prefixes": []
     },
     "flavor-user-login-log": {
       "name": "Flavor User Login Log",
@@ -10523,9 +10247,7 @@
       "cron": [
         "flavor_vc_cleanup"
       ],
-      "table_prefixes": [
-        "flavor_visitors_"
-      ]
+      "table_prefixes": []
     },
     "flavor-wc-gift-cards": {
       "name": "Flavor WooCommerce Gift Cards",
@@ -10651,9 +10373,7 @@
       "cron": [
         "flavor_wcv_report"
       ],
-      "table_prefixes": [
-        "flavor_wcv_"
-      ]
+      "table_prefixes": []
     },
     "flavor-wc-wishlist-pro": {
       "name": "Flavor WooCommerce Wishlist Pro",
@@ -10683,9 +10403,7 @@
         "flavor/flavor_image_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "flavor/flavor_image_"
-      ]
+      "table_prefixes": []
     },
     "flexible-checkout-fields": {
       "name": "Flexible Checkout Fields",
@@ -10717,9 +10435,7 @@
         "flexible_shipping_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "flexible_shipping_"
-      ]
+      "table_prefixes": []
     },
     "flexible-table-block": {
       "name": "Flexible Table Block",
@@ -10847,9 +10563,7 @@
         "fluent_crm_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "fluent_crm_"
-      ]
+      "table_prefixes": []
     },
     "fluent-forms": {
       "name": "Fluent Forms",
@@ -10866,9 +10580,7 @@
         "fluent_forms_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "fluent_forms_"
-      ]
+      "table_prefixes": []
     },
     "fluent-mail": {
       "name": "Fluent Mail",
@@ -10884,9 +10596,7 @@
         "fluent_mail_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "fluent_mail_"
-      ]
+      "table_prefixes": []
     },
     "fluent-smtp": {
       "name": "FluentSMTP",
@@ -10919,7 +10629,6 @@
       ],
       "cron": [],
       "table_prefixes": [
-        "fluent_smtp_pro_",
         "fluent_"
       ]
     },
@@ -10967,7 +10676,6 @@
         "fluentcrm_pro_process"
       ],
       "table_prefixes": [
-        "fluentcrm_pro_",
         "fluentcrm_"
       ]
     },
@@ -11033,9 +10741,7 @@
         "fluentformpro_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "fluentformpro_"
-      ]
+      "table_prefixes": []
     },
     "fluentsupport": {
       "name": "Fluent Support",
@@ -11126,7 +10832,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -11155,8 +10860,7 @@
       ],
       "cron": [],
       "table_prefixes": [
-        "foogallery_",
-        "foo_"
+        "foogallery_"
       ]
     },
     "force-regenerate-thumbnails": {
@@ -11172,9 +10876,7 @@
         "force_regenerate_thumbnails_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "force_regenerate_thumbnails_"
-      ]
+      "table_prefixes": []
     },
     "forget-about-shortcode-buttons": {
       "name": "Forget About Shortcode Buttons",
@@ -11252,9 +10954,7 @@
         "form_views_daily_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "form_views_daily_"
-      ]
+      "table_prefixes": []
     },
     "formcraft": {
       "name": "FormCraft",
@@ -11376,9 +11076,7 @@
     "freesoul-deactivate-plugins": {
       "name": "Freesoul Deactivate Plugins",
       "slug": "freesoul-deactivate-plugins",
-      "tables": [
-        "woocommerce_sessions"
-      ],
+      "tables": [],
       "options": [
         "eos_dp_by_url",
         "eos_post_types_plugins",
@@ -11390,7 +11088,6 @@
         "eos_dp_admin_theme",
         "eos_dp_integration_actions",
         "eos_dp_integretion_actions_theme",
-        "active_plugins",
         "eos_dp_pro_main",
         "fdp_code_profiler",
         "eos_dp_opts",
@@ -11659,8 +11356,7 @@
         "geodir_cron"
       ],
       "table_prefixes": [
-        "geodir_",
-        "geodirectory_"
+        "geodir_"
       ]
     },
     "geodirectory": {
@@ -11672,7 +11368,6 @@
       ],
       "options": [
         "post_types",
-        "sidebars_widgets",
         "widget_",
         "geodirectory_version",
         "geodirectory_db_version",
@@ -11713,7 +11408,6 @@
         "map_default_marker_icon",
         "taxonomies",
         "clear_list_view_storage",
-        "permalink_structure",
         "geodir_post_types",
         "default_location_country",
         "default_location_timezone_string",
@@ -11748,9 +11442,7 @@
         "geolocation_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "geolocation_"
-      ]
+      "table_prefixes": []
     },
     "geotargetingwp": {
       "name": "Geotargetingwp",
@@ -12446,9 +12138,7 @@
         "happy_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "happy_"
-      ]
+      "table_prefixes": []
     },
     "happy-elementor-addons": {
       "name": "Happy Addons for Elementor",
@@ -12463,9 +12153,7 @@
         "happy_elementor_addons_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "happy_elementor_addons_"
-      ]
+      "table_prefixes": []
     },
     "hbook": {
       "name": "HBook",
@@ -12493,7 +12181,6 @@
       ],
       "options": [
         "jetpack_active_modules",
-        "permalink_structure",
         "hcaptcha_settings",
         "force",
         "honeypot",
@@ -12560,9 +12247,7 @@
         "header_footer_elementor_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "header_footer_elementor_"
-      ]
+      "table_prefixes": []
     },
     "headers-security-advanced-hsts-wp": {
       "name": "Headers Security Advanced Hsts Wp",
@@ -12594,7 +12279,6 @@
         "health-check-default-theme",
         "health-check-allowed-plugins",
         "health-check-beta-features",
-        "active_plugins",
         "health-check-dashboard-notices",
         "health-check-current-theme"
       ],
@@ -12616,17 +12300,13 @@
         "heartbeat_control_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "heartbeat_control_"
-      ]
+      "table_prefixes": []
     },
     "hello-plus": {
       "name": "Hello Plus",
       "slug": "hello-plus",
       "tables": [],
       "options": [
-        "page_on_front",
-        "show_on_front",
         "elementor_onboarded"
       ],
       "transients": [
@@ -12647,9 +12327,7 @@
         "hero_notification_bars_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "hero_notification_bars_"
-      ]
+      "table_prefixes": []
     },
     "hide-admin-bar": {
       "name": "Hide Admin Bar",
@@ -12673,7 +12351,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -13102,7 +12779,6 @@
         "hustle_pro_cleanup"
       ],
       "table_prefixes": [
-        "hustle_pro_",
         "hustle_"
       ]
     },
@@ -13195,9 +12871,7 @@
         "image_prioritizer_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "image_prioritizer_"
-      ]
+      "table_prefixes": []
     },
     "image-sizes": {
       "name": "Image Sizes",
@@ -13315,7 +12989,6 @@
         "imagify_pro_cleanup"
       ],
       "table_prefixes": [
-        "imagify_pro_",
         "imagify_"
       ]
     },
@@ -13355,7 +13028,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -13468,9 +13140,7 @@
         "iawp_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "iawp_"
-      ]
+      "table_prefixes": []
     },
     "index-wp-mysql-for-speed": {
       "name": "Index WP MySQL For Speed",
@@ -13519,9 +13189,7 @@
         "infinitewp_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "infinitewp_"
-      ]
+      "table_prefixes": []
     },
     "insert-headers-and-footers": {
       "name": "WPCode",
@@ -13534,9 +13202,7 @@
       ],
       "transients": [],
       "cron": [],
-      "table_prefixes": [
-        "wp_code_"
-      ]
+      "table_prefixes": []
     },
     "insert-html-snippet": {
       "name": "Insert Html Snippet",
@@ -13738,7 +13404,6 @@
       "name": "Instawp Connect",
       "slug": "instawp-connect",
       "tables": [
-        "rank_math_redirections_cache",
         "user_roles",
         "instawp_events",
         "instawp_sync_history",
@@ -13764,7 +13429,6 @@
         "instawp_rm_heartbeat",
         "instawp_heartbeat_failed",
         "instawp_last_heartbeat_data",
-        "blog_public",
         "instawp_changed_option_blog_public",
         "instawp_connect_version",
         "instawp_large_files_list",
@@ -13774,7 +13438,6 @@
         "instawp_sync_parent_connect_data",
         "instawp_event_batch_data",
         "iwp_failed_direct_process_media_events",
-        "nav_menu_options",
         "iwp_sync_processed_media_ids",
         "instawp_api_options",
         "instawp_connect_plan_id",
@@ -13971,8 +13634,7 @@
         "database",
         "download_ipv4_only",
         "px_database",
-        "ip2location_country_blocker_",
-        "active_plugins"
+        "ip2location_country_blocker_"
       ],
       "transients": [],
       "cron": [
@@ -13987,7 +13649,6 @@
         "iqblock_debug_logging"
       ],
       "options": [
-        "active_plugins",
         "blockcountry_version",
         "blockcountry_geoapikey",
         "blockcountry_backendnrblocks",
@@ -14058,9 +13719,7 @@
         "ithemes_security_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "ithemes_security_"
-      ]
+      "table_prefixes": []
     },
     "ithemes-sync": {
       "name": "Ithemes Sync",
@@ -14142,7 +13801,6 @@
         "iwp_backup_table_version",
         "iwp_backup_processed_iterator_version",
         "iwp_client_replaced_old_hash_backup_files",
-        "active_plugins",
         "iwp_client_forcerefresh",
         "spamshield_ubl_cache",
         "iwp_client_user_hit_count",
@@ -14186,9 +13844,7 @@
         "jeg_elementor_kit_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "jeg_elementor_kit_"
-      ]
+      "table_prefixes": []
     },
     "jet-appointments-booking": {
       "name": "JetAppointments Booking",
@@ -14241,9 +13897,7 @@
         "jet_plugins_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "jet_plugins_"
-      ]
+      "table_prefixes": []
     },
     "jetbackup": {
       "name": "JetBackup",
@@ -14537,12 +14191,9 @@
         "enable_widgets_reminder",
         "elements",
         "widget_",
-        "sidebars_widgets",
         "jupiterx_image_sizes_deleted",
         "svg_support",
         "elementor_unfiltered_files_upload",
-        "page_on_front",
-        "show_on_front",
         "woocommerce_shop_page_id",
         "woocommerce_cart_page_id",
         "woocommerce_checkout_page_id",
@@ -14611,9 +14262,7 @@
         "jw_player_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "jw_player_"
-      ]
+      "table_prefixes": []
     },
     "jwt-authentication-for-wp-rest-api": {
       "name": "Jwt Authentication For Wp Rest Api",
@@ -14638,9 +14287,6 @@
         "kadence_starter_templates_config",
         "kadence_blocks_prophecy",
         "toggle_blocks_editor",
-        "show_on_front",
-        "page_on_front",
-        "page_for_posts",
         "kadence_global_palette",
         "rcp_settings",
         "woocommerce_db_version",
@@ -14651,13 +14297,10 @@
         "kadence_starter_templates_subscribe",
         "elementor_disable_color_schemes",
         "elementor_disable_typography_schemes",
-        "permalink_structure",
         "kadence_starter_templates_dismiss_upsell",
         "kb_design_library_prompts",
         "woocommerce_shop_page_id",
         "widget_",
-        "sidebars_widgets",
-        "blogname",
         "users_can_register",
         "timezone_string",
         "kadence_site_assist_tasks"
@@ -14710,7 +14353,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -14788,9 +14430,7 @@
         "kldoors_asset_optimizer_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "kldoors_asset_optimizer_"
-      ]
+      "table_prefixes": []
     },
     "kliken-ads-pixel-for-meta": {
       "name": "Kliken Ads Pixel For Meta",
@@ -14845,14 +14485,9 @@
         "theme_switched",
         "iconvertEmailMarketerThirdPartyInited",
         "kubio_is_fresh_site",
-        "show_on_front",
         "gutenberg-experiments",
-        "page_for_posts",
-        "page_on_front",
-        "sidebars_widgets",
         "widget_",
         "site_icon",
-        "nav_menu_options",
         "bulk_validate",
         "theme_mods_$theme",
         "rewrite_rules"
@@ -14943,10 +14578,7 @@
         "layerslider_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "layerslider_",
-        "ls_"
-      ]
+      "table_prefixes": []
     },
     "layerslider": {
       "name": "LayerSlider",
@@ -14964,7 +14596,6 @@
       ],
       "cron": [],
       "table_prefixes": [
-        "layerslider_",
         "ls_"
       ]
     },
@@ -15429,9 +15060,7 @@
         "lwp_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "lwp_"
-      ]
+      "table_prefixes": []
     },
     "list-category-posts": {
       "name": "List Category Posts",
@@ -15464,9 +15093,7 @@
         "litespeed_purge",
         "litespeed_crawler"
       ],
-      "table_prefixes": [
-        "litespeed_"
-      ]
+      "table_prefixes": []
     },
     "live-sales-notifications-for-woocommerce": {
       "name": "Live Sales Notifications For Woocommerce",
@@ -15557,7 +15184,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -15587,7 +15213,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -15720,7 +15345,6 @@
         "loginpress_customization",
         "loginpress_setting",
         "rdn_fetch_",
-        "siteurl",
         "wpb_sdk_",
         "wpb_sdk_lifecycle_basenames",
         "uninstall_plugins",
@@ -15831,7 +15455,6 @@
       "tables": [
         "mailchimp_jobs",
         "queue",
-        "woocommerce_api_keys",
         "_mailchimp_jobs"
       ],
       "options": [
@@ -15902,9 +15525,7 @@
         "mailchimp_for_wp_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "mailchimp_for_wp_"
-      ]
+      "table_prefixes": []
     },
     "mailchimp-woocommerce": {
       "name": "Mailchimp for WooCommerce",
@@ -16101,7 +15722,6 @@
         "mailoptin_pro_cleanup"
       ],
       "table_prefixes": [
-        "mailoptin_pro_",
         "mailoptin_"
       ]
     },
@@ -16128,8 +15748,7 @@
         "mailpoet_send_queue"
       ],
       "table_prefixes": [
-        "mailpoet_",
-        "wysija_"
+        "mailpoet_"
       ]
     },
     "mailpoet-pro": {
@@ -16150,7 +15769,6 @@
         "mailpoet_pro_send"
       ],
       "table_prefixes": [
-        "mailpoet_pro_",
         "mailpoet_"
       ]
     },
@@ -16195,7 +15813,6 @@
         "mailster_pro_cron"
       ],
       "table_prefixes": [
-        "mailster_pro_",
         "mailster_"
       ]
     },
@@ -16640,9 +16257,7 @@
         "mass_ping_tool_for_seo_pro_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "mass_ping_tool_for_seo_pro_"
-      ]
+      "table_prefixes": []
     },
     "master-addons": {
       "name": "Master Addons",
@@ -16659,10 +16274,7 @@
         "jltma_popup_settings",
         "jltma-import-kit-id",
         "elementor_active_kit",
-        "show_on_front",
-        "page_on_front",
         "jltma_404_page_id",
-        "page_for_posts",
         "elementor_scheme_color",
         "elementor_scheme_typography",
         "elementor_experiment-e_local_google_fonts",
@@ -16687,7 +16299,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -16725,7 +16336,6 @@
       ],
       "cron": [],
       "table_prefixes": [
-        "master-slider_",
         "ms_"
       ]
     },
@@ -16943,7 +16553,6 @@
         "mepr_pro_cleanup"
       ],
       "table_prefixes": [
-        "mepr_pro_",
         "mepr_"
       ]
     },
@@ -16989,9 +16598,7 @@
         "membership_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "membership_"
-      ]
+      "table_prefixes": []
     },
     "menu-icons": {
       "name": "Menu Icons",
@@ -17011,7 +16618,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -17037,10 +16643,6 @@
       "tables": [],
       "options": [
         "mesmerize_companion_filtered_defaults",
-        "show_on_front",
-        "page_on_front",
-        "page_for_posts",
-        "sidebars_widgets",
         "widget_$name",
         "cp_initialize_notifications",
         "widget_block",
@@ -17068,9 +16670,7 @@
         "meta_box_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "meta_box_"
-      ]
+      "table_prefixes": []
     },
     "meta-box-aio": {
       "name": "Meta Box Aio",
@@ -17085,9 +16685,7 @@
         "meta_box_aio_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "meta_box_aio_"
-      ]
+      "table_prefixes": []
     },
     "meta-tag-manager": {
       "name": "Meta Tag Manager",
@@ -17221,7 +16819,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -17316,9 +16913,7 @@
         "modula_albums_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "modula_albums_"
-      ]
+      "table_prefixes": []
     },
     "modula-best-grid-gallery": {
       "name": "Modula Image Gallery &#8211; Photo Grid &amp; Video Gallery",
@@ -17334,9 +16929,7 @@
         "modula_best_grid_gallery_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "modula_best_grid_gallery_"
-      ]
+      "table_prefixes": []
     },
     "modular-connector": {
       "name": "Modular Connector",
@@ -17411,7 +17004,6 @@
         "monsterinsights_pro_cleanup"
       ],
       "table_prefixes": [
-        "monsterinsights_pro_",
         "monsterinsights_"
       ]
     },
@@ -17527,7 +17119,6 @@
       ],
       "cron": [],
       "table_prefixes": [
-        "multilingualpress_pro_",
         "multilingualpress_"
       ]
     },
@@ -17549,7 +17140,6 @@
         "location_cpt_base",
         "hosts_cpt_base",
         "mc_import_tribe_completed",
-        "default_category",
         "skip_holidays_category",
         "hide_icons",
         "apply_color",
@@ -17740,8 +17330,7 @@
         "newsletter_cleanup"
       ],
       "table_prefixes": [
-        "newsletter_",
-        "new_"
+        "newsletter_"
       ]
     },
     "newsletter-pro": {
@@ -17762,8 +17351,6 @@
         "newsletter_pro_send"
       ],
       "table_prefixes": [
-        "newsletter_pro_",
-        "new_",
         "newsletter_"
       ]
     },
@@ -17851,7 +17438,6 @@
         "ninja_forms_cleanup_submissions"
       ],
       "table_prefixes": [
-        "ninja_forms_",
         "nf_"
       ]
     },
@@ -18104,8 +17690,7 @@
       "slug": "omnisend-connect",
       "tables": [
         "omnisend_logs",
-        "omnisend_contact_cache",
-        "woocommerce_api_keys"
+        "omnisend_contact_cache"
       ],
       "options": [
         "omnisend_connect_token",
@@ -18135,8 +17720,7 @@
         "wpforms_activation_redirect",
         "aioseo_activation_redirect",
         "wp_mail_smtp_activation_prevent_redirect",
-        "widget_",
-        "sidebars_widgets"
+        "widget_"
       ],
       "transients": [
         "ocdi_importer_data",
@@ -18177,8 +17761,7 @@
         "wpua_hash_gravatar",
         "wp_user_avatar_default_avatar_updated",
         "wp_user_avatar_users_updated",
-        "wp_user_avatar_media_updated",
-        "cron"
+        "wp_user_avatar_media_updated"
       ],
       "transients": [],
       "cron": []
@@ -18247,9 +17830,7 @@
         "optimization_detective_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "optimization_detective_"
-      ]
+      "table_prefixes": []
     },
     "optimize-database": {
       "name": "Optimize Database",
@@ -18264,9 +17845,7 @@
         "optimize_database_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "optimize_database_"
-      ]
+      "table_prefixes": []
     },
     "optimole": {
       "name": "Optimole",
@@ -18336,8 +17915,7 @@
         "optinmonster_sync"
       ],
       "table_prefixes": [
-        "optinmonster_",
-        "omapi_"
+        "optinmonster_"
       ]
     },
     "option-tree": {
@@ -18469,9 +18047,7 @@
         "page_generator_pro_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "page_generator_pro_"
-      ]
+      "table_prefixes": []
     },
     "page-list": {
       "name": "Page List",
@@ -18568,7 +18144,6 @@
         "pmpro_pro_cron"
       ],
       "table_prefixes": [
-        "pmpro_pro_",
         "pmpro_"
       ]
     },
@@ -18623,7 +18198,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -18726,9 +18300,7 @@
         "paypal_for_woocommerce_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "paypal_for_woocommerce_"
-      ]
+      "table_prefixes": []
     },
     "pc-robotstxt": {
       "name": "Pc Robotstxt",
@@ -18772,7 +18344,6 @@
         "active_modules",
         "old_wc_pwb_admin_tab_slug",
         "wc_pwb_admin_tab_brand_single_position",
-        "active_plugins",
         "pwb_activate_on"
       ],
       "transients": [
@@ -18795,9 +18366,7 @@
         "performance_lab_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "performance_lab_"
-      ]
+      "table_prefixes": []
     },
     "performant-translations": {
       "name": "Performant Translations",
@@ -18825,9 +18394,7 @@
     "persian-woocommerce": {
       "name": "Persian Woocommerce",
       "slug": "persian-woocommerce",
-      "tables": [
-        "woocommerce_ir"
-      ],
+      "tables": [],
       "options": [
         "pw_notices",
         "pw_dismiss_notice_",
@@ -18845,10 +18412,7 @@
     "persian-woocommerce-sms": {
       "name": "Persian Woocommerce Sms",
       "slug": "persian-woocommerce-sms",
-      "tables": [
-        "woocommerce_ir_sms_contacts",
-        "woocommerce_ir_sms_archive"
-      ],
+      "tables": [],
       "options": [
         "pwoosms_redirect_about_page",
         "pwoosms_hide_about_page",
@@ -18872,7 +18436,6 @@
       "name": "Peters Login Redirect",
       "slug": "peters-login-redirect",
       "tables": [
-        "table",
         "user_roles"
       ],
       "options": [
@@ -18972,9 +18535,7 @@
         "pimp_my_site_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "pimp_my_site_"
-      ]
+      "table_prefixes": []
     },
     "piotnet-addons-for-elementor": {
       "name": "Piotnet Addons For Elementor",
@@ -19015,9 +18576,7 @@
         "pod_framework_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "pod_framework_"
-      ]
+      "table_prefixes": []
     },
     "pods": {
       "name": "Pods",
@@ -19088,9 +18647,7 @@
       "cron": [
         "polylang_cleanup"
       ],
-      "table_prefixes": [
-        "polylang_"
-      ]
+      "table_prefixes": []
     },
     "poptin": {
       "name": "Poptin",
@@ -19243,7 +18800,6 @@
         "pum_pro_cleanup"
       ],
       "table_prefixes": [
-        "pum_pro_",
         "pum_"
       ]
     },
@@ -19362,9 +18918,7 @@
         "post_entries_table_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "post_entries_table_"
-      ]
+      "table_prefixes": []
     },
     "post-grid": {
       "name": "Post Grid",
@@ -19393,7 +18947,6 @@
       ],
       "cron": [],
       "table_prefixes": [
-        "post_smtp_",
         "postsmtp_"
       ]
     },
@@ -19411,7 +18964,6 @@
       ],
       "cron": [],
       "table_prefixes": [
-        "post_smtp_pro_",
         "postsmtp_"
       ]
     },
@@ -19423,7 +18975,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -19479,7 +19030,6 @@
         "pvc_update_views"
       ],
       "table_prefixes": [
-        "pvc_",
         "post_"
       ]
     },
@@ -19510,9 +19060,7 @@
         "power_addons_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "power_addons_"
-      ]
+      "table_prefixes": []
     },
     "power-addons-for-elementor": {
       "name": "Power Addons For Elementor",
@@ -19527,9 +19075,7 @@
         "power_addons_for_elementor_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "power_addons_for_elementor_"
-      ]
+      "table_prefixes": []
     },
     "power-coupons": {
       "name": "Power Coupons",
@@ -19642,9 +19188,7 @@
         "premium_addons_elementor_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "premium_addons_elementor_"
-      ]
+      "table_prefixes": []
     },
     "premium-addons-for-elementor": {
       "name": "Premium Addons For Elementor",
@@ -19870,7 +19414,6 @@
       ],
       "cron": [],
       "table_prefixes": [
-        "wppb_",
         "pb_"
       ]
     },
@@ -19889,7 +19432,6 @@
       ],
       "cron": [],
       "table_prefixes": [
-        "wppb_pro_",
         "pb_"
       ]
     },
@@ -20050,9 +19592,7 @@
       "name": "Query Monitor",
       "slug": "query-monitor",
       "tables": [],
-      "options": [
-        "active_plugins"
-      ],
+      "options": [],
       "transients": [],
       "cron": []
     },
@@ -20226,11 +19766,7 @@
     "rank-math-pro": {
       "name": "Rank Math Pro Full",
       "slug": "rank-math-pro",
-      "tables": [
-        "rank_math_meta",
-        "rank_math_redirections",
-        "rank_math_analytics"
-      ],
+      "tables": [],
       "options": [
         "rank_math_pro_"
       ],
@@ -20294,9 +19830,7 @@
         "real_media_library_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "real_media_library_"
-      ]
+      "table_prefixes": []
     },
     "real-media-library-lite": {
       "name": "Real Media Library Lite",
@@ -20312,7 +19846,6 @@
       ],
       "cron": [],
       "table_prefixes": [
-        "rml_",
         "real_"
       ]
     },
@@ -20330,7 +19863,6 @@
       ],
       "cron": [],
       "table_prefixes": [
-        "rml_pro_",
         "real_"
       ]
     },
@@ -20373,14 +19905,11 @@
       "options": [
         "rsssl_upgrade_firewall",
         "ssl_enabled",
-        "active_plugins",
         "redirect",
         "mixed_content_fixer",
         "rsssl_activation_timestamp",
         "rsssl_flush_rewrite_rules",
         "rsssl_flush_caches",
-        "siteurl",
-        "home",
         "https_migration_required",
         "site_has_ssl",
         "review_notice_shown",
@@ -20605,7 +20134,6 @@
       "slug": "redux-framework",
       "tables": [],
       "options": [
-        "active_plugins",
         "ReduxFrameworkPlugin_ACTIVATED_NOTICES",
         "ReduxFrameworkPlugin",
         "redux_",
@@ -20630,9 +20158,7 @@
         "regenerate_thumbnails_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "regenerate_thumbnails_"
-      ]
+      "table_prefixes": []
     },
     "registrationmagic": {
       "name": "RegistrationMagic",
@@ -20770,9 +20296,7 @@
         "responsive_form_builder_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "responsive_form_builder_"
-      ]
+      "table_prefixes": []
     },
     "responsive-lightbox": {
       "name": "Responsive Lightbox",
@@ -20873,7 +20397,6 @@
         "sbr_license_data",
         "sbr_license_status",
         "sbr_one_click_upgrade",
-        "home",
         "sbr_db_version",
         "sbr_usage_tracking_config"
       ],
@@ -21017,8 +20540,6 @@
         "royalbr_keep_royalbr_active",
         "royalbr_clear_uploads",
         "royalbr-reset",
-        "siteurl",
-        "home",
         "royalbr_backup_display_names",
         "royalbr_migration_upload_nonces",
         "royalbr_clear_media",
@@ -21052,14 +20573,11 @@
         "royalbr_s3_path",
         "royalbr_dropbox_auth_code",
         "royalbr_dropbox_site_token",
-        "template",
-        "stylesheet",
         "royalbr_auto_login_token",
         "royalbr_tour_cancelled_on",
         "royalbr_tour_status",
         "royalbr_free_version_deactivated",
         "royalbr_oneshotnonce",
-        "active_plugins",
         "royalbr_taskdata_"
       ],
       "transients": [
@@ -21074,7 +20592,6 @@
       "slug": "royal-elementor-addons",
       "tables": [],
       "options": [
-        "page_on_front",
         "wpr_has_used_royal_widgets",
         "wpr_header_conditions",
         "wpr_footer_conditions",
@@ -21156,12 +20673,8 @@
         "wpr_meta_secondary_image_",
         "wpr_cpt_ppp_",
         "wpr_meta_featured_video_product",
-        "active_plugins",
         "wpr-import-kit-id",
         "elementor_experiment-e_local_google_fonts",
-        "show_on_front",
-        "page_for_posts",
-        "permalink_structure",
         "woocommerce_shop_page_id",
         "woocommerce_cart_page_id",
         "woocommerce_checkout_page_id",
@@ -21258,7 +20771,6 @@
         "s2member_prune_notes"
       ],
       "table_prefixes": [
-        "s2member_",
         "ws_plugin__s2member_",
         "ws_"
       ]
@@ -21280,7 +20792,6 @@
         "s2member_pro_prune"
       ],
       "table_prefixes": [
-        "s2member_pro_",
         "ws_"
       ]
     },
@@ -21421,7 +20932,6 @@
         "saswp_schema_validate"
       ],
       "table_prefixes": [
-        "saswp_",
         "sd_"
       ]
     },
@@ -21540,11 +21050,8 @@
         "secupress_antiphishingcode"
       ],
       "options": [
-        "active_plugins",
         "secupress_step1_report",
-        "default_role",
-        "home",
-        "siteurl"
+        "default_role"
       ],
       "transients": [
         "secupress_unlock_admin_key-",
@@ -21718,9 +21225,7 @@
         "sib_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "sib_"
-      ]
+      "table_prefixes": []
     },
     "sendpress": {
       "name": "SendPress Newsletters",
@@ -21757,19 +21262,13 @@
         "sensei_cron"
       ],
       "table_prefixes": [
-        "sensei_",
-        "woothemes_sensei_"
+        "sensei_"
       ]
     },
     "seo-by-rank-math": {
       "name": "Rank Math SEO",
       "slug": "seo-by-rank-math",
-      "tables": [
-        "rank_math_meta",
-        "rank_math_redirections",
-        "rank_math_analytics",
-        "rank_math_search_index"
-      ],
+      "tables": [],
       "options": [
         "rank_math_"
       ],
@@ -21786,11 +21285,7 @@
     "seo-by-rank-math-pro": {
       "name": "Rank Math PRO",
       "slug": "seo-by-rank-math-pro",
-      "tables": [
-        "rank_math_meta",
-        "rank_math_redirections",
-        "rank_math_analytics"
-      ],
+      "tables": [],
       "options": [
         "rank_math_"
       ],
@@ -21815,9 +21310,7 @@
         "seo_city_generator_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "seo_city_generator_"
-      ]
+      "table_prefixes": []
     },
     "seopress": {
       "name": "SEOPress",
@@ -21881,7 +21374,6 @@
         "seopress_pro_cleanup"
       ],
       "table_prefixes": [
-        "seopress_pro_",
         "seopress_"
       ]
     },
@@ -21889,9 +21381,7 @@
       "name": "Seowriting",
       "slug": "seowriting",
       "tables": [],
-      "options": [
-        "active_plugins"
-      ],
+      "options": [],
       "transients": [],
       "cron": []
     },
@@ -22136,9 +21626,7 @@
         "shield_security_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "shield_security_"
-      ]
+      "table_prefixes": []
     },
     "shopengine": {
       "name": "Shopengine",
@@ -22193,7 +21681,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -22246,7 +21733,6 @@
         "shortpixel_pro_batch"
       ],
       "table_prefixes": [
-        "shortpixel_pro_",
         "shortpixel_"
       ]
     },
@@ -22464,7 +21950,6 @@
         "simple_history_cleanup"
       ],
       "table_prefixes": [
-        "simple_history_",
         "simple_"
       ]
     },
@@ -22584,7 +22069,6 @@
         "taxopress_default_autoterms",
         "taxopress_autoterms",
         "taxopress_autoterm_ids_increament",
-        "default_category",
         "{$tab_slug}_taxo",
         "{$tab_slug}_cpt",
         "taxopress_3_23_0_upgrade_completed",
@@ -22628,7 +22112,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -22775,8 +22258,7 @@
         "googlesitekit_cron"
       ],
       "table_prefixes": [
-        "googlesitekit_",
-        "gs_"
+        "googlesitekit_"
       ]
     },
     "site-offline": {
@@ -22838,7 +22320,6 @@
         "icl_update_strings_translations"
       ],
       "table_prefixes": [
-        "sitepress_",
         "icl_"
       ]
     },
@@ -22870,9 +22351,7 @@
         "slice_wp_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "slice_wp_"
-      ]
+      "table_prefixes": []
     },
     "slider-revolution": {
       "name": "Slider Revolution",
@@ -22892,9 +22371,7 @@
         "slider_revolution_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "slider_revolution_"
-      ]
+      "table_prefixes": []
     },
     "slim-seo": {
       "name": "Slim Seo",
@@ -22922,9 +22399,7 @@
         "sct_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "sct_"
-      ]
+      "table_prefixes": []
     },
     "smart-custom-fields": {
       "name": "Smart Custom Fields",
@@ -22949,10 +22424,7 @@
         "smart-slider-3_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "smartslider_",
-        "smart-slider-3_"
-      ]
+      "table_prefixes": []
     },
     "smooth-back-to-top-button": {
       "name": "Smooth Back To Top Button",
@@ -23011,7 +22483,6 @@
         "wp_smush_cron"
       ],
       "table_prefixes": [
-        "wp_smush_",
         "smush_"
       ]
     },
@@ -23132,7 +22603,6 @@
         "nxsSNAPOptions_bck4",
         "nxs_lBckTime",
         "nxs-upg200-notice-dismissed",
-        "cron",
         "NXS_cronCheck",
         "nxs_last_nxs_cron",
         "nxs_cronLastCommentsCheck",
@@ -23197,9 +22667,7 @@
         "social_warrior_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "social_warrior_"
-      ]
+      "table_prefixes": []
     },
     "socialfeeds": {
       "name": "Socialfeeds",
@@ -23276,9 +22744,7 @@
         "speedycache_pro_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "speedycache_pro_"
-      ]
+      "table_prefixes": []
     },
     "spinupwp": {
       "name": "Spinupwp",
@@ -23316,9 +22782,7 @@
         "sprout_invoices_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "sprout_invoices_"
-      ]
+      "table_prefixes": []
     },
     "square": {
       "name": "Square",
@@ -23346,8 +22810,7 @@
       "options": [
         "sq_llms",
         "sq_llms_full",
-        "sq_indexnow_log",
-        "active_plugins"
+        "sq_indexnow_log"
       ],
       "transients": [
         "sq_activate",
@@ -23457,9 +22920,7 @@
         "statify_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "statify_"
-      ]
+      "table_prefixes": []
     },
     "sticky-header-effects-for-elementor": {
       "name": "Sticky Header Effects For Elementor",
@@ -23542,9 +23003,7 @@
         "store_locator_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "store_locator_"
-      ]
+      "table_prefixes": []
     },
     "stratum": {
       "name": "Stratum",
@@ -23601,9 +23060,7 @@
         "stripe_payment_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "stripe_payment_"
-      ]
+      "table_prefixes": []
     },
     "stripe-tax-for-woocommerce": {
       "name": "Stripe Tax For Woocommerce",
@@ -23736,7 +23193,6 @@
         "sucuri_pro_scan"
       ],
       "table_prefixes": [
-        "sucuri_pro_",
         "sucuri_"
       ]
     },
@@ -23755,10 +23211,7 @@
         "sugar_calendar_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "sugar_calendar_",
-        "sc_"
-      ]
+      "table_prefixes": []
     },
     "sumo-me": {
       "name": "SumoMe",
@@ -23773,9 +23226,7 @@
         "sumo_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "sumo_"
-      ]
+      "table_prefixes": []
     },
     "super-progressive-web-apps": {
       "name": "Super Progressive Web Apps",
@@ -23808,9 +23259,6 @@
         "superb_addons_custom_css_blocks",
         "superb_addons_optimized_css",
         "superbaddons_wizard_navigation_post_id",
-        "show_on_front",
-        "page_on_front",
-        "page_for_posts",
         "wpr-parallax-background",
         "wpr-parallax-multi-layer"
       ],
@@ -23905,7 +23353,6 @@
         "surerank_completed_migrations",
         "surerank_migration_ever_completed",
         "surerank_migration_completed",
-        "blogname",
         "surerank_onboarding_user_details",
         "surerank_sitemap_classes",
         "surerank_cron_test_ok",
@@ -24061,18 +23508,13 @@
         "swis_performance_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "swis_performance_"
-      ]
+      "table_prefixes": []
     },
     "sydney-toolbox": {
       "name": "Sydney Toolbox",
       "slug": "sydney-toolbox",
       "tables": [],
       "options": [
-        "show_on_front",
-        "page_on_front",
-        "page_for_posts",
         "st_flushed_permalinks"
       ],
       "transients": [],
@@ -24101,9 +23543,7 @@
         "table_rate_shipping_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "table_rate_shipping_"
-      ]
+      "table_prefixes": []
     },
     "tablepress": {
       "name": "TablePress",
@@ -24138,7 +23578,6 @@
       ],
       "cron": [],
       "table_prefixes": [
-        "tablepress_pro_",
         "tablepress_"
       ]
     },
@@ -24165,9 +23604,7 @@
         "tawkto_live_chat_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "tawkto_live_chat_"
-      ]
+      "table_prefixes": []
     },
     "team-members": {
       "name": "Team Members",
@@ -24193,8 +23630,6 @@
       "slug": "templately",
       "tables": [],
       "options": [
-        "blogname",
-        "blogdescription",
         "templately_custom_css",
         "site_logo",
         "eb_global_styles",
@@ -24208,10 +23643,7 @@
         "templately_fsi_log",
         "fluent_cart_store_settings",
         "templately_ai_process_data",
-        "page_for_posts",
         "woocommerce_shop_page_id",
-        "page_on_front",
-        "show_on_front",
         "templately-gutenberg-hide-buttons"
       ],
       "transients": [
@@ -24232,15 +23664,11 @@
       "tables": [],
       "options": [
         "tpc_onboarding_done",
-        "show_on_front",
-        "page_on_front",
-        "page_for_posts",
         "themeisle_ob_plugins_installed",
         "themeisle_blocks_settings_redirect",
         "masteriyo_first_time_activation_flag",
         "es_is_demo_executed",
         "widget_",
-        "sidebars_widgets",
         "tiob_inherited_autoactivate",
         "neve_notice_dismissed",
         "tpc_obd_new_user",
@@ -24389,9 +23817,7 @@
         "the_events_calendar_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "the_events_calendar_"
-      ]
+      "table_prefixes": []
     },
     "the-plus-addons-for-elementor-page-builder": {
       "name": "The Plus Addons For Elementor Page Builder",
@@ -24479,7 +23905,6 @@
         "tsf_purge_transients"
       ],
       "table_prefixes": [
-        "autodescription_",
         "tsf_"
       ]
     },
@@ -24512,9 +23937,7 @@
       ],
       "transients": [],
       "cron": [],
-      "table_prefixes": [
-        "theme_my_login_"
-      ]
+      "table_prefixes": []
     },
     "themegrill-demo-importer": {
       "name": "Themegrill Demo Importer",
@@ -24528,15 +23951,11 @@
         "themegrill_demo_importer_mapping",
         "themegrill_demo_importer_pending_attachments",
         "themegrill_demo_importer_featured_images",
-        "show_on_front",
-        "page_on_front",
-        "page_for_posts",
         "themegrill_demo_importer_media_total",
         "themegrill_demo_importer_imported_posts",
         "themegrill_demo_importer_url_remap",
         "themegrill_starter_template_theme_mods",
         "widget_",
-        "sidebars_widgets",
         "themegrill_demo_importer_posts_with_evf",
         "themegrill_demo_importer_imported_terms",
         "elementor_active_kit",
@@ -24562,11 +23981,7 @@
       "options": [
         "obfx_beta_show_",
         "widget_",
-        "sidebars_widgets",
         "hestia_fix_duplicate_widgets",
-        "show_on_front",
-        "page_on_front",
-        "page_for_posts",
         "widget_ctup-ads-widget",
         "widget_zerif_testim-widget",
         "widget_zerif_team-widget",
@@ -24697,7 +24112,6 @@
       ],
       "cron": [],
       "table_prefixes": [
-        "tve_leads_pro_",
         "tve_"
       ]
     },
@@ -24839,9 +24253,7 @@
         "tinypng_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "tinypng_"
-      ]
+      "table_prefixes": []
     },
     "title-and-nofollow-for-links": {
       "name": "Title And Nofollow For Links",
@@ -24904,7 +24316,6 @@
         "boldgrid_backup_cron"
       ],
       "table_prefixes": [
-        "boldgrid_backup_",
         "boldgrid_"
       ]
     },
@@ -24924,7 +24335,6 @@
         "boldgrid_pro_cron"
       ],
       "table_prefixes": [
-        "boldgrid_backup_pro_",
         "boldgrid_"
       ]
     },
@@ -24962,7 +24372,6 @@
       ],
       "cron": [],
       "table_prefixes": [
-        "trp_pro_",
         "trp_"
       ]
     },
@@ -25099,7 +24508,6 @@
         "tutor_option",
         "tutor_settings_log",
         "tutor_option_update_time",
-        "permalink_structure",
         "tutor_wizard",
         "tutor_version",
         "is_course_post_type_updated",
@@ -25172,10 +24580,7 @@
       "options": [
         "twentig-options",
         "twentig-customize-starter",
-        "posts_per_page",
-        "show_on_front",
-        "page_on_front",
-        "page_for_posts"
+        "posts_per_page"
       ],
       "transients": [
         "twentig_flush_rewrite_rules",
@@ -25214,9 +24619,7 @@
         "types_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "types_"
-      ]
+      "table_prefixes": []
     },
     "uicore-animate": {
       "name": "Uicore Animate",
@@ -25288,9 +24691,7 @@
         "ultimate_addons_for_contact_form_7_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "ultimate_addons_for_contact_form_7_"
-      ]
+      "table_prefixes": []
     },
     "ultimate-addons-for-gutenberg": {
       "name": "Spectra Gutenberg Blocks – Website Builder for the Block Editor",
@@ -25303,9 +24704,7 @@
         "ultimate_addons_for_gutenberg_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "ultimate_addons_for_gutenberg_"
-      ]
+      "table_prefixes": []
     },
     "ultimate-blocks": {
       "name": "Ultimate Blocks",
@@ -25321,7 +24720,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -25370,9 +24768,7 @@
         "ultimate_cf_importer_pro_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "ultimate_cf_importer_pro_"
-      ]
+      "table_prefixes": []
     },
     "ultimate-dashboard": {
       "name": "Ultimate Dashboard &#8211; Custom WordPress Dashboard",
@@ -25387,9 +24783,7 @@
         "ultimate_dashboard_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "ultimate_dashboard_"
-      ]
+      "table_prefixes": []
     },
     "ultimate-dashboard-pro": {
       "name": "Ultimate Dashboard Pro",
@@ -25404,9 +24798,7 @@
         "udb_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "udb_"
-      ]
+      "table_prefixes": []
     },
     "ultimate-elementor": {
       "name": "Ultimate Elementor",
@@ -25421,9 +24813,7 @@
         "ultimate_elementor_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "ultimate_elementor_"
-      ]
+      "table_prefixes": []
     },
     "ultimate-faqs": {
       "name": "Ultimate Faqs",
@@ -25482,7 +24872,6 @@
         "um_pro_cleanup"
       ],
       "table_prefixes": [
-        "um_pro_",
         "um_"
       ]
     },
@@ -25496,8 +24885,6 @@
         "ultp_options",
         "site_logo",
         "ultp_site_dark_logo",
-        "show_on_front",
-        "page_on_front",
         "ultp_premade_wishlist",
         "postx_global"
       ],
@@ -25673,7 +25060,6 @@
         "tec_series_relationships",
         "uncanny_codes_groups",
         "uncanny_codes_codes",
-        "yoast_indexable",
         "uap_loop_entries",
         "uap_loop_entries_items",
         "uap_queue",
@@ -25790,7 +25176,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -25818,9 +25203,7 @@
         "update_tracking_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "update_tracking_"
-      ]
+      "table_prefixes": []
     },
     "updraftplus": {
       "name": "UpdraftPlus",
@@ -25843,8 +25226,7 @@
         "updraft_backup_cleanup"
       ],
       "table_prefixes": [
-        "updraft_",
-        "updraftplus_"
+        "updraft_"
       ]
     },
     "updraftplus-premium": {
@@ -25889,7 +25271,6 @@
         "updraft_pro_backup"
       ],
       "table_prefixes": [
-        "updraft_pro_",
         "updraft_"
       ]
     },
@@ -25952,7 +25333,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -26151,9 +25531,7 @@
       ],
       "transients": [],
       "cron": [],
-      "table_prefixes": [
-        "user-switching_"
-      ]
+      "table_prefixes": []
     },
     "username-changer": {
       "name": "Username Changer",
@@ -26278,7 +25656,6 @@
         "vaultpress_pro_backup"
       ],
       "table_prefixes": [
-        "vaultpress_pro_",
         "vaultpress_"
       ]
     },
@@ -26583,9 +25960,7 @@
         "wccs_cache_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "wccs_cache_"
-      ]
+      "table_prefixes": []
     },
     "wdesignkit": {
       "name": "Wdesignkit",
@@ -26604,10 +25979,6 @@
         "elementor_experiment-e_font_icon_svg",
         "nxt-theme-options",
         "woocommerce_shop_page_id",
-        "show_on_front",
-        "page_on_front",
-        "blogname",
-        "blogdescription",
         "wdkit_dark_mode",
         "elementor_experiment-mega-menu",
         "wdkit_unique_id"
@@ -26631,9 +26002,7 @@
         "wdk_csv_export_new_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "wdk_csv_export_new_"
-      ]
+      "table_prefixes": []
     },
     "web-stories": {
       "name": "Web Stories",
@@ -26774,9 +26143,7 @@
         "wedevs_project_manager_business_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "wedevs_project_manager_business_"
-      ]
+      "table_prefixes": []
     },
     "weforms": {
       "name": "Weforms",
@@ -26936,8 +26303,7 @@
       "slug": "widget-importer-exporter",
       "tables": [],
       "options": [
-        "widget_",
-        "sidebars_widgets"
+        "widget_"
       ],
       "transients": [],
       "cron": []
@@ -26955,9 +26321,7 @@
         "_widget_options_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "widget_options_"
-      ]
+      "table_prefixes": []
     },
     "wonderm00ns-simple-facebook-open-graph-tags": {
       "name": "Wonderm00ns Simple Facebook Open Graph Tags",
@@ -26998,9 +26362,7 @@
     "woo-base": {
       "name": "Woo Base",
       "slug": "woo-base",
-      "tables": [
-        "woocommerce_gpf_google_taxonomy"
-      ],
+      "tables": [],
       "options": [
         "woo_base_"
       ],
@@ -27008,9 +26370,7 @@
         "woo_base_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "woo_base_"
-      ]
+      "table_prefixes": []
     },
     "woo-bulk-editor": {
       "name": "Woo Bulk Editor",
@@ -27143,12 +26503,10 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
         "notice_shown_at",
-        "permalink_structure",
         "woocommerce_permalinks",
         "premmerce_permalink_manager"
       ],
@@ -27280,9 +26638,7 @@
         "woo_save_abandoned_carts_pro_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "woo_save_abandoned_carts_pro_"
-      ]
+      "table_prefixes": []
     },
     "woo-smart-compare": {
       "name": "Woo Smart Compare",
@@ -27397,11 +26753,7 @@
     "woocommerce-admin": {
       "name": "Woocommerce Admin",
       "slug": "woocommerce-admin",
-      "tables": [
-        "wc_admin_notes",
-        "wc_admin_note_actions",
-        "wc_admin_revenue_note_status"
-      ],
+      "tables": [],
       "options": [
         "woocommerce_admin_"
       ],
@@ -27483,7 +26835,6 @@
         "BeRocket_account_option",
         "widget_berocket_aapf_widget",
         "widget_berocket_aapf_single",
-        "sidebars_widgets",
         "xts-woodmart-options",
         "wcpt_shortcode_defaults",
         "berocket_aapf_filters_setup_wizard_list",
@@ -27530,9 +26881,7 @@
     "woocommerce-back-in-stock-notifications": {
       "name": "WooCommerce Back In Stock",
       "slug": "woocommerce-back-in-stock-notifications",
-      "tables": [
-        "wc_bis_subscriptions"
-      ],
+      "tables": [],
       "options": [
         "wc_bis_"
       ],
@@ -27547,13 +26896,7 @@
     "woocommerce-bookings": {
       "name": "WooCommerce Bookings",
       "slug": "woocommerce-bookings",
-      "tables": [
-        "wc_bookings",
-        "wc_bookings_meta",
-        "wc_bookings_blocked",
-        "wc_bookings_inclusions",
-        "wc_bookings_exclusions"
-      ],
+      "tables": [],
       "options": [
         "wc_bookings_"
       ],
@@ -27570,11 +26913,7 @@
     "woocommerce-bookings-pro-full": {
       "name": "WooCommerce Bookings Pro Full",
       "slug": "woocommerce-bookings-pro-full",
-      "tables": [
-        "wc_bookings",
-        "wc_bookings_meta",
-        "wc_bookings_blocked"
-      ],
+      "tables": [],
       "options": [
         "wc_bookings_pro_"
       ],
@@ -27589,9 +26928,7 @@
     "woocommerce-bundled-products": {
       "name": "Woocommerce Bundled Products",
       "slug": "woocommerce-bundled-products",
-      "tables": [
-        "wc_bundled_products"
-      ],
+      "tables": [],
       "options": [
         "woocommerce_bundled_products_"
       ],
@@ -27625,9 +26962,7 @@
       ],
       "transients": [],
       "cron": [],
-      "table_prefixes": [
-        "wccheckout_fields_"
-      ]
+      "table_prefixes": []
     },
     "woocommerce-checkout-manager": {
       "name": "Woocommerce Checkout Manager",
@@ -27646,10 +26981,7 @@
     "woocommerce-composite-products": {
       "name": "WooCommerce Composite Products",
       "slug": "woocommerce-composite-products",
-      "tables": [
-        "wc_composite_data",
-        "wc_composite_sessions"
-      ],
+      "tables": [],
       "options": [
         "_wc_composite_"
       ],
@@ -27847,8 +27179,7 @@
         "qlwcdc_add_archive_text",
         "qlwcdc_add_archive_text_content",
         "qlwcdc_add_archive_text_in",
-        "qlwcdc_wcd_imported2",
-        "active_plugins"
+        "qlwcdc_wcd_imported2"
       ],
       "transients": [
         "jetpack_is_single_user",
@@ -27859,10 +27190,7 @@
     "woocommerce-dynamic-pricing": {
       "name": "WooCommerce Dynamic Pricing",
       "slug": "woocommerce-dynamic-pricing",
-      "tables": [
-        "wc_dp_pricing_rules",
-        "wc_dp_pricing_rule_sets"
-      ],
+      "tables": [],
       "options": [
         "wc_dynamic_pricing_"
       ],
@@ -27989,11 +27317,7 @@
     "woocommerce-germanized": {
       "name": "WooCommerce Germanized",
       "slug": "woocommerce-germanized",
-      "tables": [
-        "woocommerce_termmeta",
-        "woocommerce_gzd_shipments",
-        "woocommerce_gzd_shipment_items"
-      ],
+      "tables": [],
       "options": [
         "woocommerce_germanized_"
       ],
@@ -28006,9 +27330,7 @@
     "woocommerce-gift-cards": {
       "name": "WooCommerce Gift Cards",
       "slug": "woocommerce-gift-cards",
-      "tables": [
-        "wc_gift_cards"
-      ],
+      "tables": [],
       "options": [
         "wc_gift_cards_"
       ],
@@ -28120,9 +27442,7 @@
     "woocommerce-legacy-rest-api": {
       "name": "Woocommerce Legacy Rest Api",
       "slug": "woocommerce-legacy-rest-api",
-      "tables": [
-        "woocommerce_api_keys"
-      ],
+      "tables": [],
       "options": [
         "woocommerce_api_enabled"
       ],
@@ -28147,10 +27467,7 @@
     "woocommerce-membership-plans": {
       "name": "Woocommerce Membership Plans",
       "slug": "woocommerce-membership-plans",
-      "tables": [
-        "wc_mp_plans",
-        "wc_mp_planmeta"
-      ],
+      "tables": [],
       "options": [
         "woocommerce_membership_plans_"
       ],
@@ -28163,13 +27480,7 @@
     "woocommerce-memberships": {
       "name": "WooCommerce Memberships",
       "slug": "woocommerce-memberships",
-      "tables": [
-        "wc_memberships",
-        "wc_memberships_memberships",
-        "wc_memberships_user_memberships",
-        "wc_memberships_restricted_content",
-        "wc_memberships_restricted_post"
-      ],
+      "tables": [],
       "options": [
         "wc_memberships_"
       ],
@@ -28184,11 +27495,7 @@
     "woocommerce-memberships-pro-full": {
       "name": "WooCommerce Memberships Pro Full",
       "slug": "woocommerce-memberships-pro-full",
-      "tables": [
-        "wc_memberships",
-        "wc_memberships_memberships",
-        "wc_memberships_user_memberships"
-      ],
+      "tables": [],
       "options": [
         "wc_memberships_pro_"
       ],
@@ -28214,9 +27521,7 @@
     "woocommerce-mercadopago": {
       "name": "WooCommerce MercadoPago",
       "slug": "woocommerce-mercadopago",
-      "tables": [
-        "woocommerce_mercadopago_logs"
-      ],
+      "tables": [],
       "options": [
         "_wc_mercadopago_"
       ],
@@ -28280,7 +27585,6 @@
       "slug": "woocommerce-payfast-gateway",
       "tables": [],
       "options": [
-        "active_plugins",
         "woocommerce_payfast_invalid_credentials"
       ],
       "transients": [
@@ -28391,16 +27695,13 @@
         "wcpdf_cleanup_templates"
       ],
       "table_prefixes": [
-        "wpo_wcpdf_",
-        "wcpdf_"
+        "wpo_wcpdf_"
       ]
     },
     "woocommerce-points-and-rewards": {
       "name": "WooCommerce Points and Rewards",
       "slug": "woocommerce-points-and-rewards",
-      "tables": [
-        "wc_points_log"
-      ],
+      "tables": [],
       "options": [
         "woocommerce_points_and_rewards_"
       ],
@@ -28413,9 +27714,7 @@
     "woocommerce-pre-orders": {
       "name": "WooCommerce Pre-Orders",
       "slug": "woocommerce-pre-orders",
-      "tables": [
-        "wc_pre_orders"
-      ],
+      "tables": [],
       "options": [
         "wc_pre_orders_"
       ],
@@ -28430,10 +27729,7 @@
     "woocommerce-price-based-on-country": {
       "name": "WooCommerce Price Based on Country",
       "slug": "woocommerce-price-based-on-country",
-      "tables": [
-        "wc_zone_pricing",
-        "wc_zone_pricing_meta"
-      ],
+      "tables": [],
       "options": [
         "wc_zp_"
       ],
@@ -28462,9 +27758,7 @@
     "woocommerce-product-search": {
       "name": "WooCommerce Product Search",
       "slug": "woocommerce-product-search",
-      "tables": [
-        "wc_product_search"
-      ],
+      "tables": [],
       "options": [
         "wc_product_search_"
       ],
@@ -28479,14 +27773,7 @@
     "woocommerce-product-vendors": {
       "name": "WC Product Vendors",
       "slug": "woocommerce-product-vendors",
-      "tables": [
-        "wc_product_vendors",
-        "wc_product_vendors_meta",
-        "wc_product_vendors_term_relationships",
-        "wc_product_vendors_to_products",
-        "wc_product_vendors_commissions",
-        "wc_product_vendors_sales_report"
-      ],
+      "tables": [],
       "options": [
         "wcpv_"
       ],
@@ -28497,9 +27784,7 @@
         "wcpv_process_commissions",
         "wcpv_weekly_sales_report"
       ],
-      "table_prefixes": [
-        "wcpv_"
-      ]
+      "table_prefixes": []
     },
     "woocommerce-products-filter": {
       "name": "Woocommerce Products Filter",
@@ -28538,9 +27823,7 @@
     "woocommerce-recover-abandoned-cart": {
       "name": "WooCommerce Recover Abandoned Cart",
       "slug": "woocommerce-recover-abandoned-cart",
-      "tables": [
-        "wc_recover_abandoned_cart"
-      ],
+      "tables": [],
       "options": [
         "wc_recover_abandoned_cart_"
       ],
@@ -28553,9 +27836,7 @@
     "woocommerce-reports": {
       "name": "Woocommerce Reports",
       "slug": "woocommerce-reports",
-      "tables": [
-        "wc_reports"
-      ],
+      "tables": [],
       "options": [
         "woocommerce_reports_"
       ],
@@ -28584,9 +27865,7 @@
     "woocommerce-sendinblue-newsletter-subscription": {
       "name": "Woocommerce Sendinblue Newsletter Subscription",
       "slug": "woocommerce-sendinblue-newsletter-subscription",
-      "tables": [
-        "woocommerce_api_keys"
-      ],
+      "tables": [],
       "options": [
         "woocommerce_new_order_settings",
         "woocommerce_failed_order_settings",
@@ -28604,9 +27883,7 @@
     "woocommerce-shipment-tracking": {
       "name": "WooCommerce Shipment Tracking",
       "slug": "woocommerce-shipment-tracking",
-      "tables": [
-        "wc_shipment_tracking"
-      ],
+      "tables": [],
       "options": [
         "wc_shipment_tracking_"
       ],
@@ -28662,9 +27939,7 @@
       "name": "Woocommerce Shipstation Integration",
       "slug": "woocommerce-shipstation-integration",
       "tables": [
-        "woocommerce_api_keys",
-        "SELECT",
-        "wc_shipstation_connections"
+        "SELECT"
       ],
       "options": [
         "woocommerce_shipstation_auth_key",
@@ -28716,9 +27991,7 @@
     "woocommerce-store-locator": {
       "name": "WooCommerce Store Locator",
       "slug": "woocommerce-store-locator",
-      "tables": [
-        "wc_store_locator"
-      ],
+      "tables": [],
       "options": [
         "wc_store_locator_"
       ],
@@ -28729,9 +28002,7 @@
     "woocommerce-stripe": {
       "name": "Woocommerce Stripe",
       "slug": "woocommerce-stripe",
-      "tables": [
-        "woocommerce_stripe_logs"
-      ],
+      "tables": [],
       "options": [
         "woocommerce_stripe_"
       ],
@@ -28784,7 +28055,6 @@
         "wcs_pro_full_cleanup"
       ],
       "table_prefixes": [
-        "wcs_pro_full_",
         "wcs_"
       ]
     },
@@ -28834,10 +28104,7 @@
     "woocommerce-wishlist": {
       "name": "WooCommerce Wishlist",
       "slug": "woocommerce-wishlist",
-      "tables": [
-        "wc_wishlist",
-        "wc_wishlist_items"
-      ],
+      "tables": [],
       "options": [
         "wc_wishlist_"
       ],
@@ -28850,9 +28117,7 @@
     "woocommerce-wishlist-plus": {
       "name": "WooCommerce Wishlist Plus",
       "slug": "woocommerce-wishlist-plus",
-      "tables": [
-        "wc_wishlist_plus"
-      ],
+      "tables": [],
       "options": [
         "wc_wishlist_plus_"
       ],
@@ -28870,7 +28135,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -28960,10 +28224,7 @@
         "wordfence_delete_old_traffic",
         "wordfence_scan"
       ],
-      "table_prefixes": [
-        "wordfence_",
-        "wf_"
-      ]
+      "table_prefixes": []
     },
     "wordfence-login-security": {
       "name": "Wordfence Login Security",
@@ -28998,10 +28259,7 @@
       "cron": [
         "wordfence_cron"
       ],
-      "table_prefixes": [
-        "wordfence_",
-        "wf_"
-      ]
+      "table_prefixes": []
     },
     "wordfence-premium-full": {
       "name": "Wordfence Premium Full",
@@ -29021,10 +28279,7 @@
       "cron": [
         "wordfence_pf_scan"
       ],
-      "table_prefixes": [
-        "wordfence_pf_",
-        "wf_"
-      ]
+      "table_prefixes": []
     },
     "wordpress-popular-posts": {
       "name": "Wordpress Popular Posts",
@@ -29099,7 +28354,6 @@
         "wpseo_start_connector"
       ],
       "table_prefixes": [
-        "wpseo_",
         "yoast_"
       ]
     },
@@ -29107,8 +28361,7 @@
       "name": "ManageWP Worker",
       "slug": "worker",
       "tables": [
-        "part",
-        "query"
+        "part"
       ],
       "options": [
         "worker_"
@@ -29117,9 +28370,7 @@
         "worker_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "worker_"
-      ]
+      "table_prefixes": []
     },
     "wow-carousel-for-divi-lite": {
       "name": "Wow Carousel For Divi Lite",
@@ -29489,9 +28740,7 @@
         "wp_cc_urls_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "wp_cc_urls_"
-      ]
+      "table_prefixes": []
     },
     "wp-cerber": {
       "name": "WP Cerber Security",
@@ -29562,9 +28811,7 @@
         "wpcr_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "wpcr_"
-      ]
+      "table_prefixes": []
     },
     "wp-client-reports-pro": {
       "name": "Wp Client Reports Pro",
@@ -29579,9 +28826,7 @@
         "wp_client_reports_pro_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "wp_client_reports_pro_"
-      ]
+      "table_prefixes": []
     },
     "wp-clone-by-wp-academy": {
       "name": "Wp Clone By Wp Academy",
@@ -29811,8 +29056,7 @@
         "wp_edit_editor",
         "wp_edit_extras",
         "wp_edit_activation_redirect",
-        "wp_edit_install",
-        "active_plugins"
+        "wp_edit_install"
       ],
       "transients": [],
       "cron": []
@@ -30030,7 +29274,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -30089,7 +29332,6 @@
         "wph-first-view",
         "wph-process_set_static_environment_errors",
         "wph_settings",
-        "active_plugins",
         "wph-login-changed-send-email",
         "wph-previous-login-url",
         "wph_cache_files_data"
@@ -30144,9 +29386,7 @@
         "wp_invoice_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "wp_invoice_"
-      ]
+      "table_prefixes": []
     },
     "wp-job-manager": {
       "name": "Wp Job Manager",
@@ -30285,8 +29525,6 @@
         "wple_show_reminder",
         "wple_renewal_failed_notice",
         "wple_opts",
-        "siteurl",
-        "home",
         "wple_email_certs",
         "wple_show_review_disabled",
         "wple_mixed_issues_disabled",
@@ -30325,7 +29563,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -30392,7 +29629,6 @@
         "wp_mail_logging_cleanup"
       ],
       "table_prefixes": [
-        "wp_mail_logging_",
         "wp_"
       ]
     },
@@ -30428,7 +29664,6 @@
       ],
       "cron": [],
       "table_prefixes": [
-        "wp_mail_smtp_wpf_",
         "wp_"
       ]
     },
@@ -30446,7 +29681,6 @@
       ],
       "cron": [],
       "table_prefixes": [
-        "wp_mail_smtp_pro_",
         "wp_"
       ]
     },
@@ -30538,7 +29772,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -30615,9 +29848,7 @@
         "wp_notif_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "wp_notif_"
-      ]
+      "table_prefixes": []
     },
     "wp-notification-bars": {
       "name": "Wp Notification Bars",
@@ -30921,12 +30152,7 @@
       "options": [
         "wf_licensing_",
         "wp-reset",
-        "template",
-        "stylesheet",
         "current_theme",
-        "active_plugins",
-        "siteurl",
-        "home",
         "wp-reset-snapshots"
       ],
       "transients": [
@@ -30992,9 +30218,7 @@
         "wrsp_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "wrsp_"
-      ]
+      "table_prefixes": []
     },
     "wp-reviews-plugin-for-google": {
       "name": "Wp Reviews Plugin For Google",
@@ -31103,9 +30327,7 @@
         "wp_search_suggest_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "wp_search_suggest_"
-      ]
+      "table_prefixes": []
     },
     "wp-security-audit-log": {
       "name": "WP Activity Log",
@@ -31190,9 +30412,7 @@
       "name": "Wp Simple Firewall",
       "slug": "wp-simple-firewall",
       "tables": [],
-      "options": [
-        "active_plugins"
-      ],
+      "options": [],
       "transients": [],
       "cron": []
     },
@@ -31209,9 +30429,7 @@
         "wp_simple_form_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "wp_simple_form_"
-      ]
+      "table_prefixes": []
     },
     "wp-sitemap-page": {
       "name": "Wp Sitemap Page",
@@ -31292,9 +30510,7 @@
         "wsir_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "wsir_"
-      ]
+      "table_prefixes": []
     },
     "wp-smtp": {
       "name": "Wp Smtp",
@@ -31326,7 +30542,6 @@
         "wp_smush_buddy"
       ],
       "table_prefixes": [
-        "wp-smush_",
         "wp_smush_",
         "wp_"
       ]
@@ -31410,9 +30625,7 @@
         "wp_staging_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "wp_staging_"
-      ]
+      "table_prefixes": []
     },
     "wp-statistics": {
       "name": "WP Statistics",
@@ -31457,7 +30670,6 @@
         "wp_statistics_pro_daily"
       ],
       "table_prefixes": [
-        "wp_statistics_pro_",
         "wp_"
       ]
     },
@@ -31492,9 +30704,7 @@
         "wp_store_locator_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "wp_store_locator_"
-      ]
+      "table_prefixes": []
     },
     "wp-super-cache": {
       "name": "WP Super Cache",
@@ -31511,9 +30721,7 @@
       "cron": [
         "wp_cache_gc"
       ],
-      "table_prefixes": [
-        "wp_cache_"
-      ]
+      "table_prefixes": []
     },
     "wp-svg-images": {
       "name": "Wp Svg Images",
@@ -31557,9 +30765,7 @@
         "wp_table_manager_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "wp_table_manager_"
-      ]
+      "table_prefixes": []
     },
     "wp-time-capsule": {
       "name": "Wp Time Capsule",
@@ -31575,9 +30781,7 @@
         "auto_update_plugins",
         "ftp_credentials",
         "wptc-init-errors",
-        "blog_public",
-        "is_wptc_activation_redirected",
-        "active_plugins"
+        "is_wptc_activation_redirected"
       ],
       "transients": [],
       "cron": [
@@ -31602,9 +30806,7 @@
         "wp_ulike_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "wp_ulike_"
-      ]
+      "table_prefixes": []
     },
     "wp-ulike-pro": {
       "name": "WP ULike Pro",
@@ -31659,14 +30861,11 @@
         "jet_rel_default_meta",
         "lifterlms_section_items",
         "geodir_gd_place_detail",
-        "rank_math_redirections",
         "em_meta",
         "post_entries_table",
         "toolset_associations",
         "toolset_associations_old",
         "toolset_connected_elements",
-        "woocommerce_bundled_items",
-        "woocommerce_bundled_itemmeta",
         "smackuci_events",
         "failed_media",
         "summary",
@@ -31677,8 +30876,6 @@
       "options": [
         "sm_uci_pro_settings",
         "$option_name",
-        "nav_menu_options",
-        "sidebars_widgets",
         "widget_",
         "smack_image_options",
         "jet_engine_meta_boxes",
@@ -31913,8 +31110,7 @@
         "qlwapp_contacts",
         "available_modules",
         "active_modules",
-        "qlwapp_ab_upgrade_group",
-        "active_plugins"
+        "qlwapp_ab_upgrade_group"
       ],
       "transients": [
         "jetpack_is_single_user",
@@ -31970,9 +31166,7 @@
         "wpcac_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "wpcac_"
-      ]
+      "table_prefixes": []
     },
     "wpc-smart-recommendations-premium": {
       "name": "Wpc Smart Recommendations Premium",
@@ -31991,9 +31185,7 @@
         "wpc_smart_recommendations_premium_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "wpc_smart_recommendations_premium_"
-      ]
+      "table_prefixes": []
     },
     "wpcat2tag-importer": {
       "name": "Wpcat2tag Importer",
@@ -32142,11 +31334,7 @@
     "wpforms-lite": {
       "name": "WPForms Lite",
       "slug": "wpforms-lite",
-      "tables": [
-        "wpforms_entries",
-        "wpforms_entry_meta",
-        "wpforms_entry_fields"
-      ],
+      "tables": [],
       "options": [
         "wpforms_"
       ],
@@ -32237,7 +31425,6 @@
         "antispam",
         "rss",
         "social",
-        "sidebars_widgets",
         "um_options"
       ],
       "transients": [
@@ -32279,7 +31466,6 @@
         "wpforo_pro_cleanup"
       ],
       "table_prefixes": [
-        "wpforo_pro_",
         "wpforo_"
       ]
     },
@@ -32321,7 +31507,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -32348,9 +31533,7 @@
         "wpie_import_export_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "wpie_import_export_"
-      ]
+      "table_prefixes": []
     },
     "wpml": {
       "name": "WPML",
@@ -32374,7 +31557,6 @@
         "wpml_cron"
       ],
       "table_prefixes": [
-        "wpml_",
         "icl_"
       ]
     },
@@ -32394,7 +31576,6 @@
       ],
       "cron": [],
       "table_prefixes": [
-        "wpml_all_",
         "icl_"
       ]
     },
@@ -32488,7 +31669,6 @@
       "options": [
         "wptouch_customizer_options_",
         "wptouch_customizer_initialized_",
-        "active_plugins",
         "wptouch_menus_initialized",
         "wptouch_custom_post_types",
         "wptouch_custom_taxonomies",
@@ -32652,14 +31832,10 @@
         "elementor_cpt_support",
         "xpro_megamenu_options",
         "xpro_elementor_addons_options",
-        "show_on_front",
-        "page_on_front",
-        "page_for_posts",
         "rewrite_rules",
         "xpro_starter_sites_attachment_data_temp",
         "elementor_active_kit",
         "widget_",
-        "sidebars_widgets",
         "xpro_elementor_global_settings",
         "xpro_theme_builder_dismiss_notice"
       ],
@@ -32781,9 +31957,7 @@
         "yith_affiliates_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "yith_affiliates_"
-      ]
+      "table_prefixes": []
     },
     "yith-woocommerce-ajax-navigation": {
       "name": "Yith Woocommerce Ajax Navigation",
@@ -32871,9 +32045,7 @@
         "yith_woocompare_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "yith_woocompare_"
-      ]
+      "table_prefixes": []
     },
     "yith-woocommerce-quick-view": {
       "name": "Yith Woocommerce Quick View",
@@ -32918,14 +32090,7 @@
     "yoast-test-helper": {
       "name": "Yoast Test Helper",
       "slug": "yoast-test-helper",
-      "tables": [
-        "yoast_indexable",
-        "yoast_prominent_words",
-        "yoast_indexable_hierarchy",
-        "yoast_migrations",
-        "yoast_primary_term",
-        "yoast_seo_links"
-      ],
+      "tables": [],
       "options": [],
       "transients": [],
       "cron": []
@@ -33142,9 +32307,7 @@
         "zoom_webinars_"
       ],
       "cron": [],
-      "table_prefixes": [
-        "zoom_webinars_"
-      ]
+      "table_prefixes": []
     },
     "accessibility-widget": {
       "name": "Accessibility Widget",
@@ -33345,9 +32508,7 @@
     "advanced-coupons-for-woocommerce-free": {
       "name": "Advanced Coupons For Woocommerce Free",
       "slug": "advanced-coupons-for-woocommerce-free",
-      "tables": [
-        "woocommerce_order_itemmeta"
-      ],
+      "tables": [],
       "options": [
         "acfwf_bogo_migrate_coupon_type",
         "acfw_bogo_deals_default_values_set",
@@ -33446,17 +32607,9 @@
         "default_password_nag"
       ],
       "options": [
-        "blogname",
-        "blogdescription",
-        "admin_email",
-        "siteurl",
-        "home",
-        "blog_public",
         "gmt_offset",
         "timezone_string",
         "WPLANG",
-        "template",
-        "stylesheet",
         "current_theme"
       ],
       "transients": [],
@@ -33602,7 +32755,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -33621,7 +32773,6 @@
       "name": "Alttext Ai",
       "slug": "alttext-ai",
       "tables": [
-        "yoast_seo_links",
         "atai_assets"
       ],
       "options": [
@@ -33694,9 +32845,6 @@
         "wcf_smooth_scroller",
         "aae_deactivation_feedback",
         "aae_last_import_batch",
-        "page_on_front",
-        "page_for_posts",
-        "show_on_front",
         "aae_mailchimp_api",
         "wcf_custom_font_setting",
         "aae_gl_load",
@@ -33718,11 +32866,7 @@
       "slug": "ansar-import",
       "tables": [],
       "options": [
-        "widget_",
-        "sidebars_widgets",
-        "page_on_front",
-        "show_on_front",
-        "page_for_posts"
+        "widget_"
       ],
       "transients": [],
       "cron": []
@@ -33766,7 +32910,6 @@
       "slug": "apollo13-framework-extensions",
       "tables": [],
       "options": [
-        "sidebars_widgets",
         "a13_force_to_flush",
         "a13_user_css_update",
         "apollo13_grid_elements_loaded"
@@ -33846,9 +32989,7 @@
     "automattic-for-agencies-client": {
       "name": "Automattic For Agencies Client",
       "slug": "automattic-for-agencies-client",
-      "tables": [
-        "woocommerce_order_items"
-      ],
+      "tables": [],
       "options": [
         "jetpack_$name",
         "fallback_no_verify_ssl_certs",
@@ -33991,7 +33132,6 @@
       "options": [
         "branda_first_installed_version",
         "ultimatebranding_activated_modules",
-        "active_plugins",
         "ub_version",
         "branda_original_admin_footer",
         "ub_admin_help_items",
@@ -34651,7 +33791,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -34673,15 +33812,10 @@
       "slug": "desert-companion",
       "tables": [],
       "options": [
-        "show_on_front",
         "item_details_page",
         "desert_demo_installed",
         "widget_",
-        "sidebars_widgets",
-        "page_on_front",
-        "page_for_posts",
         "atua_media_id",
-        "widget_text",
         "widget_categories",
         "widget_archives",
         "widget_search",
@@ -35144,8 +34278,6 @@
         "ecwid_api_check_retry_after",
         "ecwid_plugin_data",
         "ecwid_time_correction",
-        "page_on_front",
-        "show_on_front",
         "ecwid_frontpage_settings",
         "ecwid_disabled_messages",
         "ecwid_public_token",
@@ -35249,7 +34381,6 @@
         "envothemes_demo_import_url",
         "envothemes_activation_redirect",
         "widget_",
-        "sidebars_widgets",
         "woocommerce_single_image_width",
         "woocommerce_thumbnail_image_width",
         "woocommerce_thumbnail_cropping",
@@ -35259,9 +34390,6 @@
         "elementor_disable_typography_schemes",
         "elementor_container_width",
         "elementor_experiment-container",
-        "show_on_front",
-        "page_on_front",
-        "page_for_posts",
         "posts_per_page"
       ],
       "transients": [
@@ -35277,7 +34405,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -35405,7 +34532,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -35459,7 +34585,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -35551,7 +34676,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -35617,7 +34741,6 @@
         "elementor_onboarded",
         "kirki_notices",
         "widget_",
-        "sidebars_widgets",
         "woocommerce_single_image_width",
         "woocommerce_thumbnail_image_width",
         "woocommerce_thumbnail_cropping",
@@ -35626,9 +34749,6 @@
         "elementor_disable_color_schemes",
         "elementor_disable_typography_schemes",
         "elementor_container_width",
-        "show_on_front",
-        "page_on_front",
-        "page_for_posts",
         "posts_per_page",
         "kirki_downloaded_font_files",
         "dilaz_"
@@ -35823,7 +34943,6 @@
       ],
       "options": [
         "gmp_plug_was_used",
-        "active_plugins",
         "gmp_marker_groups_opts",
         "gmp_ac_subscribe",
         "gmp_ac_remind",
@@ -36030,10 +35149,7 @@
         "ive_default_settings",
         "ive-vw-theme-admin-notice-dismiss",
         "ive_admin_notices",
-        "widget_",
-        "sidebars_widgets",
-        "page_on_front",
-        "show_on_front"
+        "widget_"
       ],
       "transients": [],
       "cron": []
@@ -36162,7 +35278,6 @@
       "slug": "instagram-slider-widget",
       "tables": [],
       "options": [
-        "sidebars_widgets",
         "widget_jr_insta_slider",
         "instagram_slider_widget_logger_flag",
         "factory_plugin_versions",
@@ -36207,9 +35322,7 @@
     "jetpack-backup": {
       "name": "Jetpack Backup",
       "slug": "jetpack-backup",
-      "tables": [
-        "woocommerce_order_items"
-      ],
+      "tables": [],
       "options": [
         "jetpack_backup_db_version",
         "dismissed_backup_review_",
@@ -36357,7 +35470,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -36602,8 +35714,7 @@
       "options": [
         "lwscleaner_do_not_ask_again",
         "lws_cl_hide_comments",
-        "lws_cl_deactivate_comments",
-        "cron"
+        "lws_cl_deactivate_comments"
       ],
       "transients": [
         "lwscleaner_remind_me",
@@ -37063,7 +36174,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -37115,10 +36225,6 @@
       "slug": "one-page-express-companion",
       "tables": [],
       "options": [
-        "show_on_front",
-        "page_on_front",
-        "page_for_posts",
-        "sidebars_widgets",
         "widget_$name",
         "cp_initialize_notifications",
         "widget_block",
@@ -37160,9 +36266,7 @@
     "packlink-pro-shipping": {
       "name": "Packlink Pro Shipping",
       "slug": "packlink-pro-shipping",
-      "tables": [
-        "woocommerce_shipping_zone_methods"
-      ],
+      "tables": [],
       "options": [
         "PACKLINK_VERSION"
       ],
@@ -37485,13 +36589,9 @@
       "slug": "prime-mover",
       "tables": [],
       "options": [
-        "template",
-        "stylesheet",
-        "siteurl",
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -37771,7 +36871,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -37899,7 +36998,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -37920,7 +37018,6 @@
       "options": [
         "rsa_hide_page_cache_notice",
         "rsa_options",
-        "blog_public",
         "rsa_activation_version"
       ],
       "transients": [],
@@ -38038,7 +37135,6 @@
         "auto_preload_search",
         "wsrw_activated",
         "wsrw_process",
-        "siteurl",
         "wsrw_search_history",
         "wsrw_install",
         "wsrw_connect_token",
@@ -38368,7 +37464,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -38493,21 +37588,15 @@
       "slug": "spicebox",
       "tables": [],
       "options": [
-        "show_on_front",
-        "page_for_posts",
-        "page_on_front",
         "busicare_media_id",
-        "widget_text",
         "widget_recent-posts",
         "widget_categories",
         "widget_archives",
         "widget_search",
-        "sidebars_widgets",
         "innofit_media_id",
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -38934,7 +38023,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -38997,7 +38085,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -39278,7 +38365,6 @@
         "wcfm_marketplace_orders",
         "wcmp_vendor_orders",
         "pv_commission",
-        "woocommerce_shipping_table_rates",
         "dokan_withdraw",
         "dokan_vendor_balance",
         "wcfm_marketplace_withdraw_request",
@@ -39558,7 +38644,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -39751,8 +38836,7 @@
         "ac_email_templates_lite",
         "ac_guest_abandoned_cart_history_lite",
         "ac_abandoned_cart_history_lite",
-        "ac_sent_history_lite",
-        "wc_webhooks"
+        "ac_sent_history_lite"
       ],
       "options": [
         "wcal_db_version",
@@ -39839,7 +38923,6 @@
       "slug": "woocommerce-gateway-amazon-payments-advanced",
       "tables": [],
       "options": [
-        "active_plugins",
         "amazon_payments_advanced_enabled_anniversary_date",
         "amazon_payments_advanced_hidden_until_date",
         "amazon_keys_setup_and_validated",
@@ -39981,13 +39064,9 @@
         "merlin_",
         "woostify_sites_",
         "allowedthemes",
-        "page_on_front",
-        "show_on_front",
-        "page_for_posts",
         "woostify_pro_fully_featured_activate",
         "recently_activated",
-        "widget_",
-        "sidebars_widgets"
+        "widget_"
       ],
       "transients": [
         "woostify_sites_import_file_base_name"
@@ -40226,8 +39305,7 @@
       "slug": "wp-native-php-sessions",
       "tables": [],
       "options": [
-        "pantheon_session_version",
-        "active_plugins"
+        "pantheon_session_version"
       ],
       "transients": [],
       "cron": []
@@ -40372,7 +39450,6 @@
         "wptravelengine_version",
         "wptravelengine_trip_version",
         "wptravelengine_since",
-        "active_plugins",
         "wptravelengine_add_caps_by_roles",
         "wpte_",
         "fs_debug_mode",
@@ -40770,7 +39847,6 @@
       "slug": "accessibe",
       "tables": [],
       "options": [
-        "active_plugins",
         "accessibeforwp_options"
       ],
       "transients": [
@@ -40975,14 +40051,11 @@
       "slug": "arile-extra",
       "tables": [],
       "options": [
-        "show_on_front",
         "fresh_site_activate",
         "consultstreet_sync_needed",
-        "widget_text",
         "widget_categories",
         "widget_archives",
-        "widget_search",
-        "sidebars_widgets"
+        "widget_search"
       ],
       "transients": [],
       "cron": []
@@ -40995,13 +40068,9 @@
         "elementor_active_kit",
         "elementor_pro_theme_builder_conditions",
         "post_types",
-        "show_on_front",
-        "page_on_front",
-        "page_for_posts",
         "ayecode_turnstile_options",
         "ayecode_turnstile_verified",
-        "ds_no_downgrade",
-        "template"
+        "ds_no_downgrade"
       ],
       "transients": [
         "ac-demo-import",
@@ -41016,8 +40085,7 @@
       "tables": [
         "aioseo_posts",
         "wccs_conditions",
-        "wccs_condition_meta",
-        "woocommerce_shipping_zone_locations"
+        "wccs_condition_meta"
       ],
       "options": [
         "rex_google_client_id",
@@ -41430,7 +40498,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -41526,7 +40593,6 @@
         "rm_profile_tabs_order_status",
         "rm_option_banned_email",
         "rm_option_jobman_job",
-        "cron",
         "rm_option_default_payment_method",
         "rm_dismiss_upgrade_notice",
         "rm_dismiss_customize_banner",
@@ -41606,16 +40672,12 @@
         "demo_importer_plus_cf7_ids_mapping",
         "primary_pricing_category",
         "demo_importer_plus_sites_import_complete",
-        "sidebars_widgets",
         "theme_mods_",
         "demo-importerplus-license-page-builder",
         "widget_media_image",
         "elementor_active_kit",
         "wp_travel_engine_settings",
-        "widget_",
-        "permalink_structure",
-        "siteurl",
-        "home"
+        "widget_"
       ],
       "transients": [
         "demo_importer_plus_import_data_{$demo_id}",
@@ -41648,7 +40710,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -41804,8 +40865,6 @@
       "tables": [
         "e2pdf_datasets",
         "frm_fields",
-        "woocommerce_order_items",
-        "woocommerce_order_itemmeta",
         "e2pdf_templates",
         "trp_gettext_original_strings",
         "trp_gettext_",
@@ -42030,7 +41089,6 @@
         "implecode_wp_tooltips",
         "implecode_wp_hidden_tooltips",
         "ic_",
-        "sidebars_widgets",
         "product_attributes_number",
         "ic_attributes_compare",
         "ic_formbuilder_updates",
@@ -42415,7 +41473,6 @@
       "slug": "fuse-social-floating-sidebar",
       "tables": [],
       "options": [
-        "active_plugins",
         "ReduxFrameworkPlugin_ACTIVATED_NOTICES",
         "ReduxFrameworkPlugin",
         "redux-framework_extendify_plugin_notice",
@@ -42550,9 +41607,7 @@
       "name": "Goodbye Captcha",
       "slug": "goodbye-captcha",
       "tables": [],
-      "options": [
-        "active_plugins"
-      ],
+      "options": [],
       "transients": [],
       "cron": []
     },
@@ -42641,7 +41696,6 @@
       "name": "Gsheetconnector For Elementor Forms",
       "slug": "gsheetconnector-for-elementor-forms",
       "tables": [
-        "elementor_gsheet_submissions_values",
         "gscelef_error_logs"
       ],
       "options": [
@@ -42790,7 +41844,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -43519,7 +42572,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -43827,7 +42879,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -43925,7 +42976,6 @@
         "pts_"
       ],
       "options": [
-        "active_plugins",
         "pts_ac_subscribe",
         "pts_ac_remind",
         "pts_ac_disabled",
@@ -44034,11 +43084,7 @@
       "slug": "qode-essential-addons",
       "tables": [],
       "options": [
-        "show_on_front",
-        "page_on_front",
-        "page_for_posts",
         "widget_",
-        "sidebars_widgets",
         "qode_essential_addons_framework_permalinks"
       ],
       "transients": [
@@ -44090,7 +43136,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -44172,11 +43217,8 @@
         "theme_mods_",
         "theme_mods_responsive",
         "responsive_current_active_site",
-        "permalink_structure",
         "responsive_ready_sites_flush_rewrite_pending",
-        "sidebars_widgets",
         "responsive_ready_sites_import_data",
-        "blogname",
         "widget_",
         "responsive_sites_term_ids_mapping"
       ],
@@ -44277,7 +43319,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -44315,10 +43356,6 @@
       "tables": [],
       "options": [
         "widget_",
-        "sidebars_widgets",
-        "show_on_front",
-        "page_on_front",
-        "page_for_posts",
         "shapely_imported_demo"
       ],
       "transients": [],
@@ -44382,8 +43419,7 @@
         "sm_views",
         "sm_advanced_search_temp",
         "sm_tasks",
-        "sm_task_details",
-        "woocommerce_order_items"
+        "sm_task_details"
       ],
       "options": [
         "sm_wp_dashboard_view_",
@@ -44593,7 +43629,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -44610,8 +43645,6 @@
         "ssl_zen_enable_debug",
         "ssl_zen_ssl_activated_date",
         "ssl_zen_review_reminder",
-        "siteurl",
-        "home",
         "ssl_zen_ssl_activated",
         "ssl_zen_include_wwww",
         "ssl_zen_domains",
@@ -44827,7 +43860,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -44870,10 +43902,7 @@
     "transbank-webpay-plus-rest": {
       "name": "Transbank Webpay Plus Rest",
       "slug": "transbank-webpay-plus-rest",
-      "tables": [
-        "woocommerce_payment_tokens",
-        "woocommerce_payment_tokenmeta"
-      ],
+      "tables": [],
       "options": [],
       "transients": [],
       "cron": []
@@ -45306,7 +44335,6 @@
       "slug": "woo-save-abandoned-carts",
       "tables": [
         "captured_wc_fields",
-        "woocommerce_sessions",
         "cartbounty",
         "cartbounty_emails"
       ],
@@ -45328,9 +44356,7 @@
     "woo-thank-you-page-nextmove-lite": {
       "name": "Woo Thank You Page Nextmove Lite",
       "slug": "woo-thank-you-page-nextmove-lite",
-      "tables": [
-        "woocommerce_order_itemmeta"
-      ],
+      "tables": [],
       "options": [
         "xlwcty_default_posts",
         "xlwcty_custom_thank_you_pages",
@@ -45386,16 +44412,8 @@
         "default_password_nag"
       ],
       "options": [
-        "active_plugins",
-        "template",
-        "stylesheet",
         "current_theme",
-        "blogname",
-        "admin_email",
-        "blog_public",
         "WPLANG",
-        "siteurl",
-        "home",
         "default_pingback_flag"
       ],
       "transients": [],
@@ -45502,8 +44520,6 @@
       "options": [
         "etn_db_migration",
         "etn_wizard",
-        "show_on_front",
-        "page_on_front",
         "etn_event_options",
         "etn_zoom_api",
         "etn_meet_api",
@@ -45569,7 +44585,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -46394,10 +45409,7 @@
       "slug": "colissimo-shipping-methods-for-woocommerce",
       "tables": [
         "lpc_bordereau",
-        "woocommerce_shipping_zone_methods",
         "lpc_outward_label",
-        "woocommerce_order_items",
-        "woocommerce_order_itemmeta",
         "lpc_inward_label"
       ],
       "options": [
@@ -46524,7 +45536,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -46576,7 +45587,6 @@
         "ezoic_js_integration_options",
         "ezoic_speed_settings",
         "widget_ezoic_adpos_widget",
-        "sidebars_widgets",
         "ez_adtester_config",
         "ez_adtester_config_bak",
         "ez_ad_initialized",
@@ -46685,12 +45695,8 @@
         "shopwell_builder_enable",
         "hester_wpforms_imported_ids",
         "widget_",
-        "sidebars_widgets",
         "elementor_active_kit",
-        "hester_core_show_welcome_notice",
-        "show_on_front",
-        "page_on_front",
-        "page_for_posts"
+        "hester_core_show_welcome_notice"
       ],
       "transients": [
         "hester_core_demo_templates"
@@ -46747,16 +45753,12 @@
         "woocommerce_task_list_complete",
         "woocommerce_task_list_welcome_modal_dismissed",
         "woocommerce_setup_wizard_options_update_once",
-        "show_on_front",
-        "page_on_front",
-        "page_for_posts",
         "inspiro_demo_layout",
         "inspiro_starter_sites_imported_demo_id",
         "inspiro_starter_sites_importer_elementor_pages",
         "inspiro_starter_sites_demo_feedback",
         "inspiro_starter_sites_imported_widgets",
-        "widget_",
-        "sidebars_widgets"
+        "widget_"
       ],
       "transients": [
         "inspiro_starter_sites_importer_data",
@@ -46836,7 +45838,6 @@
       "options": [
         "ld_http_auth",
         "ld_hide_wp_admin",
-        "active_plugins",
         "ld_login_base",
         "ld_private_users"
       ],
@@ -46957,7 +45958,6 @@
         "PO_display_debug_msg",
         "PO_debug_roles",
         "PO_mobile_user_agents",
-        "active_plugins",
         "PO_default_group",
         "PO_disable_admin_warning",
         "PO_disable_admin_notices",
@@ -47180,12 +46180,9 @@
         "woocommerce_checkout_page_id",
         "woocommerce_myaccount_page_id",
         "widget_",
-        "sidebars_widgets",
         "elementor_onboarded",
-        "permalink_structure",
         "solace_extra_deactivate_litespeed",
         "woocommerce_shop_page_id",
-        "page_for_posts",
         "solace_extra_redirect_after_activation_option",
         "elementor_cpt_support"
       ],
@@ -47266,7 +46263,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -47278,10 +46274,6 @@
         "templatespare_wizard_category_value",
         "site_icon",
         "widget_",
-        "sidebars_widgets",
-        "show_on_front",
-        "page_on_front",
-        "page_for_posts",
         "templatespare_image_upload_cache",
         "templatespare_uploaded_image_ids"
       ],
@@ -47299,11 +46291,7 @@
       "name": "Tutormate",
       "slug": "tutormate",
       "tables": [],
-      "options": [
-        "page_on_front",
-        "page_for_posts",
-        "show_on_front"
-      ],
+      "options": [],
       "transients": [],
       "cron": []
     },
@@ -47393,7 +46381,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -47848,8 +46835,6 @@
         "XAGIO_LOCATION_DEFAULT_SEARCH_ENGINE",
         "XAGIO_LOCATION_DEFAULT_COUNTRY",
         "XAGIO_LOCATION_DEFAULT_CITY",
-        "blogname",
-        "blogdescription",
         "XAGIO_OCW",
         "XAGIO_SEO_SCHEMA_META",
         "XAGIO_SEO_SCHEMA_DATA",
@@ -47871,10 +46856,7 @@
         "moderation_notify",
         "XAGIO_REDIRECT_MASK",
         "XAGIO_NICHE_HUNTER_TLDS",
-        "show_on_front",
-        "page_on_front",
         "widget_block",
-        "sidebars_widgets",
         "XAGIO_CF_TEMPLATES",
         "XAGIO_CF_DEFAULT_TEMPLATE",
         "xagio_ai_wizard_audit_lang_code",
@@ -48028,7 +47010,6 @@
       "tables": [],
       "options": [
         "b2bking_first_time_rules_database",
-        "wp_user_roles",
         "b2bking_have_pmmu_rules",
         "b2bking_have_pmmu_rules_list",
         "b2bking_have_pmmu_rules_list_ids",
@@ -48124,7 +47105,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -48162,14 +47142,10 @@
       "slug": "burger-companion",
       "tables": [],
       "options": [
-        "show_on_front",
-        "page_on_front",
         "appetizer_media_id",
-        "widget_text",
         "widget_categories",
         "widget_archives",
         "widget_search",
-        "sidebars_widgets",
         "astrocare_media_id",
         "item_details_page",
         "cozipress_media_id",
@@ -48556,7 +47532,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -49338,7 +48313,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -49421,7 +48395,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -49445,12 +48418,7 @@
         "manual_backup_continued",
         "everest_backup_consent_optin",
         "delete_from_server",
-        "template",
-        "stylesheet",
-        "active_plugins",
         "everest_backup_enable_plugin_token",
-        "sidebars_widgets",
-        "permalink_structure",
         "woocommerce_permalinks",
         "everest_backup_ajax_manual_nonce"
       ],
@@ -49503,7 +48471,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -49523,9 +48490,6 @@
       "tables": [],
       "options": [
         "_gutenify_countdown_timer_site_data",
-        "page_on_front",
-        "show_on_front",
-        "page_for_posts",
         "gutenify_settings",
         "gutenify_site_options",
         "gutenify_global_style"
@@ -49614,12 +48578,8 @@
         "show_starters_templates",
         "skip_payment_setup",
         "themegrill_demo_importer_mapping",
-        "show_on_front",
-        "page_on_front",
-        "page_for_posts",
         "themegrill_starter_template_theme_mods",
         "widget_",
-        "sidebars_widgets",
         "themegrill_demo_importer_posts_with_evf",
         "themegrill_demo_importer_imported_posts",
         "themegrill_demo_importer_imported_terms",
@@ -49660,7 +48620,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -49772,7 +48731,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -49792,21 +48750,16 @@
       "slug": "orderable",
       "tables": [
         "orderable_locations",
-        "orderable_location_delivery_zones_lookup",
-        "woocommerce_shipping_zone_methods",
-        "woocommerce_shipping_zone_locations",
-        "woocommerce_shipping_zones"
+        "orderable_location_delivery_zones_lookup"
       ],
       "options": [
         "orderable_dismissed_notice_",
         "orderable_ask_review",
-        "blogname",
         "woocommerce_store_address",
         "woocommerce_store_address_2",
         "woocommerce_store_city",
         "woocommerce_default_country",
         "woocommerce_store_postcode",
-        "admin_email",
         "woocommerce_allowed_countries",
         "woocommerce_specific_allowed_countries",
         "orderable_settings",
@@ -49829,7 +48782,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -49868,7 +48820,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -50144,10 +49095,7 @@
     "wc-price-history": {
       "name": "Wc Price History",
       "slug": "wc-price-history",
-      "tables": [
-        "wc_price_history",
-        "wc_price_history_meta"
-      ],
+      "tables": [],
       "options": [
         "wc_price_history_db_version",
         "wc_price_history_settings"
@@ -50233,7 +49181,6 @@
       "slug": "wp-auto-republish",
       "tables": [],
       "options": [
-        "permalink_structure",
         "wpar_plugin_dismiss_rating_notice",
         "wpar_plugin_no_thanks_rating_notice",
         "wpar_plugin_dismissed_time",
@@ -50289,7 +49236,6 @@
         "fs_debug_mode",
         "uninstall_plugins",
         "fs_storage_logger",
-        "active_plugins",
         "fs_active_plugins",
         "required",
         "show_opt_in_notice",
@@ -50415,7 +49361,6 @@
         "wp_travel_reserve_date",
         "wp_travel_first_active",
         "wptravel_reserve_date",
-        "active_plugins",
         "wp_rocket_settings"
       ],
       "transients": [
