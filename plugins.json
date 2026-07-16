@@ -2,7 +2,7 @@
   "version": "3.0.0",
   "updated": "2026-07-16",
   "stats": {
-    "total": 2354
+    "total": 2414
   },
   "plugins": {
     "woocommerce": {
@@ -49864,6 +49864,1349 @@
         "zopimGreetings"
       ],
       "transients": [],
+      "cron": []
+    },
+    "abc-pricing-table": {
+      "name": "Abc Pricing Table",
+      "slug": "abc-pricing-table",
+      "tables": [],
+      "options": [
+        "recently_activated"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "another-wordpress-classifieds-plugin": {
+      "name": "Another Wordpress Classifieds Plugin",
+      "slug": "another-wordpress-classifieds-plugin",
+      "tables": [
+        "awpcp_adsettings",
+        "awpcp_categories",
+        "awpcp_adfees",
+        "awpcp_ads",
+        "awpcp_ad_regions",
+        "awpcp_admeta",
+        "awpcp_media",
+        "awpcp_payments",
+        "awpcp_credit_plans",
+        "awpcp_pages",
+        "awpcp_tasks",
+        "awpcp_adphotos",
+        "awpcp_pagename"
+      ],
+      "options": [
+        "show-quick-start-guide-notice",
+        "show-widget-modification-notice",
+        "facebook-user-access-token",
+        "awpcp-csv-import-session",
+        "show-drip-autoresponder",
+        "awpcp-flush-rewrite-rules",
+        "awpcp-installed",
+        "awpcp-installed-or-upgraded",
+        "awpcp-browse-categories-page-information",
+        "awpcp-show-delete-browse-categories-page-notice",
+        "awpcp_plugin_integrations",
+        "awpcp-form-fields-order",
+        "awpcp-plugin-pages",
+        "awpcp-main-category-id",
+        "awpcp-migrate-media-information-cursor",
+        "awpcp-migrate-regions-info-cursor",
+        "awpcp-categories-list-cache-keys",
+        "awpcp-activated",
+        "awpcp-upgrade-log",
+        "awpcp_db_version",
+        "contact-form-user-notification-email-template",
+        "verify-email-message-email-template",
+        "display-listings-as-single-posts",
+        "listings-slug",
+        "include-main-page-slug-in-listing-url",
+        "awpcp_translation_files_with_outdated_textdomain",
+        "awpcp_mfpi_maybe_force_post_id"
+      ],
+      "transients": [
+        "awpcp-server-ip-address"
+      ],
+      "cron": []
+    },
+    "b-slider": {
+      "name": "B Slider",
+      "slug": "b-slider",
+      "tables": [],
+      "options": [],
+      "transients": [],
+      "cron": []
+    },
+    "cf7-popups": {
+      "name": "Cf7 Popups",
+      "slug": "cf7-popups",
+      "tables": [],
+      "options": [
+        "dismissed-"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "chart-builder": {
+      "name": "Chart Builder",
+      "slug": "chart-builder",
+      "tables": [
+        "users",
+        "ayschart_charts",
+        "posts",
+        "postmeta",
+        "usermeta",
+        "terms",
+        "termmeta",
+        "comments",
+        "commentmeta",
+        "aysquiz_reports",
+        "aysquiz_quizes",
+        "ayschart_charts_meta",
+        "ayschart_settings"
+      ],
+      "options": [
+        "ays_chart_builder_upgrade_plugin",
+        "ays_chart_sale_btn",
+        "ays_chart_sale_date",
+        "ays_chart_20_bundle_banner_time",
+        "ays_chart_db_version",
+        "ays_chart_quiz_maker_results_",
+        "ays_chart_quiz_maker_quiz_data_"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "custom-iframe": {
+      "name": "Custom Iframe",
+      "slug": "custom-iframe",
+      "tables": [],
+      "options": [
+        "custif_installation_date"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "custom-shipping-methods-for-woocommerce": {
+      "name": "Custom Shipping Methods For Woocommerce",
+      "slug": "custom-shipping-methods-for-woocommerce",
+      "tables": [],
+      "options": [
+        "alg_wc_custom_shipping_methods_version"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "delicious-recipes": {
+      "name": "Delicious Recipes",
+      "slug": "delicious-recipes",
+      "tables": [],
+      "options": [
+        "best_season_option",
+        "delicious_recipes_queue_flush_rewrite_rules",
+        "delicious_recipe_settings",
+        "delicious_recipes_auto_link_ingredients",
+        "delicious_recipes_demo_imports",
+        "delicious_recipes_first_time_activation_flag",
+        "fs_debug_mode",
+        "uninstall_plugins",
+        "fs_storage_logger",
+        "active_plugins",
+        "fs_active_plugins",
+        "required",
+        "show_opt_in_notice",
+        "notice_shown_at",
+        "delicious_recipes_session_name"
+      ],
+      "transients": [
+        "dr_recipe_offset",
+        "fs_snooze_period",
+        "fs_{$this->_module_type}_{$this->_slug}_activated",
+        "fs_{$this->get_id()}_data_debug_mode",
+        "_fs_api_connection_retry_counter"
+      ],
+      "cron": [
+        "wp_session_garbage_collection"
+      ]
+    },
+    "document-library-lite": {
+      "name": "Document Library Lite",
+      "slug": "document-library-lite",
+      "tables": [],
+      "options": [
+        "barn2_notice_dismissed_",
+        "{$this->get_slug()}_completed",
+        "barn2_plugin_{$item_id}_license_is_pass",
+        "{$this->prefix}_{$this->id}",
+        "document-library-lite-setup-wizard_completed",
+        "dlp_should_flush_rewrite_rules",
+        "dlw_should_flush_rewrite_rules",
+        "dlw_review_notice_triggered",
+        "dlw_review_notice_user",
+        "dlw_document_count",
+        "dlw_review_notice_dismissed"
+      ],
+      "transients": [
+        "barn2_plugin_review_banner_",
+        "barn2_plugin_promo_",
+        "_{$this->slug}_activation_redirect"
+      ],
+      "cron": []
+    },
+    "easy-image-collage": {
+      "name": "Easy Image Collage",
+      "slug": "easy-image-collage",
+      "tables": [],
+      "options": [
+        "eic_settings_migrated_from_vafpress"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "elex-bulk-edit-products-prices-attributes-for-woocommerce-basic": {
+      "name": "Elex Bulk Edit Products Prices Attributes For Woocommerce Basic",
+      "slug": "elex-bulk-edit-products-prices-attributes-for-woocommerce-basic",
+      "tables": [],
+      "options": [
+        "eh_bulk_edit_choosed_variation_id",
+        "elex_bep_filter_checkbox_data",
+        "eh_bulk_edit_table_row",
+        "eh_bulk_edit_choosed_product_id",
+        "xa_bulk_selected_ids",
+        "troubleshoot_never_ask_again",
+        "review_never_ask_again",
+        "review_will_do_it_later",
+        "activation_date"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "embedder-for-google-reviews": {
+      "name": "Embedder For Google Reviews",
+      "slug": "embedder-for-google-reviews",
+      "tables": [],
+      "options": [
+        "google_reviews_option_name",
+        "gr_latest_results",
+        "grwp_place_info",
+        "grwp_activation_version",
+        "gr_latest_results_free",
+        "fs_debug_mode",
+        "uninstall_plugins",
+        "fs_storage_logger",
+        "active_plugins",
+        "fs_active_plugins",
+        "required",
+        "show_opt_in_notice",
+        "notice_shown_at"
+      ],
+      "transients": [
+        "fs_snooze_period",
+        "fs_{$this->_module_type}_{$this->_slug}_activated",
+        "fs_{$this->get_id()}_data_debug_mode",
+        "_fs_api_connection_retry_counter"
+      ],
+      "cron": [
+        "get_google_reviews"
+      ]
+    },
+    "everest-backup": {
+      "name": "Everest Backup",
+      "slug": "everest-backup",
+      "tables": [
+        "users",
+        "usermeta"
+      ],
+      "options": [
+        "manual_backup_continued",
+        "everest_backup_consent_optin",
+        "delete_from_server",
+        "template",
+        "stylesheet",
+        "active_plugins",
+        "everest_backup_enable_plugin_token",
+        "sidebars_widgets",
+        "permalink_structure",
+        "woocommerce_permalinks",
+        "everest_backup_ajax_manual_nonce"
+      ],
+      "transients": [
+        "everest_backup_consent_skip",
+        "eb_post_restore_token",
+        "everest_backup_migrate_clone_download_retry",
+        "everest_backup_migrate_clone_download",
+        "everest_backup_doing_scheduled_backup",
+        "everest_backup_wp_cli_express",
+        "everest_backup_2fa_checked"
+      ],
+      "cron": []
+    },
+    "extensions-for-cf7": {
+      "name": "Extensions For Cf7",
+      "slug": "extensions-for-cf7",
+      "tables": [
+        "extcf7_db"
+      ],
+      "options": [
+        "ht_cf7extensions_diagnostic_data_agreed",
+        "ht_cf7extensions_diagnostic_data_notice",
+        "extcf7_mcmp_",
+        "htcf7ext_conditional_field_module_settings",
+        "htcf7ext_redirection_extension_module_settings",
+        "extcf7_db_table_alter_status"
+      ],
+      "transients": [
+        "extcf7-notice-id-diagnostic-data",
+        "extcf7_unread_count"
+      ],
+      "cron": []
+    },
+    "fatal-error-notify": {
+      "name": "Fatal Error Notify",
+      "slug": "fatal-error-notify",
+      "tables": [],
+      "options": [
+        "vgp_fen_settings"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "foobar-notifications-lite": {
+      "name": "Foobar Notifications Lite",
+      "slug": "foobar-notifications-lite",
+      "tables": [],
+      "options": [
+        "fs_debug_mode",
+        "uninstall_plugins",
+        "fs_storage_logger",
+        "active_plugins",
+        "fs_active_plugins",
+        "required",
+        "show_opt_in_notice",
+        "notice_shown_at"
+      ],
+      "transients": [
+        "fs_snooze_period",
+        "fs_{$this->_module_type}_{$this->_slug}_activated",
+        "fs_{$this->get_id()}_data_debug_mode",
+        "_fs_api_connection_retry_counter"
+      ],
+      "cron": []
+    },
+    "gutenify": {
+      "name": "Gutenify",
+      "slug": "gutenify",
+      "tables": [],
+      "options": [
+        "_gutenify_countdown_timer_site_data",
+        "page_on_front",
+        "show_on_front",
+        "page_for_posts",
+        "gutenify_settings",
+        "gutenify_site_options",
+        "gutenify_global_style"
+      ],
+      "transients": [
+        "gutenify_remote_templates",
+        "gutenify_template_",
+        "gutenify_remote_template_kits",
+        "gutenify_demo_categories",
+        "gutenify_demo_import_list"
+      ],
+      "cron": []
+    },
+    "impressum": {
+      "name": "Impressum",
+      "slug": "impressum",
+      "tables": [],
+      "options": [
+        "impressum_imprint_options",
+        "dismissed-",
+        "dismissed-impressum_validation_notice"
+      ],
+      "transients": [],
+      "cron": [
+        "impressum_twice_daily_cron"
+      ]
+    },
+    "learning-management-system": {
+      "name": "Learning Management System",
+      "slug": "learning-management-system",
+      "tables": [
+        "masteriyo_user_activities",
+        "masteriyo_user_items",
+        "masteriyo_user_itemmeta",
+        "learndash_user_activity",
+        "learndash_pro_quiz_statistic_ref",
+        "learndash_pro_quiz_statistic",
+        "masteriyo_quiz_attempts",
+        "learndash_pro_quiz_master",
+        "pro_quiz_master",
+        "masteriyo_order_items",
+        "masteriyo_order_itemmeta",
+        "learnpress_user_meta",
+        "learnpress_user_items",
+        "learnpress_user_item_results",
+        "lifterlms_quiz_attempts",
+        "lifterlms_user_postmeta",
+        "stm_lms_order_items",
+        "stm_lms_user_courses",
+        "stm_lms_user_lessons",
+        "stm_lms_user_quizzes",
+        "stm_lms_user_answers",
+        "tutor_customers",
+        "posts",
+        "users",
+        "tutor_orders",
+        "tutor_quiz_attempt_answers",
+        "tutor_quiz_attempts",
+        "wc_orders",
+        "masteriyo_quiz_question_rel",
+        "masteriyo_user_activitymeta",
+        "masteriyo_notifications"
+      ],
+      "options": [
+        "masteriyo_brevo_lists",
+        "masteriyo_google_classroom_data_",
+        "masteriyo_google_calendar_data_",
+        "masteriyo_settings",
+        "masteriyo_password_strength_settings",
+        "masteriyo_flush_rewrite_rules",
+        "masteriyo_placeholder_image",
+        "masteriyo_review_notice",
+        "masteriyo_translatepress_rewrite_flushed",
+        "masteriyo_exporting_courses_args_",
+        "elearning_hide_welcome_notice",
+        "masteriyo.courses.per_row",
+        "masteriyo.courses.per_page",
+        "masteriyo_usage_tracking_user_preference",
+        "masteriyo_plugin_version",
+        "masteriyo_install_date",
+        "masteriyo_exporting_post_type_append_args_",
+        "masteriyo_first_time_activation_flag",
+        "elementor_active_kit",
+        "elementor_load_fa4_shim",
+        "woocommerce_",
+        "siteorigin_panels_settings",
+        "masteriyo_active_addons",
+        "widget_block",
+        "show_starters_templates",
+        "skip_payment_setup",
+        "themegrill_demo_importer_mapping",
+        "show_on_front",
+        "page_on_front",
+        "page_for_posts",
+        "themegrill_starter_template_theme_mods",
+        "widget_",
+        "sidebars_widgets",
+        "themegrill_demo_importer_posts_with_evf",
+        "themegrill_demo_importer_imported_posts",
+        "themegrill_demo_importer_imported_terms",
+        "themegrill_demo_importer_activated_id"
+      ],
+      "transients": [
+        "masteriyo_has_gutenberg_certs",
+        "masteriyo_pro_certificate_samples",
+        "masteriyo_pdfdraft_preview_",
+        "_masteriyo_updated_template_settings",
+        "masteriyo_w3tc_data",
+        "geoip_",
+        "masteriyo_is_usage_tracking_notice_cancel_timeout",
+        "_masteriyo_activation_redirect"
+      ],
+      "cron": []
+    },
+    "lightweight-cookie-notice-free": {
+      "name": "Lightweight Cookie Notice Free",
+      "slug": "lightweight-cookie-notice-free",
+      "tables": [
+        "daextlwcnf_"
+      ],
+      "options": [
+        "daextlwcnf_options_version",
+        "daim_dismissible_notice_a"
+      ],
+      "transients": [
+        "daextlwcnf_data"
+      ],
+      "cron": []
+    },
+    "logo-showcase-with-slick-slider": {
+      "name": "Logo Showcase With Slick Slider",
+      "slug": "logo-showcase-with-slick-slider",
+      "tables": [],
+      "options": [
+        "fs_debug_mode",
+        "uninstall_plugins",
+        "fs_storage_logger",
+        "active_plugins",
+        "fs_active_plugins",
+        "required",
+        "show_opt_in_notice",
+        "notice_shown_at",
+        "lswss_version"
+      ],
+      "transients": [
+        "fs_snooze_period",
+        "fs_{$this->_module_type}_{$this->_slug}_activated",
+        "fs_{$this->get_id()}_data_debug_mode",
+        "_fs_api_connection_retry_counter"
+      ],
+      "cron": []
+    },
+    "magical-addons-for-elementor": {
+      "name": "Magical Addons For Elementor",
+      "slug": "magical-addons-for-elementor",
+      "tables": [],
+      "options": [
+        "magical_addons",
+        "magical_addons_pro",
+        "magical_headerfooter",
+        "magical_extra",
+        "magical_role_manager",
+        "magical_addons_settings_version",
+        "mgaddon_ready_items",
+        "mgaddon_version",
+        "mg_info_text_date2",
+        "mg_sales_notice_dismissed",
+        "magical_review_notice_dismissed",
+        "magical_role_manager_defaults_set",
+        "mg_plugin_activated",
+        "mg_install_date"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "mainwp-key-maker": {
+      "name": "Mainwp Key Maker",
+      "slug": "mainwp-key-maker",
+      "tables": [],
+      "options": [],
+      "transients": [
+        "mainwp_eir_",
+        "mainwp_ein_"
+      ],
+      "cron": []
+    },
+    "mwb-bookings-for-woocommerce": {
+      "name": "Mwb Bookings For Woocommerce",
+      "slug": "mwb-bookings-for-woocommerce",
+      "tables": [
+        "wc_order_stats"
+      ],
+      "options": [
+        "mbfw_enable_tracking",
+        "wps_bfwp_google_cal_iframe",
+        "mwb_mbfw_is_plugin_enable",
+        "mwb_mbfw_is_booking_enable",
+        "mwb_mbfw_is_show_included_service",
+        "mwb_mbfw_is_show_totals",
+        "mwb_mbfw_daily_start_time",
+        "mwb_mbfw_daily_end_time",
+        "select_language_for_calendar",
+        "select_first_day_of_week",
+        "mwb_mbfw_plugin_setting_migrated",
+        "mwb_mbfw_onboarding_data_skipped",
+        "mwb_mbfw_onboarding_data_sent",
+        "mwb_all_plugins_active",
+        "check_order_status_mwb",
+        "mwb_mbfw_calendar_product_id"
+      ],
+      "transients": [],
+      "cron": [
+        "wps_sync_airbnb_calendars"
+      ]
+    },
+    "new-album-gallery": {
+      "name": "New Album Gallery",
+      "slug": "new-album-gallery",
+      "tables": [],
+      "options": [
+        "album_gallery_column_settings"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "new-image-gallery": {
+      "name": "New Image Gallery",
+      "slug": "new-image-gallery",
+      "tables": [],
+      "options": [],
+      "transients": [],
+      "cron": []
+    },
+    "new-social-media-widget": {
+      "name": "New Social Media Widget",
+      "slug": "new-social-media-widget",
+      "tables": [],
+      "options": [
+        "nsmw_social_media_icon_pos"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "nowpayments-for-woocommerce": {
+      "name": "Nowpayments For Woocommerce",
+      "slug": "nowpayments-for-woocommerce",
+      "tables": [],
+      "options": [
+        "fs_debug_mode",
+        "uninstall_plugins",
+        "fs_storage_logger",
+        "active_plugins",
+        "fs_active_plugins",
+        "required",
+        "show_opt_in_notice",
+        "notice_shown_at",
+        "npwc_hide_save_cart_notice"
+      ],
+      "transients": [
+        "fs_snooze_period",
+        "fs_{$this->_module_type}_{$this->_slug}_activated",
+        "fs_{$this->get_id()}_data_debug_mode",
+        "_fs_api_connection_retry_counter"
+      ],
+      "cron": []
+    },
+    "orderable": {
+      "name": "Orderable",
+      "slug": "orderable",
+      "tables": [
+        "orderable_locations",
+        "orderable_location_delivery_zones_lookup",
+        "woocommerce_shipping_zone_methods",
+        "woocommerce_shipping_zone_locations",
+        "woocommerce_shipping_zones"
+      ],
+      "options": [
+        "orderable_dismissed_notice_",
+        "orderable_ask_review",
+        "blogname",
+        "woocommerce_store_address",
+        "woocommerce_store_address_2",
+        "woocommerce_store_city",
+        "woocommerce_default_country",
+        "woocommerce_store_postcode",
+        "admin_email",
+        "woocommerce_allowed_countries",
+        "woocommerce_specific_allowed_countries",
+        "orderable_settings",
+        "orderable_opt_in",
+        "orderable_version"
+      ],
+      "transients": [
+        "orderable_creating_database"
+      ],
+      "cron": []
+    },
+    "photoblocks-grid-gallery": {
+      "name": "Photoblocks Grid Gallery",
+      "slug": "photoblocks-grid-gallery",
+      "tables": [
+        "photoblocks"
+      ],
+      "options": [
+        "photoblocks_review",
+        "fs_debug_mode",
+        "uninstall_plugins",
+        "fs_storage_logger",
+        "active_plugins",
+        "fs_active_plugins",
+        "required",
+        "show_opt_in_notice",
+        "notice_shown_at",
+        "photoblocks_db_version"
+      ],
+      "transients": [
+        "fs_snooze_period",
+        "fs_{$this->_module_type}_{$this->_slug}_activated",
+        "fs_{$this->get_id()}_data_debug_mode",
+        "_fs_api_connection_retry_counter"
+      ],
+      "cron": []
+    },
+    "product-quantity-for-woocommerce": {
+      "name": "Product Quantity For Woocommerce",
+      "slug": "product-quantity-for-woocommerce",
+      "tables": [],
+      "options": [
+        "wpfmmsq_migration_version",
+        "wpfmmsq_taxonomy_product_cat_$t_id",
+        "wpfmmsq_disable_category_excluded_pids",
+        "wpfmmsq_disable_urls_excluded_pids",
+        "wpfmmsq_version"
+      ],
+      "transients": [
+        "wpfmmsq_migrating"
+      ],
+      "cron": []
+    },
+    "really-simple-featured-video": {
+      "name": "Really Simple Featured Video",
+      "slug": "really-simple-featured-video",
+      "tables": [],
+      "options": [
+        "fs_debug_mode",
+        "uninstall_plugins",
+        "fs_storage_logger",
+        "active_plugins",
+        "fs_active_plugins",
+        "required",
+        "show_opt_in_notice",
+        "notice_shown_at",
+        "rsfv_queue_flush_rewrite_rules"
+      ],
+      "transients": [
+        "fs_snooze_period",
+        "fs_{$this->_module_type}_{$this->_slug}_activated",
+        "fs_{$this->get_id()}_data_debug_mode",
+        "_fs_api_connection_retry_counter",
+        "rsfv_rollback_versions_"
+      ],
+      "cron": []
+    },
+    "send-users-email": {
+      "name": "Send Users Email",
+      "slug": "send-users-email",
+      "tables": [
+        "users",
+        "sue_external_lists",
+        "sue_external_list_meta",
+        "sue_queue_meta"
+      ],
+      "options": [
+        "admin_notification_message",
+        "sue_send_users_email"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "sms-alert": {
+      "name": "Sms Alert",
+      "slug": "sms-alert",
+      "tables": [
+        "wpam_transactions",
+        "wpam_affiliates",
+        "smsalert_booking_reminder",
+        "amelia_customer_bookings",
+        "amelia_appointments",
+        "amelia_services",
+        "frm_fields",
+        "frm_forms",
+        "smsalert_renewal_reminders",
+        "ssa_appointments",
+        "wooraffle_tickets_customer_to_tickets",
+        "sa_captured_wc_fields"
+      ],
+      "options": [
+        "dismiss_chatondesk_notice",
+        "smsalert_sandbox_mode",
+        "smsalert_sms_c7_",
+        "cart_captured_abandoned_cart_count",
+        "smsalert_review_not_show_again",
+        "onboarding-data-skipped",
+        "smsalert_activation_date",
+        "smsalert_message",
+        "edd_settings",
+        "smsalert_upgrade_settings",
+        "smsalert_do_activation_redirect",
+        "smsalert_sync",
+        "smsalert_background_task",
+        "smsalert_background_dBal_task"
+      ],
+      "transients": [
+        "cart_captured_abandoned_cart_count"
+      ],
+      "cron": [
+        "smsalert_balance_notify",
+        "smsalert_followup_sms",
+        "ab_cart_notification_sendsms_hook",
+        "cod_to_prepaid_cart_notification_sendsms_hook",
+        "booking_reminder_sendsms_hook"
+      ]
+    },
+    "surbma-yoast-breadcrumb-shortcode": {
+      "name": "Surbma Yoast Breadcrumb Shortcode",
+      "slug": "surbma-yoast-breadcrumb-shortcode",
+      "tables": [],
+      "options": [],
+      "transients": [],
+      "cron": []
+    },
+    "survey-maker": {
+      "name": "Survey Maker",
+      "slug": "survey-maker",
+      "tables": [
+        "ayssurvey_surveys",
+        "ayssurvey_settings",
+        "aysquiz_questions",
+        "ayssurvey_submissions",
+        "ayssurvey_survey_categories",
+        "ayssurvey_questions",
+        "ayssurvey_sections",
+        "ayssurvey_question_categories",
+        "ayssurvey_answers",
+        "ayssurvey_submissions_questions",
+        "ayssurvey_popup_surveys"
+      ],
+      "options": [
+        "ays_survey_maker_upgrade_plugin",
+        "ays_survey_sale_btn",
+        "ays_survey_maker_sale_date",
+        "ays_survey_sale_btn_for_two_months",
+        "ays_survey_sale_date",
+        "ays_survey_banner_time",
+        "ays_survey_db_version",
+        "survey_maker_agree_terms",
+        "survey_maker_show_agree_terms",
+        "survey_maker_first_time_activation_page",
+        "ays_survey_maker_first_time_activation_page",
+        "survey_flush_version",
+        "ays_survey_maker_sale_notification"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "swatchly": {
+      "name": "Swatchly",
+      "slug": "swatchly",
+      "tables": [
+        "woocommerce_attribute_taxonomies"
+      ],
+      "options": [
+        "swatchly_diagnostic_data_agreed",
+        "swatchly_diagnostic_data_notice",
+        "force_update_swatchly_notice_info",
+        "csf_demo_mode",
+        "swatchly_installed",
+        "swatchly_version"
+      ],
+      "transients": [
+        "swatchly_do_activation_redirect"
+      ],
+      "cron": []
+    },
+    "team-free": {
+      "name": "Team Free",
+      "slug": "team-free",
+      "tables": [
+        "sitemeta",
+        "options"
+      ],
+      "options": [
+        "sp_wp_team_version",
+        "sp_wp_team_db_version",
+        "sp_wp_team_first_version",
+        "sp_wp_team_activation_date",
+        "sp_wpt_review_notice_dismiss",
+        "shapedplugin_offer_banner_dismissed_"
+      ],
+      "transients": [
+        "spwpteam_plugins"
+      ],
+      "cron": []
+    },
+    "text-to-audio": {
+      "name": "Text To Audio",
+      "slug": "text-to-audio",
+      "tables": [
+        "atlasvoice_analytics"
+      ],
+      "options": [
+        "tta_settings_data",
+        "tta_analytics_settings",
+        "tta_compatible_data",
+        "tta_cors_detected",
+        "tta_listening_settings",
+        "tta__button_text_arr",
+        "tta_customize_settings",
+        "tta_onboarding_completed",
+        "tta_highlight_settings",
+        "tta_current_browser_info",
+        "tts_text_aliases",
+        "tta_onboarding_events",
+        "tta_onboarding_summary",
+        "tta_has_been_activated_before",
+        "tta_activated_at",
+        "tta_record_settings",
+        "tta_mode_default_migrated",
+        "atlasvoice_analytics_table_is_created",
+        "tta_custom_css_migrated",
+        "tta_play_count_migration_done",
+        "tta_total_plays_counter",
+        "tta_total_plays_fallback",
+        "tta_play_count_migration_last_id",
+        "tta_analytics_indexes_added",
+        "tts_duplicate_post_ids",
+        "tta_reshow_",
+        "tta_clicks_",
+        "tta_review_notice_next_show_time",
+        "tta_feedback_notice_next_show_time",
+        "tta_milestones_reached",
+        "tts_rest_api_url",
+        "tta_analytics_migrated_2_1_10"
+      ],
+      "transients": [
+        "tta_cors_alert_lock",
+        "tta_activation_redirect"
+      ],
+      "cron": []
+    },
+    "th-product-compare": {
+      "name": "Th Product Compare",
+      "slug": "th-product-compare",
+      "tables": [],
+      "options": [
+        "th-product-compare-page5"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "vertical-news-scroller": {
+      "name": "Vertical News Scroller",
+      "slug": "vertical-news-scroller",
+      "tables": [
+        "scroll_news"
+      ],
+      "options": [
+        "scrollnews_messages"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "vikrentcar": {
+      "name": "Vikrentcar",
+      "slug": "vikrentcar",
+      "tables": [],
+      "options": [
+        "dashboard_widget_options",
+        "vikrentcar_software_version",
+        "vikrentcar_onactivate",
+        "vikrentcar_breaking_changes",
+        "vikrentcar_screen_failed_attempts",
+        "vikrentcar_changelog",
+        "vikrentcar_license_key",
+        "vikrentcar_license_expdate",
+        "vikrentcar_license_hash",
+        "vikrentcar_tmp_"
+      ],
+      "transients": [
+        "vikrentcar_screen_"
+      ],
+      "cron": []
+    },
+    "wc-gsheetconnector": {
+      "name": "Wc Gsheetconnector",
+      "slug": "wc-gsheetconnector",
+      "tables": [
+        "wcgsc_error_logs"
+      ],
+      "options": [
+        "wcgsc_options_migrated",
+        "wcgsc_access_code",
+        "wcgsc_verify",
+        "wcgsc_sheet_feeds",
+        "wcgsc_settings",
+        "wcgsc_order_states",
+        "wcgsc_api_free_creds",
+        "wcgsc_manual_setting",
+        "wcgsc_sheet_fetch_date",
+        "wcgsc_debug_migrated_pro",
+        "is_new_client_secret_wcgsc",
+        "wcgsc_free_notice_",
+        "wcgsc_unistall_plugin_settings",
+        "wcgsc_email_account",
+        "wcgsc_token",
+        "wcgsc_feeds",
+        "wcgsc_sheetId",
+        "wcgsc_checkbox_settings",
+        "wcgsc_tab_roles_setting",
+        "wcgsc_free_install_time"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "wc-price-history": {
+      "name": "Wc Price History",
+      "slug": "wc-price-history",
+      "tables": [
+        "wc_price_history",
+        "wc_price_history_meta"
+      ],
+      "options": [
+        "wc_price_history_db_version",
+        "wc_price_history_settings"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "weather-effect": {
+      "name": "Weather Effect",
+      "slug": "weather-effect",
+      "tables": [],
+      "options": [
+        "weather_effect_settings"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "woo-addon-uploads": {
+      "name": "Woo Addon Uploads",
+      "slug": "woo-addon-uploads",
+      "tables": [],
+      "options": [
+        "wau_addon_settings"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "woo-multistep-checkout": {
+      "name": "Woo Multistep Checkout",
+      "slug": "woo-multistep-checkout",
+      "tables": [],
+      "options": [
+        "thwmscf_since"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "woo-refund-and-exchange-lite": {
+      "name": "Woo Refund And Exchange Lite",
+      "slug": "woo-refund-and-exchange-lite",
+      "tables": [
+        "wc_order_stats"
+      ],
+      "options": [
+        "wps_rma_refund_rules_editor",
+        "wps_rma_refund_form_css",
+        "wps_rma_time_duration_from",
+        "wps_rma_time_duration_to",
+        "policies_setting_option",
+        "wps_rma_secret_key",
+        "wps_wgm_notify_new_banner_id",
+        "wps_wgm_notify_new_banner_image",
+        "wps_wgm_notify_new_banner_url",
+        "wps_wgm_notify_hide_baneer_notification",
+        "wsp_rma_report_filter",
+        "wrael_enable_tracking",
+        "wps_rma_plugin_standard_multistep_done",
+        "wps_rma_tracker_last_send",
+        "wps_rma_refund_enable",
+        "wps_rma_general_om",
+        "wps_rma_order_email",
+        "wps_rma_exchange_enable",
+        "wps_rma_cancel_enable",
+        "wps_rma_cancel_product",
+        "wps_rma_wallet_enable",
+        "wps_rma_hide_rec",
+        "mwr_radio_reset_license",
+        "wps_rma_activated_timestamp",
+        "wps_rma_return_request_form_page_id",
+        "wps_rma_view_order_msg_page_id",
+        "wps_rma_onboarding_data_skipped",
+        "wps_rma_onboarding_data_sent",
+        "wps_all_plugins_active"
+      ],
+      "transients": [
+        "wps_rma_sla_status_counts"
+      ],
+      "cron": [
+        "wps_wgm_check_for_notification_update",
+        "wps_rma_sla_hourly_check"
+      ]
+    },
+    "wp-auto-republish": {
+      "name": "Wp Auto Republish",
+      "slug": "wp-auto-republish",
+      "tables": [],
+      "options": [
+        "permalink_structure",
+        "wpar_plugin_dismiss_rating_notice",
+        "wpar_plugin_no_thanks_rating_notice",
+        "wpar_plugin_dismissed_time",
+        "wpar_plugin_installed_time",
+        "wpar_next_scheduled_timestamp",
+        "wpar_next_eligible_date",
+        "wpar_last_global_cron_run",
+        "wpar_global_republish_post_ids",
+        "revivepress_hide_permalink_notice",
+        "wpar_plugin_settings",
+        "revivepress_version",
+        "revivepress_install_date",
+        "revivepress_db_version"
+      ],
+      "transients": [
+        "wpar_in_progress",
+        "rvp_import_db_done"
+      ],
+      "cron": []
+    },
+    "wp-edit-password-protected": {
+      "name": "Wp Edit Password Protected",
+      "slug": "wp-edit-password-protected",
+      "tables": [
+        "wpepp_login_log",
+        "wpepp_slow_queries"
+      ],
+      "options": [
+        "wpepp_version",
+        "wpepp_install_date",
+        "wpepp_cpu_monitor_settings",
+        "wpepp_password_settings",
+        "wpepp_member_template",
+        "wpepp_",
+        "wpepp_active_template",
+        "wpepp_auto_login_links",
+        "wpepp_ai_crawler_blocked_count"
+      ],
+      "transients": [
+        "wpepp_cpu_percent",
+        "wpepp_preview_",
+        "wpepp_2fa_recovery_"
+      ],
+      "cron": [
+        "wpepp_cpu_prune_queries"
+      ]
+    },
+    "wp-frontend-delete-account": {
+      "name": "Wp Frontend Delete Account",
+      "slug": "wp-frontend-delete-account",
+      "tables": [],
+      "options": [
+        "fs_debug_mode",
+        "uninstall_plugins",
+        "fs_storage_logger",
+        "active_plugins",
+        "fs_active_plugins",
+        "required",
+        "show_opt_in_notice",
+        "notice_shown_at",
+        "wpfda_",
+        "wpfda_enable_",
+        "wpfda_upgrade_notice_dismissed",
+        "wpfda_deleted_users_date",
+        "rewrite_rules"
+      ],
+      "transients": [
+        "fs_snooze_period",
+        "fs_{$this->_module_type}_{$this->_slug}_activated",
+        "fs_{$this->get_id()}_data_debug_mode",
+        "_fs_api_connection_retry_counter"
+      ],
+      "cron": []
+    },
+    "wp-fusion-lite": {
+      "name": "Wp Fusion Lite",
+      "slug": "wp-fusion-lite",
+      "tables": [
+        "fluentform_form_meta",
+        "bookingpress_servicesmeta",
+        "wpf_meta",
+        "rcp_groupmeta",
+        "wpf_logging",
+        "term_relationships"
+      ],
+      "options": [
+        "wpf_taxonomy_rules",
+        "wpf_batch_timestamps",
+        "wpf_import_groups",
+        "wpf_available_tags",
+        "wpf_crm_fields",
+        "wpf_options",
+        "wpf_license_check",
+        "wpf_hubspot_lists_api_mode",
+        "wpf_hubspot_v3_migration_needed",
+        "wpf_logs_unseen_errors",
+        "wpf_end_auto_login_",
+        "wpf_ac_connection_id",
+        "available_tags",
+        "wpf_hubspot_v3_migrated",
+        "wpf_available_tags_prev",
+        "wpf_tag_id_map",
+        "wpf_infusionsoft_products",
+        "wpf_kartra_email_buffer",
+        "wpf_klaviyo_code_verifier",
+        "wpf_salesforce_objects",
+        "wpf_salesforce_record_types"
+      ],
+      "transients": [
+        "wpf_hubspot_migration_confirm_token",
+        "wpf_hubspot_migration_confirmed",
+        "wpf_hubspot_orphaned_ids",
+        "wpf_hubspot_migration_counts",
+        "wpf_hubspot_id_map",
+        "wpf_hubspot_safety_net_attempted",
+        "wpf_keap_backup_key"
+      ],
+      "cron": []
+    },
+    "wp-migration-duplicator": {
+      "name": "Wp Migration Duplicator",
+      "slug": "wp-migration-duplicator",
+      "tables": [
+        "wtmgdp_log",
+        "wt_mgdp_action_history",
+        "wt_mgdp_cron",
+        "capabilities",
+        "user_level",
+        "user",
+        "dashboard_quick_press_last_post_id",
+        "user_roles"
+      ],
+      "options": [
+        "wt_mgdp_admin_modules",
+        "wt_mgdp_cadvanced_settings",
+        "wt_mgdp_cron_settings",
+        "wt_mgdp_advanced_import_settings",
+        "wp_mgdp_log_id",
+        "wt_mgdp_options"
+      ],
+      "transients": [],
+      "cron": [
+        "wt_mgdp_do_cron_"
+      ]
+    },
+    "wp-plugin-manager": {
+      "name": "Wp Plugin Manager",
+      "slug": "wp-plugin-manager",
+      "tables": [],
+      "options": [
+        "htpm_options",
+        "htpm_diagnostic_data_agreed",
+        "htpm_diagnostic_data_notice",
+        "htpm_installed",
+        "htpm_status",
+        "htpm_available_post_types"
+      ],
+      "transients": [
+        "hastech-notice-id-htpm-diagnostic-notice"
+      ],
+      "cron": []
+    },
+    "wp-travel": {
+      "name": "Wp Travel",
+      "slug": "wp-travel",
+      "tables": [
+        "wt_pricings",
+        "wt_dates",
+        "wt_price_category_relation"
+      ],
+      "options": [
+        "wp_travel_setup_page_redirect",
+        "wp_travel_user_since",
+        "wp_travel_user_after_multiple_pricing_category",
+        "wp_travel_version",
+        "wp_travel_pricing_table_created",
+        "wp_travel_custom_filters_option",
+        "wp_travel_",
+        "wp_travel_settings",
+        "wp_travel_permalinks",
+        "wptravel_review_status",
+        "wptravel_review_notice_date",
+        "wp_travel_reserve_date",
+        "wp_travel_first_active",
+        "wptravel_reserve_date",
+        "active_plugins",
+        "wp_rocket_settings"
+      ],
+      "transients": [
+        "wp_travel_cached_page_list",
+        "wt_last_session_",
+        "trip_reminder_cron_running",
+        "trip_review_reminder_cron_running"
+      ],
+      "cron": [
+        "wp_travel_cron_schedule",
+        "wp_session_garbage_collection",
+        "wp_travel_trip_reminder_cron_hook",
+        "wp_travel_trip_review_cron_hook"
+      ]
+    },
+    "wp-ultimate-post-grid": {
+      "name": "Wp Ultimate Post Grid",
+      "slug": "wp-ultimate-post-grid",
+      "tables": [
+        "term_relationships",
+        "term_taxonomy",
+        "terms"
+      ],
+      "options": [
+        "wpupg_activated",
+        "wpupg_flush",
+        "wpupg_migrated_to_version",
+        "wpupg_templates",
+        "wpupg_template_"
+      ],
+      "transients": [],
+      "cron": []
+    },
+    "yith-pre-order-for-woocommerce": {
+      "name": "Yith Pre Order For Woocommerce",
+      "slug": "yith-pre-order-for-woocommerce",
+      "tables": [],
+      "options": [
+        "yith-ywpo-flush-rewrite-rules",
+        "yit_font_awesome_list",
+        "yit_plugin_fw_panel_wc_default_options_set",
+        "yit_recently_activated",
+        "yith_system_info"
+      ],
+      "transients": [
+        "yith-plugin-fw-system-status-tls-version",
+        "yith-plugin-fw-system-status-output-ip"
+      ],
+      "cron": []
+    },
+    "yith-woocommerce-product-bundles": {
+      "name": "Yith Woocommerce Product Bundles",
+      "slug": "yith-woocommerce-product-bundles",
+      "tables": [],
+      "options": [
+        "yit_font_awesome_list",
+        "yit_plugin_fw_panel_wc_default_options_set",
+        "yit_recently_activated",
+        "yith_system_info"
+      ],
+      "transients": [
+        "yith-plugin-fw-system-status-tls-version",
+        "yith-plugin-fw-system-status-output-ip"
+      ],
+      "cron": []
+    },
+    "yith-woocommerce-product-slider-carousel": {
+      "name": "Yith Woocommerce Product Slider Carousel",
+      "slug": "yith-woocommerce-product-slider-carousel",
+      "tables": [],
+      "options": [
+        "yit_font_awesome_list",
+        "yit_plugin_fw_panel_wc_default_options_set",
+        "yit_recently_activated",
+        "yith_system_info"
+      ],
+      "transients": [
+        "yith-plugin-fw-system-status-tls-version",
+        "yith-plugin-fw-system-status-output-ip"
+      ],
+      "cron": []
+    },
+    "yith-woocommerce-tab-manager": {
+      "name": "Yith Woocommerce Tab Manager",
+      "slug": "yith-woocommerce-tab-manager",
+      "tables": [],
+      "options": [
+        "layout_columns",
+        "yith_tab_manager_wc_added",
+        "ywtm_porting_200_backup",
+        "ywtm_porting_200_counter",
+        "yit_font_awesome_list",
+        "yit_plugin_fw_panel_wc_default_options_set",
+        "yit_recently_activated",
+        "yith_system_info"
+      ],
+      "transients": [
+        "yith_tab_manager_installing",
+        "yith-plugin-fw-system-status-tls-version",
+        "yith-plugin-fw-system-status-output-ip"
+      ],
       "cron": []
     }
   }
