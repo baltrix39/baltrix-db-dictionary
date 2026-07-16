@@ -11376,7 +11376,9 @@
     "freesoul-deactivate-plugins": {
       "name": "Freesoul Deactivate Plugins",
       "slug": "freesoul-deactivate-plugins",
-      "tables": [],
+      "tables": [
+        "woocommerce_sessions"
+      ],
       "options": [
         "eos_dp_by_url",
         "eos_post_types_plugins",
@@ -15829,6 +15831,7 @@
       "tables": [
         "mailchimp_jobs",
         "queue",
+        "woocommerce_api_keys",
         "_mailchimp_jobs"
       ],
       "options": [
@@ -18101,7 +18104,8 @@
       "slug": "omnisend-connect",
       "tables": [
         "omnisend_logs",
-        "omnisend_contact_cache"
+        "omnisend_contact_cache",
+        "woocommerce_api_keys"
       ],
       "options": [
         "omnisend_connect_token",
@@ -18821,7 +18825,9 @@
     "persian-woocommerce": {
       "name": "Persian Woocommerce",
       "slug": "persian-woocommerce",
-      "tables": [],
+      "tables": [
+        "woocommerce_ir"
+      ],
       "options": [
         "pw_notices",
         "pw_dismiss_notice_",
@@ -18839,7 +18845,10 @@
     "persian-woocommerce-sms": {
       "name": "Persian Woocommerce Sms",
       "slug": "persian-woocommerce-sms",
-      "tables": [],
+      "tables": [
+        "woocommerce_ir_sms_contacts",
+        "woocommerce_ir_sms_archive"
+      ],
       "options": [
         "pwoosms_redirect_about_page",
         "pwoosms_hide_about_page",
@@ -26989,7 +26998,9 @@
     "woo-base": {
       "name": "Woo Base",
       "slug": "woo-base",
-      "tables": [],
+      "tables": [
+        "woocommerce_gpf_google_taxonomy"
+      ],
       "options": [
         "woo_base_"
       ],
@@ -27978,7 +27989,11 @@
     "woocommerce-germanized": {
       "name": "WooCommerce Germanized",
       "slug": "woocommerce-germanized",
-      "tables": [],
+      "tables": [
+        "woocommerce_termmeta",
+        "woocommerce_gzd_shipments",
+        "woocommerce_gzd_shipment_items"
+      ],
       "options": [
         "woocommerce_germanized_"
       ],
@@ -28105,7 +28120,9 @@
     "woocommerce-legacy-rest-api": {
       "name": "Woocommerce Legacy Rest Api",
       "slug": "woocommerce-legacy-rest-api",
-      "tables": [],
+      "tables": [
+        "woocommerce_api_keys"
+      ],
       "options": [
         "woocommerce_api_enabled"
       ],
@@ -28197,7 +28214,9 @@
     "woocommerce-mercadopago": {
       "name": "WooCommerce MercadoPago",
       "slug": "woocommerce-mercadopago",
-      "tables": [],
+      "tables": [
+        "woocommerce_mercadopago_logs"
+      ],
       "options": [
         "_wc_mercadopago_"
       ],
@@ -28565,7 +28584,9 @@
     "woocommerce-sendinblue-newsletter-subscription": {
       "name": "Woocommerce Sendinblue Newsletter Subscription",
       "slug": "woocommerce-sendinblue-newsletter-subscription",
-      "tables": [],
+      "tables": [
+        "woocommerce_api_keys"
+      ],
       "options": [
         "woocommerce_new_order_settings",
         "woocommerce_failed_order_settings",
@@ -28641,6 +28662,7 @@
       "name": "Woocommerce Shipstation Integration",
       "slug": "woocommerce-shipstation-integration",
       "tables": [
+        "woocommerce_api_keys",
         "SELECT",
         "wc_shipstation_connections"
       ],
@@ -28707,7 +28729,9 @@
     "woocommerce-stripe": {
       "name": "Woocommerce Stripe",
       "slug": "woocommerce-stripe",
-      "tables": [],
+      "tables": [
+        "woocommerce_stripe_logs"
+      ],
       "options": [
         "woocommerce_stripe_"
       ],
@@ -31641,6 +31665,8 @@
         "toolset_associations",
         "toolset_associations_old",
         "toolset_connected_elements",
+        "woocommerce_bundled_items",
+        "woocommerce_bundled_itemmeta",
         "smackuci_events",
         "failed_media",
         "summary",
@@ -33319,7 +33345,9 @@
     "advanced-coupons-for-woocommerce-free": {
       "name": "Advanced Coupons For Woocommerce Free",
       "slug": "advanced-coupons-for-woocommerce-free",
-      "tables": [],
+      "tables": [
+        "woocommerce_order_itemmeta"
+      ],
       "options": [
         "acfwf_bogo_migrate_coupon_type",
         "acfw_bogo_deals_default_values_set",
@@ -33818,7 +33846,9 @@
     "automattic-for-agencies-client": {
       "name": "Automattic For Agencies Client",
       "slug": "automattic-for-agencies-client",
-      "tables": [],
+      "tables": [
+        "woocommerce_order_items"
+      ],
       "options": [
         "jetpack_$name",
         "fallback_no_verify_ssl_certs",
@@ -36177,7 +36207,9 @@
     "jetpack-backup": {
       "name": "Jetpack Backup",
       "slug": "jetpack-backup",
-      "tables": [],
+      "tables": [
+        "woocommerce_order_items"
+      ],
       "options": [
         "jetpack_backup_db_version",
         "dismissed_backup_review_",
@@ -37128,7 +37160,9 @@
     "packlink-pro-shipping": {
       "name": "Packlink Pro Shipping",
       "slug": "packlink-pro-shipping",
-      "tables": [],
+      "tables": [
+        "woocommerce_shipping_zone_methods"
+      ],
       "options": [
         "PACKLINK_VERSION"
       ],
@@ -39244,6 +39278,7 @@
         "wcfm_marketplace_orders",
         "wcmp_vendor_orders",
         "pv_commission",
+        "woocommerce_shipping_table_rates",
         "dokan_withdraw",
         "dokan_vendor_balance",
         "wcfm_marketplace_withdraw_request",
@@ -40981,7 +41016,8 @@
       "tables": [
         "aioseo_posts",
         "wccs_conditions",
-        "wccs_condition_meta"
+        "wccs_condition_meta",
+        "woocommerce_shipping_zone_locations"
       ],
       "options": [
         "rex_google_client_id",
@@ -41768,6 +41804,8 @@
       "tables": [
         "e2pdf_datasets",
         "frm_fields",
+        "woocommerce_order_items",
+        "woocommerce_order_itemmeta",
         "e2pdf_templates",
         "trp_gettext_original_strings",
         "trp_gettext_",
@@ -44344,7 +44382,8 @@
         "sm_views",
         "sm_advanced_search_temp",
         "sm_tasks",
-        "sm_task_details"
+        "sm_task_details",
+        "woocommerce_order_items"
       ],
       "options": [
         "sm_wp_dashboard_view_",
@@ -44831,7 +44870,10 @@
     "transbank-webpay-plus-rest": {
       "name": "Transbank Webpay Plus Rest",
       "slug": "transbank-webpay-plus-rest",
-      "tables": [],
+      "tables": [
+        "woocommerce_payment_tokens",
+        "woocommerce_payment_tokenmeta"
+      ],
       "options": [],
       "transients": [],
       "cron": []
@@ -45264,6 +45306,7 @@
       "slug": "woo-save-abandoned-carts",
       "tables": [
         "captured_wc_fields",
+        "woocommerce_sessions",
         "cartbounty",
         "cartbounty_emails"
       ],
@@ -45285,7 +45328,9 @@
     "woo-thank-you-page-nextmove-lite": {
       "name": "Woo Thank You Page Nextmove Lite",
       "slug": "woo-thank-you-page-nextmove-lite",
-      "tables": [],
+      "tables": [
+        "woocommerce_order_itemmeta"
+      ],
       "options": [
         "xlwcty_default_posts",
         "xlwcty_custom_thank_you_pages",
@@ -46349,7 +46394,10 @@
       "slug": "colissimo-shipping-methods-for-woocommerce",
       "tables": [
         "lpc_bordereau",
+        "woocommerce_shipping_zone_methods",
         "lpc_outward_label",
+        "woocommerce_order_items",
+        "woocommerce_order_itemmeta",
         "lpc_inward_label"
       ],
       "options": [
@@ -49744,7 +49792,10 @@
       "slug": "orderable",
       "tables": [
         "orderable_locations",
-        "orderable_location_delivery_zones_lookup"
+        "orderable_location_delivery_zones_lookup",
+        "woocommerce_shipping_zone_methods",
+        "woocommerce_shipping_zone_locations",
+        "woocommerce_shipping_zones"
       ],
       "options": [
         "orderable_dismissed_notice_",
