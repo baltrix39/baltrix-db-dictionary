@@ -29,6 +29,8 @@ for (const [slug, info] of Object.entries(d.plugins)) {
       if (wc_core.has(tl) && slug !== 'woocommerce') return false;
       if (rm_core_tables.has(tl) && slug !== 'rank-math') return false;
       if (slug !== 'woocommerce' && slug !== 'action-scheduler' && tl.startsWith('actionscheduler_')) return false;
+      // Remove ALL woocommerce_ and wc_ tables from non-WooCommerce plugins
+      if (slug !== 'woocommerce' && (tl.startsWith('woocommerce_') || tl.startsWith('wc_'))) return false;
       return true;
     });
     fixCount += orig - info.tables.length;
