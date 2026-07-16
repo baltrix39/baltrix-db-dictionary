@@ -33788,7 +33788,6 @@
       "name": "Atum Stock Manager For Woocommerce",
       "slug": "atum-stock-manager-for-woocommerce",
       "tables": [
-        "wc_order_product_lookup",
         "atum_order_items",
         "atum_order_itemmeta",
         "atum_product_data"
@@ -36299,8 +36298,7 @@
         "jr_ps_cleanup_queue",
         "edd_customers",
         "edd_orders",
-        "edd_order_addresses",
-        "wc_order_stats"
+        "edd_order_addresses"
       ],
       "options": [
         "jr_ps_settings",
@@ -39620,11 +39618,7 @@
     "woo-multi-currency": {
       "name": "Woo Multi Currency",
       "slug": "woo-multi-currency",
-      "tables": [
-        "wc_order_product_lookup",
-        "wc_order_coupon_lookup",
-        "wc_order_tax_lookup"
-      ],
+      "tables": [],
       "options": [
         "woo_multi_currency_params",
         "woo_multi_currency_old_version",
@@ -43772,9 +43766,7 @@
     "points-and-rewards-for-woocommerce": {
       "name": "Points And Rewards For Woocommerce",
       "slug": "points-and-rewards-for-woocommerce",
-      "tables": [
-        "wc_order_stats"
-      ],
+      "tables": [],
       "options": [
         "wps_wpr_guest_user_points_",
         "wps_wpr_klaviyo_public_api_key",
@@ -44666,9 +44658,7 @@
     "subscriptions-for-woocommerce": {
       "name": "Subscriptions For Woocommerce",
       "slug": "subscriptions-for-woocommerce",
-      "tables": [
-        "wc_order_stats"
-      ],
+      "tables": [],
       "options": [
         "wps_sfw_enable_tracking",
         "wps_learnpress_course",
@@ -45232,9 +45222,7 @@
     "woo-gift-cards-lite": {
       "name": "Woo Gift Cards Lite",
       "slug": "woo-gift-cards-lite",
-      "tables": [
-        "wc_order_stats"
-      ],
+      "tables": [],
       "options": [
         "wps_wgm_new_mom_template",
         "wps_wgm_gift_for_you",
@@ -45291,7 +45279,6 @@
       "name": "Woo Orders Tracking",
       "slug": "woo-orders-tracking",
       "tables": [
-        "wc_order_stats",
         "wotv_woo_track_info",
         "vi_woo_orders_tracking_track_info"
       ],
@@ -49725,9 +49712,7 @@
     "mwb-bookings-for-woocommerce": {
       "name": "Mwb Bookings For Woocommerce",
       "slug": "mwb-bookings-for-woocommerce",
-      "tables": [
-        "wc_order_stats"
-      ],
+      "tables": [],
       "options": [
         "mbfw_enable_tracking",
         "wps_bfwp_google_cal_iframe",
@@ -50203,9 +50188,7 @@
     "woo-refund-and-exchange-lite": {
       "name": "Woo Refund And Exchange Lite",
       "slug": "woo-refund-and-exchange-lite",
-      "tables": [
-        "wc_order_stats"
-      ],
+      "tables": [],
       "options": [
         "wps_rma_refund_rules_editor",
         "wps_rma_refund_form_css",
